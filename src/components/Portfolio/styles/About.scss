@@ -1,0 +1,12 @@
+@import '../../../utils/styles/variables.module';
+
+#about {
+  display: block;
+  scroll-margin-top: 6rem;
+  margin-bottom: 9rem;
+}
+
+.paragraphs p {
+  margin-bottom: 1rem;
+  color: $light-color;
+}

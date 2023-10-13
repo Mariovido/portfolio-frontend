@@ -1,0 +1,19 @@
+@import './utils/styles/variables.module';
+
+.app {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+}
+
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}

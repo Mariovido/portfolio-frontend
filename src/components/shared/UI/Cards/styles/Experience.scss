@@ -1,0 +1,85 @@
+@import '../../../../../utils/styles/variables.module';
+
+.experience-header {
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  grid-column: span 2 / span 2;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: $dark-color;
+}
+
+.experience-content {
+  grid-column: span 6 / span 6;
+}
+
+.experience-content-header {
+  margin: 0;
+  line-height: 1.375;
+  font-weight: 500;
+}
+
+.experience-content-header a {
+  display: flex;
+  color: $dark-color;
+}
+
+.experience-content-header a span {
+  margin-right: 0.5rem;
+}
+
+.experience-content-header a svg {
+  display: block;
+  align-self: center;
+  font-size: 0.75rem;
+}
+
+.experience-content-header a:hover {
+  color: $primary-color;
+}
+
+.experience-content-description {
+  margin: 0;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  color: rgba($primary-color, 0.6);
+}
+
+.experience-content-links {
+  margin: 0;
+  padding: 0;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experience-content-links-item {
+  margin-right: 1rem;
+}
+
+.experience-content-links-item a {
+  margin-top: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: $dark-color;
+}
+
+.experience-content-links-item a svg {
+  margin-right: 0.25rem;
+  display: block;
+  align-self: center;
+  font-size: 0.75rem;
+}
+
+.experience-content-links-item a:hover {
+  color: $primary-color;
+}

@@ -1,0 +1,9 @@
+@import '../../../../../utils/styles/variables.module';
+
+.icon {
+  font-size: 1.75rem;
+}
+
+.icon:hover {
+  color: $lightest-color;
+}

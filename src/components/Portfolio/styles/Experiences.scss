@@ -1,0 +1,35 @@
+@import '../../../utils/styles/variables.module';
+
+#experience {
+  display: block;
+  scroll-margin-top: 6rem;
+  margin-bottom: 9rem;
+}
+
+.experience-resume-content {
+  margin-top: 3rem;
+}
+
+.experience-resume-content a {
+  display: inline-flex;
+  line-height: 1.25;
+  font-weight: 600;
+  align-items: center;
+  color: $lightest-color;
+}
+
+.experience-resume-content a span {
+  margin-right: 0.25rem;
+}
+
+.experience-resume-content a svg {
+  display: block;
+  position: relative;
+  align-self: center;
+  font-size: 0.75rem;
+  bottom: -2px;
+}
+
+.experience-resume-content a:hover span {
+  border-bottom: 2px solid $primary-color;
+}

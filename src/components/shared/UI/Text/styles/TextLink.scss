@@ -1,0 +1,10 @@
+@import '../../../../../utils/styles/variables.module';
+
+.text-link {
+  font-weight: 500;
+  color: $dark-color;
+}
+
+.text-link:hover {
+  color: $primary-color;
+}

@@ -1,0 +1,9 @@
+@import '../../../../../utils/styles/variables.module';
+
+.link-icon {
+  color: $dark-color;
+}
+
+.link-icon:hover {
+  color: $lightest-color;
+}

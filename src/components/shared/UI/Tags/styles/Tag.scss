@@ -1,0 +1,16 @@
+@import '../../../../../utils/styles/variables.module';
+
+.tag {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  display: flex;
+  align-items: center;
+  background-color: rgba($primary-color, 0.1);
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  color: $light-color;
+}

@@ -1,0 +1,19 @@
+$darkest-color: #0d0f36;
+$dark-color: #294380;
+$primary-color: #69d2cd;
+$light-color: #b9f1d6;
+$lightest-color: #f1f6ce;
+
+$palette-colors: (
+  darkestColor: $darkest-color,
+  darkColor: $dark-color,
+  primaryColor: $primary-color,
+  lightColor: $light-color,
+  lightestColor: $lightest-color,
+);
+
+:export {
+  @each $key, $value in $palette-colors {
+    #{$key}: $value;
+  }
+}

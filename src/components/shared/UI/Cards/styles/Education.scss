@@ -1,0 +1,42 @@
+@import '../../../../../utils/styles/variables.module';
+
+.education-header {
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  grid-column: span 2 / span 2;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: $dark-color;
+}
+
+.education-content {
+  grid-column: span 6 / span 6;
+}
+
+.education-content-header {
+  margin: 0;
+  line-height: 1.375;
+  font-weight: 500;
+}
+
+.education-content-header a {
+  display: flex;
+  color: $dark-color;
+}
+
+.education-content-header a span {
+  margin-right: 0.5rem;
+}
+
+.education-content-header a svg {
+  display: block;
+  align-self: center;
+  font-size: 0.75rem;
+}
+
+.education-content-header a:hover {
+  color: $primary-color;
+}
