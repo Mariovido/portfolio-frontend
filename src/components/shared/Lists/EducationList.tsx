@@ -1,10 +1,10 @@
-import { EducationListProps } from '../../../models/interfaces/Lists/EducationListProps';
+import { EducationListProps } from '../../../models/interfaces/shared/Lists/EducationListProps';
 import Education from '../UI/Cards/Education';
 
 import './styles/EducationList.scss';
 
 function EducationList(props: EducationListProps) {
-  const educationListProps = props.educationListProps;
+  const { educationListProps } = props;
 
   return (
     <ol className="education-list">

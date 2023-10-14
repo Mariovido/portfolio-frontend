@@ -1,12 +1,10 @@
 import { motion } from 'framer-motion';
-import { CardProps } from '../../../../models/interfaces/UI/Cards/CardProps';
+import { CardProps } from '../../../../models/interfaces/shared/UI/Cards/CardProps';
 
 import './styles/Card.scss';
 
 function Card(props: CardProps) {
-  const children = props.children;
-  const handleOnClick = props.handleOnClick;
-  const isHovering = props.isHovering;
+  const { children, handleOnClick, isHovering } = props;
 
   return (
     <motion.div

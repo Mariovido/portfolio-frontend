@@ -1,15 +1,10 @@
 import { motion } from 'framer-motion';
-import { TextLinkProps } from '../../../../models/interfaces/UI/Text/TextLinkProps';
+import { TextLinkProps } from '../../../../models/interfaces/shared/UI/Text/TextLinkProps';
 
 import './styles/TextLink.scss';
 
 function TextLink(props: TextLinkProps) {
-  const children = props.children;
-  const href = props.href;
-  const target = props.target;
-  const whileHover = props.whileHover;
-  const animate = props.animate;
-  const variants = props.variants;
+  const { children, href, target, whileHover, animate, variants } = props;
 
   return (
     <motion.a

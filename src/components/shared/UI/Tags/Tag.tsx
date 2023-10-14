@@ -1,9 +1,9 @@
-import { TagProps } from '../../../../models/interfaces/UI/Tags/TagsProps';
+import { TagProps } from '../../../../models/interfaces/shared/UI/Tags/TagsProps';
 
 import './styles/Tag.scss';
 
 function Tag(props: TagProps) {
-  const tagProps = props.tagProps;
+  const { tagProps } = props;
 
   return <div className="tag">{tagProps.name}</div>;
 }

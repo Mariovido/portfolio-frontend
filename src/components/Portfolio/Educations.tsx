@@ -1,31 +1,28 @@
-import { Education } from '../../models/interfaces/UI/Cards/EducationProp';
+import { useEffect, useState } from 'react';
 import EducationList from '../shared/Lists/EducationList';
+import { Educations } from '../../models/interfaces/Portfolio/Educations';
+import { data } from '../../../data/data';
+import { CONFIG } from '../../config/config';
 
 import './styles/Education.scss';
 
 function Educations() {
-  // TODO - CALL API
-  const educationListProps: Education[] = [
-    {
-      id: '1',
-      name: 'Software Engineering',
-      university: 'UPM',
-      universityLink: 'http://upm.es',
-      date: new Date().toDateString(),
-    },
-    {
-      id: '2',
-      name: 'Software Engineering',
-      university: 'Universidad Politécnica de Madrid',
-      universityLink: 'http://upm.es',
-      date: new Date().toDateString(),
-    },
-  ];
+  const [educationsInfo, setEducationsInfo] = useState<Educations>(
+    data.education
+  );
+
+  useEffect(() => {
+    if (CONFIG.VITE_REACT_APP_USE_SERVER) {
+      // TODO - CALL THE API
+    } else {
+      setEducationsInfo(data.education);
+    }
+  }, []);
 
   return (
     <section id="education">
       <div>
-        <EducationList educationListProps={educationListProps} />
+        <EducationList educationListProps={educationsInfo.educations} />
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
 import { Variants } from 'framer-motion';
-import { StyleVariables } from '../../models/interfaces/styles/StyleVariables';
+import { StyleVariables } from '../../models/interfaces/shared/styles/StyleVariables';
 
 import styles from '../styles/_variables.module.scss';
 

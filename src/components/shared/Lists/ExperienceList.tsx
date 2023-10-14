@@ -1,10 +1,10 @@
-import { ExperienceListProps } from '../../../models/interfaces/Lists/ExperienceListProps';
+import { ExperienceListProps } from '../../../models/interfaces/shared/Lists/ExperienceListProps';
 import Experience from '../UI/Cards/Experience';
 
 import './styles/ExperienceList.scss';
 
 function ExperienceList(props: ExperienceListProps) {
-  const experienceListProps = props.experienceListProps;
+  const { experienceListProps } = props;
 
   return (
     <ol className="experience-list">

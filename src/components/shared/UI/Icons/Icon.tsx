@@ -1,26 +1,26 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { IconProps } from '../../../../models/interfaces/UI/Icons/IconProps';
+import { IconProps } from '../../../../models/interfaces/shared/UI/Icons/IconProps';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin';
 import { faHome } from '@fortawesome/free-solid-svg-icons/faHome';
 import { motion } from 'framer-motion';
-
-import './styles/Icon.scss';
 import { IconEnum } from '../../../../models/enums/IconEnum';
 
+import './styles/Icon.scss';
+
 function Icon(props: IconProps) {
-  const icon = props.iconProps;
+  const { iconProps } = props;
 
   let fontAwesomeIcon;
-  if (icon.name === IconEnum.GITHUB) fontAwesomeIcon = faGithub;
-  else if (icon.name === IconEnum.LINKEDIN) fontAwesomeIcon = faLinkedin;
+  if (iconProps.name === IconEnum.GITHUB) fontAwesomeIcon = faGithub;
+  else if (iconProps.name === IconEnum.LINKEDIN) fontAwesomeIcon = faLinkedin;
   else fontAwesomeIcon = faHome;
 
   return (
     <motion.a
       className="icon"
-      href={icon.href}
-      target={icon.target}
+      href={iconProps.href}
+      target={iconProps.target}
       whileHover={{ fontSize: '45px' }}
       transition={{
         type: 'spring',

@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import { NavBarProps } from '../../../models/interfaces/Navigation/NavBarProps';
+import { NavBarProps } from '../../../models/interfaces/shared/Navigation/NavBarProps';
 import { useCallback, useEffect, useState } from 'react';
 
 import './styles/NavBar.scss';
@@ -8,8 +8,9 @@ function NavBar(props: NavBarProps) {
   const [activeBar, setActiveBar] = useState(0);
   const navigate = useNavigate();
 
-  const navBarProps = props.navBarProps;
+  const { navBarProps } = props;
 
+  // TODO - RETOCAR ACORDE A LOS BOOLEANOS
   const listenScrollEvent = (event: Event) => {
     event.preventDefault();
 

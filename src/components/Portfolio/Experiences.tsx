@@ -1,118 +1,46 @@
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { Experience } from '../../models/interfaces/UI/Cards/ExperienceProps';
 import ExperienceList from '../shared/Lists/ExperienceList';
 import LinkIcon from '../shared/UI/Icons/LinkIcon';
 import {
   ResumeIconVariants,
   ResumeVariants,
 } from '../../utils/variants/variants';
+import { Experiences } from '../../models/interfaces/Portfolio/Experiences';
+import { useEffect, useState } from 'react';
+import { data } from '../../../data/data';
+import { CONFIG } from '../../config/config';
 
 import './styles/Experiences.scss';
 
 function Experiences() {
-  // TODO - CALL API
-  const experienceListProps: Experience[] = [
-    {
-      id: '1',
-      role: 'Software Engineer',
-      company: 'Company 1',
-      companyLink: 'https://apple.com',
-      description:
-        'expect wrapped somehow strip action stay kitchen drive during sudden railroad flower ill grandmother hang principal bare education ought track twelve properly receive exactThis is a ',
-      date: new Date().toDateString(),
-      tags: [
-        {
-          id: '1',
-          name: 'React',
-        },
-        {
-          id: '2',
-          name: 'Node',
-        },
-      ],
-      links: [
-        {
-          id: '1',
-          name: 'Github',
-          link: 'http://github.com',
-        },
-        {
-          id: '2',
-          name: 'Youtube',
-          link: 'http://youtube.com',
-        },
-      ],
-    },
-    {
-      id: '2',
-      role: 'Software Engineer',
-      company: 'Company 1',
-      companyLink: 'https://apple.com',
-      description:
-        'expect wrapped somehow strip action stay kitchen drive during sudden railroad flower ill grandmother hang principal bare education ought track twelve properly receive exactThis is a ',
-      date: new Date().toDateString(),
-      tags: [
-        {
-          id: '1',
-          name: 'React',
-        },
-        {
-          id: '2',
-          name: 'Node',
-        },
-      ],
-      links: [
-        {
-          id: '1',
-          name: 'Github',
-          link: 'http://github.com',
-        },
-      ],
-    },
-    {
-      id: '3',
-      role: 'Software Engineer',
-      company: 'Company 1',
-      companyLink: 'https://apple.com',
-      description:
-        'expect wrapped somehow strip action stay kitchen drive during sudden railroad flower ill grandmother hang principal bare education ought track twelve properly receive exactThis is a ',
-      date: new Date().toDateString(),
-      tags: [
-        {
-          id: '1',
-          name: 'React',
-        },
-        {
-          id: '2',
-          name: 'Node',
-        },
-      ],
-      links: [
-        {
-          id: '1',
-          name: 'Github',
-          link: 'http://github.com',
-        },
-      ],
-    },
-  ];
+  const [experiencesInfo, setExperiencesInfo] = useState<Experiences>(
+    data.experience
+  );
+
+  useEffect(() => {
+    if (CONFIG.VITE_REACT_APP_USE_SERVER) {
+      // TODO - CALL THE API
+    } else {
+      setExperiencesInfo(data.experience);
+    }
+  }, []);
 
   return (
     <section id="experience">
       <div>
-        <ExperienceList experienceListProps={experienceListProps} />
+        <ExperienceList experienceListProps={experiencesInfo.experiences} />
+        {/* TODO - CREATE LINK TO RESUME */}
         <div className="experience-resume-content">
           <LinkIcon
             isAnchor={false}
             linkProps={{
               href: 'http://github.com',
-              target: '_blank',
               whileHover: 'hover',
               animate: 'rest',
               variants: ResumeVariants,
             }}
             iconProps={{ icon: faArrowRight, variants: ResumeIconVariants }}
-            beforeText="View full resume"
+            beforeText="View full CV"
           />
         </div>
       </div>

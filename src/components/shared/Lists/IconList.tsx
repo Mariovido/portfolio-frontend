@@ -1,10 +1,10 @@
-import { IconListProps } from '../../../models/interfaces/Lists/IconListProps';
+import { IconListProps } from '../../../models/interfaces/shared/Lists/IconListProps';
 import Icon from '../UI/Icons/Icon';
 
 import './styles/IconList.scss';
 
 function IconList(props: IconListProps) {
-  const iconListProps = props.iconListProps;
+  const { iconListProps } = props;
 
   return (
     <ul className="icon-list">

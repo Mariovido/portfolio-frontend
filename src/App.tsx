@@ -1,5 +1,7 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Portfolio from './pages/Portfolio';
+import { Suspense, lazy } from 'react';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+const Portfolio = lazy(() => import('./pages/Portfolio'));
 
 import './App.scss';
 
@@ -13,10 +15,17 @@ const router = createBrowserRouter([
   },
 ]);
 
+const queryClient = new QueryClient();
+
 function App() {
   return (
     <div className="app">
-      <RouterProvider router={router} />{' '}
+      <QueryClientProvider client={queryClient}>
+        {/* TODO - CHANGE FALLBACK */}
+        <Suspense fallback={<div></div>}>
+          <RouterProvider router={router} />
+        </Suspense>
+      </QueryClientProvider>
     </div>
   );
 }

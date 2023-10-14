@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { MouseCoordinates } from '../../../models/interfaces/Common/Coordinates';
-import { StyleVariables } from '../../../models/interfaces/styles/StyleVariables';
+import { MouseCoordinates } from '../../../models/interfaces/shared/Common/Coordinates';
+import { StyleVariables } from '../../../models/interfaces/shared/styles/StyleVariables';
 import { hexToRgb } from '../../../utils/hexToRgb';
 
 import './styles/Cursor.scss';
@@ -33,7 +33,7 @@ function Cursor() {
       style={{
         background: `radial-gradient(600px at ${mouseCoordinates.x}px ${
           mouseCoordinates.y
-        }px, ${hexToRgb(variables.primaryColor, 0.15)}, transparent 80%)`,
+        }px, ${hexToRgb(variables.primaryColor, 0.1)}, transparent 80%)`,
       }}
     ></div>
   );

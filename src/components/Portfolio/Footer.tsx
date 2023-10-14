@@ -1,26 +1,36 @@
+import { useEffect, useState } from 'react';
 import { TextLinkVariants } from '../../utils/variants/variants';
-import TextLink from '../shared/UI/Text/TextLink';
+import { data } from '../../../data/data';
+import { CONFIG } from '../../config/config';
+import { convertToTextLinks } from '../../utils/convertToTextLinks';
+import { Footer } from '../../models/interfaces/Portfolio/Footer';
 
 import './styles/Footer.scss';
 
 function Footer() {
+  const [footerInfo, setFooterInfo] = useState<Footer>(data.footer);
+
+  useEffect(() => {
+    if (CONFIG.VITE_REACT_APP_USE_SERVER) {
+      // TODO - CALL THE API
+    } else {
+      setFooterInfo((prevFooterInfo) => {
+        return {
+          ...prevFooterInfo,
+          paragraphJSX: convertToTextLinks(
+            data.footer,
+            'hover',
+            'rest',
+            TextLinkVariants
+          ),
+        };
+      });
+    }
+  }, []);
+
   return (
     <footer className="footer">
-      <p>
-        Loosely designed in{' '}
-        <TextLink
-          href="http://google.com"
-          target="_blank"
-          whileHover="hover"
-          animate="rest"
-          variants={TextLinkVariants}
-        >
-          Figma
-        </TextLink>{' '}
-        and coded in Visual Studio Code by yours truly. Built with Next.js and
-        Tailwind CSS, deployed with Vercel. All text is set in the Inter
-        typeface.
-      </p>
+      <p>{footerInfo.paragraphJSX}</p>
     </footer>
   );
 }

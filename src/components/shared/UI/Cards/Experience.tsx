@@ -1,4 +1,4 @@
-import { ExperienceProps } from '../../../../models/interfaces/UI/Cards/ExperienceProps';
+import { ExperienceProps } from '../../../../models/interfaces/shared/UI/Cards/ExperienceProps';
 import {
   faLink,
   faSquareArrowUpRight,
@@ -17,25 +17,25 @@ import './styles/Experience.scss';
 function Experience(props: ExperienceProps) {
   const [isHovering, setIsHovering] = useState(true);
 
-  const experience = props.experienceProps;
+  const { experienceProps } = props;
 
   const handleOnClick = (event: React.MouseEvent<HTMLDivElement>) => {
     event.preventDefault();
 
-    window.open(experience.companyLink, '_blank');
+    window.open(experienceProps.companyLink, '_blank');
   };
 
   return (
     <Card handleOnClick={handleOnClick} isHovering={isHovering}>
-      <header className="experience-header">{experience.date}</header>
+      <header className="experience-header">{experienceProps.date}</header>
       <div className="experience-content">
         <h3 className="experience-content-header">
-          <span>{experience.role}</span>
+          <span>{experienceProps.role}</span>
           <LinkIcon
             isAnchor={true}
             linkProps={{
               className: 'active-link',
-              href: experience.companyLink,
+              href: experienceProps.companyLink,
               target: '_blank',
               variants: LinkVariants,
             }}
@@ -43,14 +43,15 @@ function Experience(props: ExperienceProps) {
               icon: faSquareArrowUpRight,
               variants: LinkIconVariants,
             }}
-            beforeText={experience.company}
+            beforeText={experienceProps.company}
           />
         </h3>
+        {/* TODO - CAMBIAR PARA QUE PUEDAN SER BULLET POINTS O UN PARRAFO */}
         <p className="experience-content-description">
-          {experience.description}
+          {experienceProps.description}
         </p>
         <ul className="experience-content-links">
-          {experience.links?.map((experienceLink) => (
+          {experienceProps.links?.map((experienceLink) => (
             <li
               key={experienceLink.id}
               className="experience-content-links-item"
@@ -72,7 +73,7 @@ function Experience(props: ExperienceProps) {
             </li>
           ))}
         </ul>
-        <TagList tagListProps={experience.tags} />
+        <TagList tagListProps={experienceProps.tags} />
       </div>
     </Card>
   );

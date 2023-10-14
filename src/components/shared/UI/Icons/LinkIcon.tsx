@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { LinkIconProps } from '../../../../models/interfaces/UI/Icons/LinkIconProps';
+import { LinkIconProps } from '../../../../models/interfaces/shared/UI/Icons/LinkIconProps';
 import { Link } from 'react-router-dom';
 
 import './styles/LinkIcon.scss';
@@ -9,11 +9,7 @@ const MotionFontAwesomeIcon = motion(FontAwesomeIcon);
 const MotionLink = motion(Link);
 
 function LinkIcon(props: LinkIconProps) {
-  const isAnchor = props.isAnchor;
-  const linkProps = props.linkProps;
-  const iconProps = props.iconProps;
-  const beforeText = props.beforeText;
-  const afterText = props.afterText;
+  const { isAnchor, linkProps, iconProps, beforeText, afterText } = props;
 
   return (
     <>

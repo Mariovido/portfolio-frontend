@@ -1,17 +1,27 @@
+import { useEffect, useState } from 'react';
+import { CONFIG } from '../../config/config';
+import { data } from '../../../data/data';
+
 import './styles/About.scss';
 
 function About() {
-  // TODO - CALL API
-  const paragraphs = [
-    "Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I've had the privilege of building software for an advertising agency, a start-up, a student-led design studio, and a huge corporation.",
-    "My main focus these days is building products and leading projects for our clients at Upstatement. In my free time I've also released an online video course that covers everything you need to know to build a web app with the Spotify API.",
-    "When I'm not at the computer, I'm usually rock climbing, hanging out with my wife and two cats, or running around Hyrule searching for Korok seeds.",
-  ];
+  const [aboutInfo, setAboutInfo] = useState<string[]>([]);
 
+  useEffect(() => {
+    if (CONFIG.VITE_REACT_APP_USE_SERVER) {
+      // TODO - CALL THE API
+    } else {
+      setAboutInfo(
+        data.about.paragraphs.map((paragraph) => paragraph.description)
+      );
+    }
+  }, []);
+
+  // TODO - RETOCAR AÑADIENDO LINKS
   return (
     <section id="about">
       <div className="paragraphs">
-        {paragraphs.map((paragraph) => (
+        {aboutInfo.map((paragraph) => (
           <p key={paragraph.slice(0, 3)}>{paragraph}</p>
         ))}
       </div>

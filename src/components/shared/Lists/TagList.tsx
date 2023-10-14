@@ -1,10 +1,10 @@
-import { TagListProps } from '../../../models/interfaces/Lists/TagListProps';
+import { TagListProps } from '../../../models/interfaces/shared/Lists/TagListProps';
 import Tag from '../UI/Tags/Tag';
 
 import './styles/TagList.scss';
 
 function TagList(props: TagListProps) {
-  const tagListProps = props.tagListProps;
+  const { tagListProps } = props;
 
   return (
     <ul className="tag-list">
