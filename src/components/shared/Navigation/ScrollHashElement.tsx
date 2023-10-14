@@ -15,6 +15,27 @@ const ScrollToHashElement = () => {
   }, [location]);
 
   useEffect(() => {
+    const hash = location.hash;
+
+    if (hash) {
+      const hashElement = document.getElementById(hash.slice(1));
+
+      if (hashElement) {
+        const timeoutId: NodeJS.Timeout = setTimeout(() => {
+          hashElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+            inline: 'nearest',
+          });
+
+          return clearTimeout(timeoutId);
+        }, 100);
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
     if (hashElement)
       hashElement.scrollIntoView({
         behavior: 'smooth',

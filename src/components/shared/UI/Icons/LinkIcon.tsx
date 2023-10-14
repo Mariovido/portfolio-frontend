@@ -40,6 +40,7 @@ function LinkIcon(props: LinkIconProps) {
           onHoverStart={linkProps.onHoverStart}
           onHoverEnd={linkProps.onHoverEnd}
           variants={linkProps.variants}
+          state={{ prevPath: location.pathname }}
         >
           {beforeText ? <span>{beforeText}</span> : null}
           <MotionFontAwesomeIcon

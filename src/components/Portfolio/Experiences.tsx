@@ -29,12 +29,11 @@ function Experiences() {
     <section id="experience">
       <div>
         <ExperienceList experienceListProps={experiencesInfo.experiences} />
-        {/* TODO - CREATE LINK TO RESUME */}
         <div className="experience-resume-content">
           <LinkIcon
             isAnchor={false}
             linkProps={{
-              href: 'http://github.com',
+              href: '/resume',
               whileHover: 'hover',
               animate: 'rest',
               variants: ResumeVariants,

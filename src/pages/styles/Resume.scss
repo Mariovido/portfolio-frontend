@@ -1,0 +1,153 @@
+@import '../../utils/styles/variables.module';
+
+$border-size: 7.5px;
+
+@property --border-angle {
+  syntax: '<angle>';
+  inherits: true;
+  initial-value: 0turn;
+}
+
+.resume {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.resume-header {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  justify-items: center;
+  align-items: baseline;
+  height: 7.5%;
+}
+
+.resume-header button {
+  margin: 0;
+  margin-top: 2rem;
+  justify-self: left;
+  margin-left: calc(22.5% + $border-size);
+  height: 50%;
+}
+
+.resume-header button svg {
+  margin-right: 0.5rem;
+}
+
+.resume-header button:hover {
+  border: none;
+}
+
+.resume-header h1 {
+  margin: 0;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.05rem;
+  color: $lightest-color;
+
+  span {
+    display: inline-block;
+  }
+
+  span:hover {
+    animation: rubberBand 0.3s alternate ease-out;
+    color: $primary-color;
+  }
+}
+
+.resume-pdf {
+  margin: 0;
+  padding: $border-size;
+  position: relative;
+  top: 3.75%;
+  left: 7.5%;
+  width: 85%;
+  height: 85%;
+  border: none;
+  border-radius: 2.5px;
+  background-image: conic-gradient(
+      from var(--border-angle),
+      $darkest-color,
+      $dark-color 50%,
+      $darkest-color
+    ),
+    conic-gradient(
+      from var(--border-angle),
+      transparent 20%,
+      $primary-color,
+      $light-color,
+      $lightest-color
+    );
+  background-size:
+    calc(100% - ($border-size * 2)) calc(100% - ($border-size * 2)),
+    cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation: bg-spin 10s linear infinite;
+}
+
+.resume-pdf:hover {
+  animation: border 3s linear alternate-reverse infinite;
+}
+
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+
+@keyframes border {
+  0% {
+    box-shadow: 0 0 $border-size rgba($darkest-color, $alpha: 0.8);
+    background: rgba($darkest-color, $alpha: 0.8);
+  }
+  25% {
+    box-shadow: 0 0 ($border-size * 2.5) rgba($dark-color, $alpha: 0.8);
+    background: rgba($dark-color, $alpha: 0.8);
+  }
+  50% {
+    box-shadow: 0 0 ($border-size * 5) rgba($primary-color, $alpha: 0.8);
+    background: rgba($primary-color, $alpha: 0.8);
+  }
+  75% {
+    box-shadow: 0 0 ($border-size * 7.5) rgba($light-color, $alpha: 0.8);
+    background: rgba($light-color, $alpha: 0.8);
+  }
+  100% {
+    box-shadow: 0 0 ($border-size * 10) rgba($lightest-color, $alpha: 0.8);
+    background: rgba($lightest-color, $alpha: 0.8);
+  }
+}
+
+@keyframes rubberBand {
+  0% {
+    transform: scaleX(1);
+  }
+  40% {
+    transform: scaleX(1.25) scaleY(0.86);
+  }
+  55% {
+    transform: scaleX(0.7) scaleY(1);
+  }
+  65% {
+    transform: scaleX(1.13) scaleY(0.95);
+  }
+  75% {
+    transform: scaleX(0.9) scaleY(1);
+  }
+  90% {
+    transform: scaleX(1.15) scaleY(1.15);
+  }
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+}

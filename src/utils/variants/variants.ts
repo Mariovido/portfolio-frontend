@@ -104,3 +104,27 @@ export const TextLinkVariants: Variants = {
     },
   },
 };
+
+export const ButtonVariants: Variants = {
+  rest: {
+    x: 0,
+    y: 0,
+    transition: {
+      duration: 0.3,
+      type: 'spring',
+      stiffness: 200,
+      damping: 10,
+    },
+  },
+  hover: {
+    scale: 1.25,
+    x: 20,
+    y: -5,
+    transition: {
+      duration: 0.3,
+      type: 'spring',
+      stiffness: 200,
+      damping: 10,
+    },
+  },
+};

@@ -2,9 +2,11 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 const Portfolio = lazy(() => import('./pages/Portfolio'));
+const Resume = lazy(() => import('./pages/Resume'));
 
 import './App.scss';
 
+// TODO - CREATE 404 PAGE
 const router = createBrowserRouter([
   {
     path: '/',
@@ -12,6 +14,10 @@ const router = createBrowserRouter([
     // children: [
     // {index: true, element:}
     // ],
+  },
+  {
+    path: '/resume',
+    element: <Resume />,
   },
 ]);
 

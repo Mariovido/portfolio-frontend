@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import { Variants } from 'framer-motion';
 import { Footer } from '../models/interfaces/Portfolio/Footer';
 import TextLink from '../components/shared/UI/Text/TextLink';
@@ -8,6 +9,8 @@ export const convertToTextLinks = (
   animate: string,
   variants: Variants
 ): JSX.Element => {
+  let key = 0;
+
   return (
     <>
       {footer.paragraph.split('$$$').map((paragraphPart) => {
@@ -15,7 +18,7 @@ export const convertToTextLinks = (
 
         if (link)
           return (
-            <>
+            <Fragment key={++key}>
               {' '}
               <TextLink
                 href={link.url}
@@ -26,10 +29,10 @@ export const convertToTextLinks = (
               >
                 {link.name}
               </TextLink>{' '}
-            </>
+            </Fragment>
           );
 
-        return <>{paragraphPart}</>;
+        return <Fragment key={++key}>{paragraphPart}</Fragment>;
       })}
     </>
   );
