@@ -21,6 +21,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     env:
+      VITE_REACT_APP_USE_SERVER: ${{secrets.VITE_REACT_APP_USE_SERVER}}
+      VITE_REACT_APP_WEB_TITLE: ${{secrets.VITE_REACT_APP_WEB_TITLE}}
       VITE_REACT_APP_BASE_URL: ${{secrets.VITE_REACT_APP_BASE_URL}}
 
     runs-on: ubuntu-latest
