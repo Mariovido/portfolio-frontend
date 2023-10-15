@@ -35,6 +35,7 @@ $border-size: 7.5px;
   justify-self: left;
   margin-left: calc(22.5% + $border-size);
   height: 50%;
+  transition: color ease-in 0.1s;
 }
 
 .resume-header button svg {
@@ -43,6 +44,7 @@ $border-size: 7.5px;
 
 .resume-header button:hover {
   border: none;
+  color: $primary-color;
 }
 
 .resume-header h1 {
@@ -56,6 +58,7 @@ $border-size: 7.5px;
 
   span {
     display: inline-block;
+    transition: color ease-in 0.1s;
   }
 
   span:hover {
@@ -93,9 +96,11 @@ $border-size: 7.5px;
   background-position: center center;
   background-repeat: no-repeat;
   animation: bg-spin 10s linear infinite;
+  transition: scale ease-in 0.3s;
 }
 
 .resume-pdf:hover {
+  scale: 1.02;
   animation: border 3s linear alternate-reverse infinite;
 }
 

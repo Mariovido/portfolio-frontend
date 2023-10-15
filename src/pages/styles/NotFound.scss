@@ -1,0 +1,63 @@
+@import '../../utils/styles/variables.module';
+
+.not-found {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  max-width: 1280px;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.not-found button {
+  margin: 0;
+  margin-top: 3rem;
+  padding: 0;
+}
+
+.not-found button svg {
+  margin-right: 0.5rem;
+}
+
+.not-found button:hover {
+  border: none;
+}
+
+.not-found-content {
+  display: flex;
+  height: 100vh;
+  max-height: 85vh;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-content h1 {
+  margin: 0 1.25rem 0 0;
+  padding-right: 1.5rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  vertical-align: top;
+  line-height: 3rem;
+  border-right: 1px solid $light-color;
+}
+
+.not-found-content div {
+  display: inline-block;
+  text-align: left;
+}
+
+.not-found-content div h2 {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 3rem;
+}

@@ -18,7 +18,8 @@ function Footer() {
         return {
           ...prevFooterInfo,
           paragraphJSX: convertToTextLinks(
-            data.footer,
+            data.footer.paragraph,
+            data.footer.links,
             'hover',
             'rest',
             TextLinkVariants

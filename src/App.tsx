@@ -3,10 +3,10 @@ import { Suspense, lazy } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 const Portfolio = lazy(() => import('./pages/Portfolio'));
 const Resume = lazy(() => import('./pages/Resume'));
+const NotFound = lazy(() => import('./pages/NotFound'));
 
 import './App.scss';
 
-// TODO - CREATE 404 PAGE
 const router = createBrowserRouter([
   {
     path: '/',
@@ -18,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: '/resume',
     element: <Resume />,
+  },
+  {
+    path: '*',
+    element: <NotFound />,
   },
 ]);
 

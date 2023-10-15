@@ -1,28 +1,41 @@
 import { useEffect, useState } from 'react';
 import { CONFIG } from '../../config/config';
 import { data } from '../../../data/data';
+import { About } from '../../models/interfaces/Portfolio/About';
+import { convertToTextLinks } from '../../utils/convertToTextLinks';
+import { TextLinkVariants } from '../../utils/variants/variants';
 
 import './styles/About.scss';
 
 function About() {
-  const [aboutInfo, setAboutInfo] = useState<string[]>([]);
+  const [aboutInfo, setAboutInfo] = useState<About>(data.about);
 
   useEffect(() => {
     if (CONFIG.VITE_REACT_APP_USE_SERVER) {
       // TODO - CALL THE API
     } else {
-      setAboutInfo(
-        data.about.paragraphs.map((paragraph) => paragraph.description)
-      );
+      setAboutInfo({
+        paragraphs: data.about.paragraphs.map((paragraph) => {
+          return {
+            ...paragraph,
+            paragraphJSX: convertToTextLinks(
+              paragraph.description,
+              paragraph.links,
+              'hover',
+              'rest',
+              TextLinkVariants
+            ),
+          };
+        }),
+      });
     }
   }, []);
 
-  // TODO - RETOCAR AÑADIENDO LINKS
   return (
     <section id="about">
       <div className="paragraphs">
-        {aboutInfo.map((paragraph) => (
-          <p key={paragraph.slice(0, 3)}>{paragraph}</p>
+        {aboutInfo.paragraphs.map((paragraph) => (
+          <p key={paragraph.id}>{paragraph.paragraphJSX}</p>
         ))}
       </div>
     </section>

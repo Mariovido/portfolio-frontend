@@ -11,6 +11,7 @@ import {
 import { useState } from 'react';
 import LinkIcon from '../Icons/LinkIcon';
 import TagList from '../../Lists/TagList';
+import BulletPointList from '../../Lists/BulletPointList';
 
 import './styles/Experience.scss';
 
@@ -46,10 +47,16 @@ function Experience(props: ExperienceProps) {
             beforeText={experienceProps.company}
           />
         </h3>
-        {/* TODO - CAMBIAR PARA QUE PUEDAN SER BULLET POINTS O UN PARRAFO */}
-        <p className="experience-content-description">
-          {experienceProps.description}
-        </p>
+        {experienceProps.description.length <= 1 ? (
+          <p className="experience-content-description">
+            {experienceProps.description[0]?.description}
+          </p>
+        ) : (
+          <BulletPointList
+            bulletPointListProps={experienceProps.description}
+            classNameParagraph={'experience-content-description'}
+          />
+        )}
         <ul className="experience-content-links">
           {experienceProps.links?.map((experienceLink) => (
             <li

@@ -1,4 +1,5 @@
 import { Tag } from '../Tags/TagsProps';
+import { BulletPoint } from '../Text/BulletPointProps';
 
 interface Link {
   id: string;
@@ -11,7 +12,7 @@ export interface Experience {
   role: string;
   company: string;
   companyLink: string;
-  description: string;
+  description: BulletPoint[];
   date: string;
   tags: Tag[];
   links?: Link[];
