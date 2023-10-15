@@ -20,6 +20,8 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      VITE_REACT_APP_BASE_URL: ${{secrets.VITE_REACT_APP_BASE_URL}}
 
     runs-on: ubuntu-latest
 
@@ -42,7 +44,7 @@ jobs:
       - name: Run tests
         run: yarn test
 
-      - name: Build NestJS app
+      - name: Build React app
         run: yarn build
 
       - name: Setup Pages
