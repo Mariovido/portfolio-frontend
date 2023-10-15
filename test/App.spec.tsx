@@ -1,12 +1,11 @@
 import { describe, expect, it } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import App from '../src/App';
 
 describe('App', () => {
   it('Renders App', () => {
-    render(<App />);
-    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(
-      'Hello World'
-    );
+    const { container } = render(<App />);
+    const divApp = container.querySelector('div.app');
+    expect(divApp).toBeVisible();
   });
 });

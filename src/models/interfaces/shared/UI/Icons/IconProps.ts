@@ -1,4 +1,4 @@
-import { IconEnum } from '../../../enums/IconEnum';
+import { IconEnum } from '../../../../enums/IconEnum';
 
 export interface Icon {
   id: string;

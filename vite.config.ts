@@ -12,4 +12,5 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: ['./test/setupTests.ts'],
   },
+  base: '/portfolio-frontend/',
 });
