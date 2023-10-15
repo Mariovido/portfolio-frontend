@@ -4,6 +4,7 @@ import Button from '../components/shared/UI/Buttons/Button';
 import { ButtonVariants } from '../utils/variants/variants';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { CONFIG } from '../config/config';
 
 import './styles/NotFound.scss';
 
@@ -13,7 +14,7 @@ function NotFound() {
   const handleOnClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
 
-    navigate('/');
+    navigate(`${CONFIG.VITE_REACT_APP_BASE_URL}`);
   };
   return (
     <>

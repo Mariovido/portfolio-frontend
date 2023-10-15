@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { NavBarProps } from '../../../models/interfaces/shared/Navigation/NavBarProps';
 import { useCallback, useEffect, useState } from 'react';
+import { CONFIG } from '../../../config/config';
 
 import './styles/NavBar.scss';
 
@@ -68,7 +69,7 @@ function NavBar(props: NavBarProps) {
 
     changeActiveBar(`#${location[1]}`);
 
-    navigate(`/#${location[1]}`);
+    navigate(`${CONFIG.VITE_REACT_APP_BASE_URL}#${location[1]}`);
   };
 
   return (

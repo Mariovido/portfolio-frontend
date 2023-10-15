@@ -26,7 +26,7 @@ function Header() {
   return (
     <header className="header">
       <div>
-        <Link to="/" onClick={handleOnClick}>
+        <Link to={`${CONFIG.VITE_REACT_APP_BASE_URL}`} onClick={handleOnClick}>
           <h1 className="name">{headerInfo.name}</h1>
         </Link>
         <h2 className="role">{headerInfo.role}</h2>

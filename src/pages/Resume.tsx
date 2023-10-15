@@ -6,6 +6,7 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { ButtonVariants } from '../utils/variants/variants';
 import { ResumeLocation } from '../models/interfaces/pages/ResumeLocation';
 import Cursor from '../components/shared/Common/Cursor';
+import { CONFIG } from '../config/config';
 
 import './styles/Resume.scss';
 
@@ -23,7 +24,7 @@ function Resume() {
 
     if (state?.prevPath) {
       navigate(-1);
-    } else navigate('/');
+    } else navigate(`${CONFIG.VITE_REACT_APP_BASE_URL}`);
   };
 
   return (

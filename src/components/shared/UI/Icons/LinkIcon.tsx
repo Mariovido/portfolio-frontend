@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { LinkIconProps } from '../../../../models/interfaces/shared/UI/Icons/LinkIconProps';
 import { Link } from 'react-router-dom';
+import { CONFIG } from '../../../../config/config';
 
 import './styles/LinkIcon.scss';
 
@@ -34,7 +35,7 @@ function LinkIcon(props: LinkIconProps) {
       ) : (
         <MotionLink
           className={`link-icon ${linkProps.className}`}
-          to={linkProps.href}
+          to={`${CONFIG.VITE_REACT_APP_BASE_URL}${linkProps.href}`}
           whileHover={linkProps.whileHover}
           animate={linkProps.animate}
           onHoverStart={linkProps.onHoverStart}

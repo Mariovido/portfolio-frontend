@@ -33,7 +33,7 @@ function Experiences() {
           <LinkIcon
             isAnchor={false}
             linkProps={{
-              href: '/resume',
+              href: 'resume',
               whileHover: 'hover',
               animate: 'rest',
               variants: ResumeVariants,
