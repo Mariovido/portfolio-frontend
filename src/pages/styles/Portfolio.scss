@@ -1,18 +1,44 @@
+@import '../../utils/styles/variables.module';
+
 .portfolio {
-  display: flex;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 6rem;
-  padding-left: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   max-width: 1280px;
-  gap: 1rem;
 }
 
 .main {
   display: block;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  width: 50%;
-  box-sizing: border-box;
+  padding-top: 6rem;
   line-height: 1.625;
+}
+
+@media (min-width: $max-width-phone) {
+  .portfolio {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: $min-width-pc) {
+  .portfolio {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .main {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    width: 50%;
+  }
 }

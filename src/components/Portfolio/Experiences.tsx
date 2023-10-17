@@ -9,6 +9,8 @@ import { Experiences } from '../../models/interfaces/Portfolio/Experiences';
 import { useEffect, useState } from 'react';
 import { data } from '../../../data/data';
 import { CONFIG } from '../../config/config';
+import { CONSTANTS } from '../../config/constants';
+import useWindowDimensions from '../../hooks/useWindowDimensions';
 
 import './styles/Experiences.scss';
 
@@ -16,6 +18,7 @@ function Experiences() {
   const [experiencesInfo, setExperiencesInfo] = useState<Experiences>(
     data.experience
   );
+  const { width } = useWindowDimensions();
 
   useEffect(() => {
     if (CONFIG.VITE_REACT_APP_USE_SERVER) {
@@ -27,6 +30,11 @@ function Experiences() {
 
   return (
     <section id="experience">
+      {width >= CONSTANTS.minWidthPc ? null : (
+        <div className="section-title-experience">
+          <h2>Experience</h2>
+        </div>
+      )}
       <div>
         <ExperienceList experienceListProps={experiencesInfo.experiences} />
         <div className="experience-resume-content">

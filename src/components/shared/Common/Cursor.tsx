@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { MouseCoordinates } from '../../../models/interfaces/shared/Common/Coordinates';
 import { StyleVariables } from '../../../models/interfaces/shared/styles/StyleVariables';
 import { hexToRgb } from '../../../utils/hexToRgb';
+import { CONSTANTS } from '../../../config/constants';
 
 import './styles/Cursor.scss';
 import styles from '../../../utils/styles/_variables.module.scss';
@@ -14,14 +15,15 @@ function Cursor() {
     y: 0,
   });
 
-  const mouseMoveHandler = (event: MouseEvent) => {
-    setMouseCoordinates({
-      x: event.pageX,
-      y: event.pageY,
-    });
-  };
-
   useEffect(() => {
+    const mouseMoveHandler = (event: MouseEvent) => {
+      if (window.innerWidth >= CONSTANTS.minWidthPc)
+        setMouseCoordinates({
+          x: event.pageX,
+          y: event.pageY,
+        });
+    };
+
     window.addEventListener('mousemove', mouseMoveHandler);
 
     return () => window.removeEventListener('mousemove', mouseMoveHandler);

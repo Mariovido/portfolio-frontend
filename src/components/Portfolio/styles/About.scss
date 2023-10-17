@@ -2,11 +2,55 @@
 
 #about {
   display: block;
-  scroll-margin-top: 6rem;
-  margin-bottom: 9rem;
+  scroll-margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.section-title-about {
+  margin-bottom: 1rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  z-index: 20;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(8px);
+}
+
+.section-title-about h2 {
+  margin: 0;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: $primary-color;
 }
 
 .paragraphs p {
   margin-bottom: 1rem;
   color: $light-color;
+}
+
+@media (min-width: $max-width-phone) {
+  #about {
+    margin-bottom: 6rem;
+  }
+
+  .section-title-about {
+    margin-left: -3rem;
+    margin-right: -3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: $min-width-pc) {
+  #about {
+    scroll-margin-top: 6rem;
+    margin-bottom: 9rem;
+  }
 }

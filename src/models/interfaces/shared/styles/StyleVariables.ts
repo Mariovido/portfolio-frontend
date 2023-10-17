@@ -4,4 +4,7 @@ export interface StyleVariables {
   primaryColor: string;
   lightColor: string;
   lightestColor: string;
+  minWidthPc: string;
+  maxWidthPhone: string;
+  minWidthPhone: string;
 }

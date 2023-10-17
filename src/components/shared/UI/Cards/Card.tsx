@@ -4,7 +4,7 @@ import { CardProps } from '../../../../models/interfaces/shared/UI/Cards/CardPro
 import './styles/Card.scss';
 
 function Card(props: CardProps) {
-  const { children, handleOnClick, isHovering } = props;
+  const { children, isAnimated, handleOnClick, isHovering } = props;
 
   return (
     <motion.div
@@ -12,7 +12,9 @@ function Card(props: CardProps) {
       whileHover={isHovering ? 'hover' : 'rest'}
       animate="rest"
     >
-      <div className="card-hover" onClick={handleOnClick}></div>
+      {isAnimated ? (
+        <div className="card-hover" onClick={handleOnClick}></div>
+      ) : null}
       {children}
     </motion.div>
   );

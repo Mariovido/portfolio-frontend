@@ -1,6 +1,11 @@
 @import '/src/utils/styles/variables.module';
 @import '/src/utils/styles/imports';
 
+*, :after, :before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
 html {
   font-size: 110%;
   scroll-behavior: smooth;

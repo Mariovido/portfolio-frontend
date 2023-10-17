@@ -3,17 +3,12 @@
 .education-header {
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;
-  grid-column: span 2 / span 2;
   letter-spacing: 0.025rem;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 0.75rem;
   line-height: 1rem;
   color: $dark-color;
-}
-
-.education-content {
-  grid-column: span 6 / span 6;
 }
 
 .education-content-header {
@@ -39,4 +34,14 @@
 
 .education-content-header a:hover {
   color: $primary-color;
+}
+
+@media (min-width: $min-width-phone) {
+  .education-header {
+    grid-column: span 2 / span 2;
+  }
+
+  .education-content {
+    grid-column: span 6 / span 6;
+  }
 }

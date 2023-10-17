@@ -1,12 +1,12 @@
 @import '../../../utils/styles/variables.module';
 
-#experience {
+#education {
   display: block;
   scroll-margin-top: 4rem;
   margin-bottom: 4rem;
 }
 
-.section-title-experience {
+.section-title-education {
   margin-bottom: 1rem;
   margin-left: -1.5rem;
   margin-right: -1.5rem;
@@ -20,7 +20,7 @@
   backdrop-filter: blur(8px);
 }
 
-.section-title-experience h2 {
+.section-title-education h2 {
   margin: 0;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -30,38 +30,12 @@
   color: $primary-color;
 }
 
-.experience-resume-content {
-  margin-top: 3rem;
-}
-
-.experience-resume-content a {
-  display: inline-flex;
-  line-height: 1.25;
-  font-weight: 600;
-  align-items: center;
-  color: $lightest-color;
-}
-
-.experience-resume-content a span {
-  margin-right: 0.25rem;
-}
-
-.experience-resume-content a svg {
-  display: block;
-  align-self: center;
-  font-size: 0.75rem;
-}
-
-.experience-resume-content a:hover span {
-  border-bottom: 2px solid $primary-color;
-}
-
 @media (min-width: $max-width-phone) {
-  #experience {
+  #education {
     margin-bottom: 6rem;
   }
 
-  .section-title-experience {
+  .section-title-education {
     margin-left: -3rem;
     margin-right: -3rem;
     padding-left: 3rem;
@@ -70,7 +44,7 @@
 }
 
 @media (min-width: $min-width-pc) {
-  #experience {
+  #education {
     scroll-margin-top: 6rem;
     margin-bottom: 9rem;
   }

@@ -12,11 +12,14 @@ import { useState } from 'react';
 import LinkIcon from '../Icons/LinkIcon';
 import TagList from '../../Lists/TagList';
 import BulletPointList from '../../Lists/BulletPointList';
+import { CONSTANTS } from '../../../../config/constants';
 
+import useWindowDimensions from '../../../../hooks/useWindowDimensions';
 import './styles/Experience.scss';
 
 function Experience(props: ExperienceProps) {
   const [isHovering, setIsHovering] = useState(true);
+  const { width } = useWindowDimensions();
 
   const { experienceProps } = props;
 
@@ -26,8 +29,8 @@ function Experience(props: ExperienceProps) {
     window.open(experienceProps.companyLink, '_blank');
   };
 
-  return (
-    <Card handleOnClick={handleOnClick} isHovering={isHovering}>
+  const content = (
+    <>
       <header className="experience-header">{experienceProps.date}</header>
       <div className="experience-content">
         <h3 className="experience-content-header">
@@ -37,6 +40,8 @@ function Experience(props: ExperienceProps) {
             linkProps={{
               className: 'active-link',
               href: experienceProps.companyLink,
+              whileHover: width >= CONSTANTS.minWidthPc ? undefined : 'hover',
+              animate: width >= CONSTANTS.minWidthPc ? undefined : 'rest',
               target: '_blank',
               variants: LinkVariants,
             }}
@@ -82,7 +87,25 @@ function Experience(props: ExperienceProps) {
         </ul>
         <TagList tagListProps={experienceProps.tags} />
       </div>
-    </Card>
+    </>
+  );
+
+  return (
+    <>
+      {width >= CONSTANTS.minWidthPc ? (
+        <Card
+          isAnimated={true}
+          handleOnClick={handleOnClick}
+          isHovering={isHovering}
+        >
+          {content}
+        </Card>
+      ) : (
+        <Card isAnimated={false} isHovering={isHovering}>
+          {content}
+        </Card>
+      )}
+    </>
   );
 }
 

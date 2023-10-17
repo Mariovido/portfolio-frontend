@@ -1,24 +1,13 @@
 @import '../../../utils/styles/variables.module';
 
 .header {
-  display: flex;
-  position: sticky;
-  top: 0;
-  flex-direction: column;
-  justify-content: space-between;
   line-height: 1.625;
-  width: 50%;
-  height: 100%;
-  min-height: 100vh;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  box-sizing: border-box;
 }
 
 .name {
   margin: 0;
-  font-size: 2.75rem;
-  line-height: 1;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
   font-weight: 600;
   letter-spacing: -0.15rem;
   color: $primary-color;
@@ -27,7 +16,7 @@
 .role {
   margin: 0;
   margin-top: 0.75rem;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 500;
   letter-spacing: -0.025rem;
@@ -40,4 +29,29 @@
   line-height: 1.5;
   font-weight: 400;
   color: $light-color;
+}
+
+@media (min-width: $min-width-pc) {
+  .header {
+    display: flex;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    justify-content: space-between;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    min-height: 100vh;
+  }
+
+  .name {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .role {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }

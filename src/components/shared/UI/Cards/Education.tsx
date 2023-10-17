@@ -6,10 +6,14 @@ import {
   LinkVariants,
 } from '../../../../utils/variants/variants';
 import LinkIcon from '../Icons/LinkIcon';
+import useWindowDimensions from '../../../../hooks/useWindowDimensions';
+import { CONSTANTS } from '../../../../config/constants';
 
 import './styles/Education.scss';
 
 function Education(props: EducationProps) {
+  const { width } = useWindowDimensions();
+
   const { educationProps } = props;
 
   const handleOnClick = (event: React.MouseEvent<HTMLDivElement>) => {
@@ -18,8 +22,8 @@ function Education(props: EducationProps) {
     window.open(educationProps.universityLink, '_blank');
   };
 
-  return (
-    <Card handleOnClick={handleOnClick} isHovering={true}>
+  const content = (
+    <>
       <header className="education-header">{educationProps.date}</header>
       <div className="education-content">
         <h3 className="education-content-header">
@@ -30,6 +34,8 @@ function Education(props: EducationProps) {
               className: 'active-link',
               href: educationProps.universityLink,
               target: '_blank',
+              whileHover: width >= CONSTANTS.minWidthPc ? undefined : 'hover',
+              animate: width >= CONSTANTS.minWidthPc ? undefined : 'rest',
               variants: LinkVariants,
             }}
             iconProps={{
@@ -40,7 +46,21 @@ function Education(props: EducationProps) {
           />
         </h3>
       </div>
-    </Card>
+    </>
+  );
+
+  return (
+    <>
+      {width >= CONSTANTS.minWidthPc ? (
+        <Card isAnimated={true} handleOnClick={handleOnClick} isHovering={true}>
+          {content}
+        </Card>
+      ) : (
+        <Card isAnimated={false} isHovering={false}>
+          {content}
+        </Card>
+      )}
+    </>
   );
 }
 

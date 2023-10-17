@@ -4,11 +4,14 @@ import { data } from '../../../data/data';
 import { About } from '../../models/interfaces/Portfolio/About';
 import { convertToTextLinks } from '../../utils/convertToTextLinks';
 import { TextLinkVariants } from '../../utils/variants/variants';
+import useWindowDimensions from '../../hooks/useWindowDimensions';
+import { CONSTANTS } from '../../config/constants';
 
 import './styles/About.scss';
 
 function About() {
   const [aboutInfo, setAboutInfo] = useState<About>(data.about);
+  const { width } = useWindowDimensions();
 
   useEffect(() => {
     if (CONFIG.VITE_REACT_APP_USE_SERVER) {
@@ -33,6 +36,11 @@ function About() {
 
   return (
     <section id="about">
+      {width >= CONSTANTS.minWidthPc ? null : (
+        <div className="section-title-about">
+          <h2>About</h2>
+        </div>
+      )}
       <div className="paragraphs">
         {aboutInfo.paragraphs.map((paragraph) => (
           <p key={paragraph.id}>{paragraph.paragraphJSX}</p>

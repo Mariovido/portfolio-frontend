@@ -19,6 +19,7 @@ function Portfolio() {
           <About />
           <Experiences />
           <Educations />
+          {/* TODO - CREATE PROJECTS/SKILLS PART */}
           <Footer />
         </main>
       </div>
