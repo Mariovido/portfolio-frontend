@@ -99,11 +99,6 @@ $border-size: 7.5px;
   transition: scale ease-in 0.3s;
 }
 
-.resume-pdf:hover {
-  scale: 1.02;
-  animation: border 3s linear alternate-reverse infinite;
-}
-
 @keyframes bg-spin {
   to {
     --border-angle: 1turn;
@@ -154,5 +149,27 @@ $border-size: 7.5px;
   }
   100% {
     transform: scaleX(1) scaleY(1);
+  }
+}
+
+@media (max-width: $max-width-phone) {
+  $border-size: 2.5px;
+
+  .resume-header button {
+    font-size: 0.875rem;
+  }
+
+  .resume-pdf {
+    background-size:
+      calc(100% - ($border-size * 2)) calc(100% - ($border-size * 2)),
+      cover;
+    animation: bg-spin 10s linear infinite;
+  }
+}
+
+@media (min-width: $max-width-phone) {
+  .resume-pdf:hover {
+    scale: 1.02;
+    animation: border 3s linear alternate-reverse infinite;
   }
 }

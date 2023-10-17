@@ -7,12 +7,15 @@ import { ButtonVariants } from '../utils/variants/variants';
 import { ResumeLocation } from '../models/interfaces/pages/ResumeLocation';
 import Cursor from '../components/shared/Common/Cursor';
 import { CONFIG } from '../config/config';
+import { CONSTANTS } from '../config/constants';
 
 import './styles/Resume.scss';
+import useWindowDimensions from '../hooks/useWindowDimensions';
 
 function Resume() {
   const location = useLocation() as ResumeLocation;
   const navigate = useNavigate();
+  const { width } = useWindowDimensions();
 
   const { state } = location;
   const h1Array = 'CV'.split('').map((letter, index) => {
@@ -41,13 +44,15 @@ function Resume() {
             <FontAwesomeIcon icon={faArrowLeft}></FontAwesomeIcon>
             <span>Back</span>
           </Button>
-          <h1>
-            {h1Array.map((h1Char) => (
-              <span key={h1Char.index}>{h1Char.char}</span>
-            ))}
-          </h1>
+          {width >= CONSTANTS.maxWidthPhone ? (
+            <h1>
+              {h1Array.map((h1Char) => (
+                <span key={h1Char.index}>{h1Char.char}</span>
+              ))}
+            </h1>
+          ) : null}
         </header>
-        <iframe className="resume-pdf" src={CV} />
+        <embed className="resume-pdf" src={CV} />
       </div>
     </>
   );

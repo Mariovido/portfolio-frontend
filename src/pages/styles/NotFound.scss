@@ -6,8 +6,8 @@
   margin-right: auto;
   padding-top: 0;
   padding-bottom: 0;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   max-width: 1280px;
   min-height: 100vh;
   max-height: 100vh;
@@ -59,4 +59,18 @@
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 3rem;
+}
+
+@media (min-width: $max-width-phone) {
+  .not-found {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: $min-width-pc) {
+  .not-found {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
