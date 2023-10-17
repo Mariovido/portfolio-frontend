@@ -153,10 +153,11 @@ $border-size: 7.5px;
 }
 
 @media (max-width: $max-width-phone) {
-  $border-size: 2.5px;
+  $border-size: 5px;
 
   .resume-header button {
     font-size: 0.875rem;
+    margin-top: 1rem;
   }
 
   .resume-pdf {

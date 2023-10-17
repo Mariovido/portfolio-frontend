@@ -8,9 +8,10 @@ import { ResumeLocation } from '../models/interfaces/pages/ResumeLocation';
 import Cursor from '../components/shared/Common/Cursor';
 import { CONFIG } from '../config/config';
 import { CONSTANTS } from '../config/constants';
+import useWindowDimensions from '../hooks/useWindowDimensions';
+import Pdf from '../components/shared/Common/Pdf';
 
 import './styles/Resume.scss';
-import useWindowDimensions from '../hooks/useWindowDimensions';
 
 function Resume() {
   const location = useLocation() as ResumeLocation;
@@ -52,7 +53,9 @@ function Resume() {
             </h1>
           ) : null}
         </header>
-        <embed className="resume-pdf" src={CV} />
+        <div className="resume-pdf">
+          <Pdf pdf={CV} />
+        </div>
       </div>
     </>
   );
