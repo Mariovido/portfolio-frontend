@@ -1,13 +1,9 @@
 import { Variants } from 'framer-motion';
-import { StyleVariables } from '../../models/interfaces/shared/styles/StyleVariables';
-
-import styles from '../styles/_variables.module.scss';
-
-const variables = JSON.parse(JSON.stringify(styles)) as StyleVariables;
+import { CONSTANTS } from '../../config/constants';
 
 export const LinkVariants: Variants = {
   rest: {
-    color: variables.darkColor,
+    color: CONSTANTS.darkColor,
     x: 0,
     y: 0,
     transition: {
@@ -17,7 +13,7 @@ export const LinkVariants: Variants = {
     },
   },
   hover: {
-    color: variables.primaryColor,
+    color: CONSTANTS.primaryColor,
     fontSize: '25px',
     x: 5,
     y: -5,
@@ -31,7 +27,7 @@ export const LinkVariants: Variants = {
 
 export const LinkIconVariants: Variants = {
   rest: {
-    color: variables.darkColor,
+    color: CONSTANTS.darkColor,
     transition: {
       duration: 0.2,
       type: 'tween',
@@ -39,7 +35,7 @@ export const LinkIconVariants: Variants = {
     },
   },
   hover: {
-    color: variables.primaryColor,
+    color: CONSTANTS.primaryColor,
     fontSize: '25px',
     transition: {
       duration: 0.2,

@@ -11,31 +11,30 @@ function NavBar(props: NavBarProps) {
 
   const { navBarProps } = props;
 
-  // TODO - RETOCAR ACORDE A LOS BOOLEANOS
-  const listenScrollEvent = (event: Event) => {
-    event.preventDefault();
+  const listenScrollEvent = useCallback(
+    (event: Event) => {
+      event.preventDefault();
 
-    const offset = 93;
+      const offset = 93;
 
-    const aboutSectionOffsetTop =
-      document.getElementById('about')?.offsetTop ?? 0;
-    const experienceSectionOffsetTop =
-      document.getElementById('experience')?.offsetTop ?? 0;
-    const educationSectionOffsetTop =
-      document.getElementById('education')?.offsetTop ?? 0;
+      const sectionsOffsetTop = navBarProps.map(
+        (navBarProp) =>
+          document.getElementById(navBarProp.name.toLowerCase())?.offsetTop ?? 0
+      );
 
-    if (
-      window.scrollY <
-      experienceSectionOffsetTop - aboutSectionOffsetTop - offset
-    )
-      return setActiveBar(0);
-    else if (
-      window.scrollY <
-      educationSectionOffsetTop - aboutSectionOffsetTop - offset
-    )
-      return setActiveBar(1);
-    else return setActiveBar(2);
-  };
+      for (let i = 0; i < sectionsOffsetTop.length - 1; i++) {
+        if (
+          window.scrollY <
+          sectionsOffsetTop[i + 1] - sectionsOffsetTop[0] - offset
+        ) {
+          return setActiveBar(i);
+        }
+      }
+
+      return setActiveBar(sectionsOffsetTop.length - 1);
+    },
+    [navBarProps]
+  );
 
   const changeActiveBar = useCallback(
     (hash: string) => {
@@ -54,7 +53,7 @@ function NavBar(props: NavBarProps) {
     window.addEventListener('scroll', listenScrollEvent);
 
     return () => window.removeEventListener('scroll', listenScrollEvent);
-  }, []);
+  }, [listenScrollEvent]);
 
   useEffect(() => {
     const location = window.location.hash;

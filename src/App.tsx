@@ -3,6 +3,7 @@ import { Suspense, lazy } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { CONFIG } from './config/config';
 import { Worker } from '@react-pdf-viewer/core';
+import Spinner from './components/shared/Common/Spinner';
 const Portfolio = lazy(() => import('./pages/Portfolio'));
 const Resume = lazy(() => import('./pages/Resume'));
 const NotFound = lazy(() => import('./pages/NotFound'));
@@ -30,8 +31,7 @@ function App() {
     <div className="app">
       <QueryClientProvider client={queryClient}>
         <Worker workerUrl={workerUrl}>
-          {/* TODO - CHANGE FALLBACK */}
-          <Suspense fallback={<div></div>}>
+          <Suspense fallback={<Spinner />}>
             <RouterProvider router={router} />
           </Suspense>
         </Worker>

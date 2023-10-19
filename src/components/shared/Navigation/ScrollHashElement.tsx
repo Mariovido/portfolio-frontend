@@ -32,8 +32,7 @@ const ScrollToHashElement = () => {
         }, 100);
       }
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [location.hash]);
 
   useEffect(() => {
     if (hashElement)
