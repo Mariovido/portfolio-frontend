@@ -1,0 +1,11 @@
+.skill-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.skill {
+  margin-bottom: 0.5rem;
+}

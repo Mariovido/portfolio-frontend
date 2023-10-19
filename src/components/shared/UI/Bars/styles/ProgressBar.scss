@@ -1,0 +1,58 @@
+@import '../../../../../utils/styles/variables.module';
+
+.progress-bar-container {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  transition: all ease-in 0.2s;
+}
+
+.progress-bar-label {
+  margin-bottom: 0.5rem;
+  font-size: 1.15rem;
+  color: $lightest-color;
+}
+
+.progress-bar {
+  position: relative;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.progress-percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: $darkest-color;
+}
+
+.progress-bar-empty {
+  width: 100%;
+  height: 1.125rem;
+  border-radius: 0.5rem;
+  background-color: $dark-color;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  border-radius: 10px;
+  background-color: $light-color;
+  transition: width 0.5s ease-out;
+}
+
+@media (min-width: $min-width-pc) {
+  .progress-bar-container:hover {
+    background-color: rgba($primary-color, 0.1);
+    scale: 1.1;
+  }
+}

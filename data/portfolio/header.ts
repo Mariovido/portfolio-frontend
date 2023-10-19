@@ -19,6 +19,10 @@ export const header: Header = {
       name: 'Education',
       href: '#education',
     },
+    {
+      name: 'Skill',
+      href: '#skill',
+    },
   ],
   iconListProps: [
     {

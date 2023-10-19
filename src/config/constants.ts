@@ -11,7 +11,7 @@ export const CONSTANTS: Constants = {
   primaryColor: variables.primaryColor,
   lightColor: variables.lightColor,
   lightestColor: variables.lightestColor,
-  minWidthPc: parseInt(variables.minWidthPc.slice(0, -2)),
-  maxWidthPhone: parseInt(variables.maxWidthPhone.slice(0, -2)),
-  minWidthPhone: parseInt(variables.minWidthPhone.slice(0, -2)),
+  minWidthPc: parseInt(variables.minWidthPc?.slice(0, -2)),
+  maxWidthPhone: parseInt(variables.maxWidthPhone?.slice(0, -2)),
+  minWidthPhone: parseInt(variables.minWidthPhone?.slice(0, -2)),
 };
