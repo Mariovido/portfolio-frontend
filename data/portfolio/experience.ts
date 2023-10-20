@@ -6,7 +6,7 @@ export const experience: Experiences = {
       id: '1',
       role: 'Software engineer',
       company: 'eDreams ODIGEO',
-      date: 'Jan 2023 - Ongoing',
+      date: 'Oct 2023 - Ongoing',
       description: [
         {
           id: '1',
