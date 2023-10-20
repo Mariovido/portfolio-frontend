@@ -10,7 +10,6 @@ function SkillList(props: SkillListProps) {
     <ul className="skill-list">
       {skillListProps.map((skillProp) => (
         <li className="skill" key={skillProp.id}>
-          {/* TODO - MAKE IT A LINK? */}
           <ProgressBar name={skillProp.name} progress={skillProp.progress} />
         </li>
       ))}

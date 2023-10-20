@@ -1,27 +1,110 @@
-# React + TypeScript + Vite
+# PORTFOLIO FRONTEND
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-Currently, two official plugins are available:
+## About The Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository will be the repository containing the the frontend of the Portfolio.
 
-## Expanding the ESLint configuration
+The main functionality of this app is to make a visual page that retrieves the data from a backend or from a data file.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Built With
 
-- Configure the top-level `parserOptions` property like this:
+The frameworks/libraries used to complete this project are:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- [React](https://react.dev)
+- [Yarn](https://yarnpkg.com)
+- [Vite](https://vitejs.dev)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<p align="right">(<a href="#portfolio-frontend">Back to top</a>)</p>
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+Before installing the software you must have installed the npm package. You can do it using the next command.
+
+- npm
+  ```bash
+  npm install --global yarn
+  ```
+
+### Installation
+
+_The steps to get working the project are the following ones:_
+
+1. Clone the repo
+    ```bash
+    git clone https://github.com/Mariovido/portfolio-frontend.git
+    ```
+2. Run the following command.
+    ```bash
+    yarn install
+    ```
+3. Create an .env file called `.env` on the root directory and fill the fields with your data.
+    ```env
+    VITE_REACT_APP_USE_SERVER="ENTER IF YOU'RE USING AN API"
+    VITE_REACT_APP_WEB_TITLE="ENTER YOUR TITLE OF THE PAGE"
+    VITE_REACT_APP_BASE_URL="ENTER YOUR BASE URL"
+    ```
+
+<p align="right">(<a href="#portfolio-frontend">Back to top</a>)</p>
+
+## Usage
+_To start using the app you need to run the following steps:_
+
+1. Open a terminal on the root folder
+2. If you want to use it in dev purpose run the following command
+    ```bash
+    $ yarn dev
+3. If you want to use it to run the tests run the following commands
+    ```bash
+    # unit tests
+    $ yarn test
+
+    # test coverage
+    $ yarn test:cov
+    ```
+4. If you want to test if your build is working run the following commands
+    ```bash
+    # build the app
+    $ yarn build
+
+    # runs the built app
+    $ yarn preview
+    ```
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#portfolio-frontend">Back to top</a>)</p>
+
+## Contact
+Your Name - [@mariovido](https://github.com/Mariovido) - mario.vidaldom@gmail.com
+
+Project Link: [https://github.com/Mariovido/portfolio-frontend](https://github.com/Mariovido/portfolio-frontend)
+
+<p align="right">(<a href="#portfolio-frontend">Back to top</a>)</p>

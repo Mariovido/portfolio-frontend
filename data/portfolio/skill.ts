@@ -14,7 +14,7 @@ export const skill: Skills = {
     },
     {
       id: '3',
-      name: 'GIT',
+      name: 'Git',
       progress: 95,
     },
     {

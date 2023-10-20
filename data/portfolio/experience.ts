@@ -4,9 +4,66 @@ export const experience: Experiences = {
   experiences: [
     {
       id: '1',
+      role: 'Software engineer',
+      company: 'eDreams ODIGEO',
+      date: 'Jan 2023 - Ongoing',
+      description: [
+        {
+          id: '1',
+          description:
+            'Working with Java 11, JAX-RX, Oracle and other technologies to develop a robust backend on a modern microservices platform',
+        },
+        {
+          id: '2',
+          description:
+            'Collaborating in a high-performing, customer-centric product development team of 7-10 members, focusing on innovative solutions',
+        },
+        {
+          id: '3',
+          description:
+            'Actively contributing to daily deployments, emphasizing clean code, SOLID principles, and TDD',
+        },
+        {
+          id: '4',
+          description:
+            'Utilizing powerful monitoring tools like Datadog, BigQuery, and Graphana to ensure platform performance',
+        },
+        {
+          id: '5',
+          description:
+            'Engaging with top-tier development tools, such as Google Cloud, Jira, Git, and more, for efficient software development and monitoring',
+        },
+      ],
+      links: undefined,
+      companyLink: 'https://www.edreamsodigeo.com',
+      tags: [
+        {
+          id: '1',
+          name: 'Java',
+        },
+        {
+          id: '2',
+          name: 'GCP',
+        },
+        {
+          id: '3',
+          name: 'CI/CD',
+        },
+        {
+          id: '4',
+          name: 'Docker',
+        },
+        {
+          id: '5',
+          name: 'Apache Kafka',
+        },
+      ],
+    },
+    {
+      id: '2',
       role: 'Back-end developer',
       company: 'Minsait',
-      date: 'Jan 2023 - Ongoing',
+      date: 'Jan 2023 - Oct 2023',
       description: [
         {
           id: '1',
@@ -69,7 +126,7 @@ export const experience: Experiences = {
       ],
     },
     {
-      id: '2',
+      id: '3',
       role: 'Consultant',
       company: 'KPMG',
       date: 'Mar 2022 - Dec 2022',
@@ -125,7 +182,7 @@ export const experience: Experiences = {
       ],
     },
     {
-      id: '3',
+      id: '4',
       role: 'Software engineering intern',
       company: 'AINIA',
       date: 'Feb 2021 - Jun 2021',
