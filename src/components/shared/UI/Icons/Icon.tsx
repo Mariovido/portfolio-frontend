@@ -19,7 +19,7 @@ function Icon(props: IconProps) {
   return (
     <motion.a
       className="icon"
-      href={iconProps.href}
+      href={iconProps.link}
       target={iconProps.target}
       whileHover={{ fontSize: '45px' }}
       transition={{

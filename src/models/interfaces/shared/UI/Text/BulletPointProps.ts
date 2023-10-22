@@ -1,6 +1,6 @@
 export interface BulletPoint {
   id: string;
-  description: string;
+  bulletPoint: string;
 }
 
 export interface BulletPointProps {

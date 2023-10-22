@@ -5,7 +5,7 @@ import './styles/Tag.scss';
 function Tag(props: TagProps) {
   const { tagProps } = props;
 
-  return <div className="tag">{tagProps.name}</div>;
+  return <div className="tag">{tagProps.tag}</div>;
 }
 
 export default Tag;

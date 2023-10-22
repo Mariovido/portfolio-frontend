@@ -3,10 +3,10 @@ import { Header } from '../../src/models/interfaces/Portfolio/Header';
 
 export const header: Header = {
   name: 'Mario Vidal Domínguez',
-  role: 'Software Engineer at eDreams',
+  role: 'Software Engineer at eDreams ODIGEO',
   description:
     'Experienced Software Engineer with a passion for Clean Code and teamwork',
-  navBarProps: [
+  navBar: [
     {
       name: 'About',
       href: '#about',
@@ -24,17 +24,17 @@ export const header: Header = {
       href: '#skill',
     },
   ],
-  iconListProps: [
+  iconList: [
     {
       id: '1',
       name: IconEnum.GITHUB,
-      href: 'https://github.com/Mariovido',
+      link: 'https://github.com/Mariovido',
       target: '_blank',
     },
     {
       id: '2',
       name: IconEnum.LINKEDIN,
-      href: 'https://www.linkedin.com/in/mariovidaldominguez/',
+      link: 'https://www.linkedin.com/in/mariovidaldominguez/',
       target: '_blank',
     },
   ],

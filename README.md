@@ -68,6 +68,8 @@ _The steps to get working the project are the following ones:_
     VITE_REACT_APP_USE_SERVER="ENTER IF YOU'RE USING AN API"
     VITE_REACT_APP_WEB_TITLE="ENTER YOUR TITLE OF THE PAGE"
     VITE_REACT_APP_BASE_URL="ENTER YOUR BASE URL"
+    VITE_REACT_APP_BACKEND_URL="ENTER YOUR BACKEND URL"
+    VITE_REACT_APP_USER_ID="ENTER YOUR USER ID"
     ```
 
 <p align="right">(<a href="#portfolio-frontend">Back to top</a>)</p>

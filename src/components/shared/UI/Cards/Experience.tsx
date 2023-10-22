@@ -54,7 +54,7 @@ function Experience(props: ExperienceProps) {
         </h3>
         {experienceProps.description.length <= 1 ? (
           <p className="experience-content-description">
-            {experienceProps.description[0]?.description}
+            {experienceProps.description[0]?.bulletPoint}
           </p>
         ) : (
           <BulletPointList

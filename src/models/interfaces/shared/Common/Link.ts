@@ -1,6 +1,6 @@
 export interface Link {
   tag: string;
   name: string;
-  url: string;
+  link: string;
   target?: string;
 }

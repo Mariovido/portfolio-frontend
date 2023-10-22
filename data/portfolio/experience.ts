@@ -10,27 +10,27 @@ export const experience: Experiences = {
       description: [
         {
           id: '1',
-          description:
+          bulletPoint:
             'Working with Java 11, JAX-RX, Oracle and other technologies to develop a robust backend on a modern microservices platform',
         },
         {
           id: '2',
-          description:
+          bulletPoint:
             'Collaborating in a high-performing, customer-centric product development team of 7-10 members, focusing on innovative solutions',
         },
         {
           id: '3',
-          description:
+          bulletPoint:
             'Actively contributing to daily deployments, emphasizing clean code, SOLID principles, and TDD',
         },
         {
           id: '4',
-          description:
+          bulletPoint:
             'Utilizing powerful monitoring tools like Datadog, BigQuery, and Graphana to ensure platform performance',
         },
         {
           id: '5',
-          description:
+          bulletPoint:
             'Engaging with top-tier development tools, such as Google Cloud, Jira, Git, and more, for efficient software development and monitoring',
         },
       ],
@@ -39,23 +39,23 @@ export const experience: Experiences = {
       tags: [
         {
           id: '1',
-          name: 'Java',
+          tag: 'Java',
         },
         {
           id: '2',
-          name: 'GCP',
+          tag: 'GCP',
         },
         {
           id: '3',
-          name: 'CI/CD',
+          tag: 'CI/CD',
         },
         {
           id: '4',
-          name: 'Docker',
+          tag: 'Docker',
         },
         {
           id: '5',
-          name: 'Apache Kafka',
+          tag: 'Apache Kafka',
         },
       ],
     },
@@ -67,31 +67,31 @@ export const experience: Experiences = {
       description: [
         {
           id: '1',
-          description: 'Developing microservices using Java Spring Boot',
+          bulletPoint: 'Developing microservices using Java Spring Boot',
         },
         {
           id: '2',
-          description:
+          bulletPoint:
             'Developing and maintaining software using Java Spring Boot and PostgreSQL',
         },
         {
           id: '3',
-          description:
+          bulletPoint:
             "Designing and coding database tables to store the application's data",
         },
         {
           id: '4',
-          description:
+          bulletPoint:
             'Backend development, deployment, and scalability using Docker, K8s and AWS',
         },
         {
           id: '5',
-          description:
+          bulletPoint:
             'Designing and developing integration tests using Java Spock Framework',
         },
         {
           id: '6',
-          description: 'Tracking issues and version control using Git',
+          bulletPoint: 'Tracking issues and version control using Git',
         },
       ],
       links: [
@@ -105,23 +105,23 @@ export const experience: Experiences = {
       tags: [
         {
           id: '1',
-          name: 'Java Spring Boot',
+          tag: 'Java Spring Boot',
         },
         {
           id: '2',
-          name: 'AWS',
+          tag: 'AWS',
         },
         {
           id: '3',
-          name: 'CI/CD',
+          tag: 'CI/CD',
         },
         {
           id: '4',
-          name: 'Docker',
+          tag: 'Docker',
         },
         {
           id: '5',
-          name: 'Java',
+          tag: 'Java',
         },
       ],
     },
@@ -133,26 +133,26 @@ export const experience: Experiences = {
       description: [
         {
           id: '1',
-          description:
+          bulletPoint:
             'Perform low-code development with Microsoft’s Power Platform-tools (Power Apps, Power Automate, Power BI, and Power Virtual Agent)',
         },
         {
           id: '2',
-          description:
+          bulletPoint:
             'Customization of applications through the use of scripts, Azure Functions and/or Plugins',
         },
         {
           id: '3',
-          description: 'Microsoft PCF development with React',
+          bulletPoint: 'Microsoft PCF development with React',
         },
         {
           id: '4',
-          description:
+          bulletPoint:
             'Configure the different technological solutions of Microsoft Dynamics ERP and CRM',
         },
         {
           id: '5',
-          description:
+          bulletPoint:
             'Develop functional documents of the proposed solutions and training documents for end-users',
         },
       ],
@@ -161,23 +161,23 @@ export const experience: Experiences = {
       tags: [
         {
           id: '1',
-          name: 'React',
+          tag: 'React',
         },
         {
           id: '2',
-          name: 'TypeScript',
+          tag: 'TypeScript',
         },
         {
           id: '3',
-          name: 'Microsoft Azure',
+          tag: 'Microsoft Azure',
         },
         {
           id: '4',
-          name: 'JavaScript',
+          tag: 'JavaScript',
         },
         {
           id: '5',
-          name: 'C#',
+          tag: 'C#',
         },
       ],
     },
@@ -189,19 +189,19 @@ export const experience: Experiences = {
       description: [
         {
           id: '1',
-          description: 'Software development using Java Spring Boot',
+          bulletPoint: 'Software development using Java Spring Boot',
         },
         {
           id: '2',
-          description: 'Preparation of technical and research documentation',
+          bulletPoint: 'Preparation of technical and research documentation',
         },
         {
           id: '3',
-          description: 'Development and maintenance of web services',
+          bulletPoint: 'Development and maintenance of web services',
         },
         {
           id: '4',
-          description: 'Development of R+D+I activities',
+          bulletPoint: 'Development of R+D+I activities',
         },
       ],
       links: undefined,
@@ -209,15 +209,15 @@ export const experience: Experiences = {
       tags: [
         {
           id: '1',
-          name: 'Java Spring Boot',
+          tag: 'Java Spring Boot',
         },
         {
           id: '2',
-          name: 'CI/CD',
+          tag: 'CI/CD',
         },
         {
           id: '3',
-          name: 'Java',
+          tag: 'Java',
         },
       ],
     },

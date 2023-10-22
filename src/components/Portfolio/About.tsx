@@ -1,28 +1,36 @@
 import { useEffect, useState } from 'react';
-import { CONFIG } from '../../config/config';
 import { data } from '../../../data/data';
 import { About } from '../../models/interfaces/Portfolio/About';
 import { convertToTextLinks } from '../../utils/convertToTextLinks';
 import { TextLinkVariants } from '../../utils/variants/variants';
 import useWindowDimensions from '../../hooks/useWindowDimensions';
 import { CONSTANTS } from '../../config/constants';
+import useHttp from '../../hooks/useHttp';
+import Spinner from '../shared/Common/Spinner';
+import ErrorBlock from '../shared/Common/ErrorBlock';
 
 import './styles/About.scss';
 
 function About() {
-  const [aboutInfo, setAboutInfo] = useState<About>(data.about);
+  const [aboutInfo, setAboutInfo] = useState<About>();
   const { width } = useWindowDimensions();
+  const { response, isFetching, isError, error } = useHttp<About>({
+    isQuery: true,
+    url: '/portfolio/:idUser/about',
+    queryKey: ['about'],
+    queryfn: () => data.about,
+    errorMessage: 'Error while fetching the about section',
+    staleTime: 60000,
+  });
 
   useEffect(() => {
-    if (CONFIG.VITE_REACT_APP_USE_SERVER) {
-      // TODO - CALL THE API
-    } else {
+    if (response) {
       setAboutInfo({
-        paragraphs: data.about.paragraphs.map((paragraph) => {
+        paragraphs: response.paragraphs.map((paragraph) => {
           return {
             ...paragraph,
             paragraphJSX: convertToTextLinks(
-              paragraph.description,
+              paragraph.paragraph,
               paragraph.links,
               'hover',
               'rest',
@@ -32,20 +40,29 @@ function About() {
         }),
       });
     }
-  }, []);
+  }, [response]);
 
   return (
     <section id="about">
-      {width >= CONSTANTS.minWidthPc ? null : (
-        <div className="section-title-about">
-          <h2>About</h2>
-        </div>
+      {isFetching ? (
+        <Spinner />
+      ) : (
+        <>
+          {width >= CONSTANTS.minWidthPc ? null : (
+            <div className="section-title-about">
+              <h2>About</h2>
+            </div>
+          )}
+          {aboutInfo ? (
+            <div className="paragraphs">
+              {aboutInfo.paragraphs.map((paragraph) => (
+                <p key={paragraph.id}>{paragraph.paragraphJSX}</p>
+              ))}
+            </div>
+          ) : null}
+        </>
       )}
-      <div className="paragraphs">
-        {aboutInfo.paragraphs.map((paragraph) => (
-          <p key={paragraph.id}>{paragraph.paragraphJSX}</p>
-        ))}
-      </div>
+      {isError ? <ErrorBlock error={error} /> : null}
     </section>
   );
 }

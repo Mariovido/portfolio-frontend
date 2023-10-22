@@ -7,7 +7,7 @@ function BulletPoint(props: BulletPointProps) {
 
   return (
     <p className={`bullet-point ${classNameParagraph}`}>
-      {`- ${bulletPoint.description}`}
+      {`- ${bulletPoint.bulletPoint}`}
     </p>
   );
 }

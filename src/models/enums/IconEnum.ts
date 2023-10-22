@@ -1,5 +1,5 @@
 export enum IconEnum {
-  GITHUB,
-  LINKEDIN,
-  EMAIL,
+  GITHUB = 'github',
+  LINKEDIN = 'linkedin',
+  EMAIL = 'email',
 }

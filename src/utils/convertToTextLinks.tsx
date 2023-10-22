@@ -21,7 +21,7 @@ export const convertToTextLinks = (
           return (
             <Fragment key={++key}>
               <TextLink
-                href={link.url}
+                href={link.link}
                 target={link.target}
                 whileHover={whileHover}
                 animate={animate}

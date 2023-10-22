@@ -3,6 +3,8 @@ import { CONSTANTS } from '../../../config/constants';
 import { CSSProperties } from 'react';
 import { SpinnerProps } from '../../../models/interfaces/shared/Common/SpinnerProps';
 
+import './styles/Spinner.scss';
+
 function Spinner(props: SpinnerProps) {
   const { size, loading, speed } = props;
 
@@ -14,13 +16,15 @@ function Spinner(props: SpinnerProps) {
   };
 
   return (
-    <RingLoader
-      size={size ?? 150}
-      color={CONSTANTS.primaryColor}
-      loading={loading}
-      cssOverride={styles}
-      speedMultiplier={speed}
-    />
+    <div className="spinner">
+      <RingLoader
+        size={size ?? 150}
+        color={CONSTANTS.primaryColor}
+        loading={loading}
+        cssOverride={styles}
+        speedMultiplier={speed}
+      />
+    </div>
   );
 }
 

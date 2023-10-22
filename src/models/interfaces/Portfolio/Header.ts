@@ -5,6 +5,6 @@ export interface Header {
   name: string;
   role: string;
   description: string;
-  navBarProps: NavBarProp[];
-  iconListProps: Icon[];
+  navBar: NavBarProp[];
+  iconList: Icon[];
 }
