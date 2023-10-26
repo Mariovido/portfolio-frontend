@@ -13,8 +13,8 @@ import LinkIcon from '../Icons/LinkIcon';
 import TagList from '../../Lists/TagList';
 import BulletPointList from '../../Lists/BulletPointList';
 import { CONSTANTS } from '../../../../config/constants';
-
 import useWindowDimensions from '../../../../hooks/useWindowDimensions';
+
 import './styles/Experience.scss';
 
 function Experience(props: ExperienceProps) {

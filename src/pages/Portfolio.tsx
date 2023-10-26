@@ -6,6 +6,7 @@ import ScrollToHashElement from '../components/shared/Navigation/ScrollHashEleme
 import Footer from '../components/Portfolio/Footer';
 import Cursor from '../components/shared/Common/Cursor';
 import Skills from '../components/Portfolio/Skills';
+import Projects from '../components/Portfolio/Projects';
 
 import './styles/Portfolio.scss';
 
@@ -20,7 +21,7 @@ function Portfolio() {
           <About />
           <Experiences />
           <Educations />
-          {/* TODO - CREATE PROJECTS PART */}
+          <Projects />
           <Skills />
           <Footer />
         </main>

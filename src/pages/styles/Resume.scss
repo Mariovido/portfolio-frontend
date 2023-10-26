@@ -22,24 +22,36 @@ $border-size: 7.5px;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
   justify-items: center;
   align-items: baseline;
   height: 7.5%;
 }
 
-.resume-header button {
+.resume-header-button {
   margin: 0;
   margin-top: 2rem;
-  justify-self: left;
-  margin-left: calc(22.5% + $border-size);
   height: 50%;
   transition: color ease-in 0.1s;
 }
 
-.resume-header button svg {
-  margin-right: 0.5rem;
+.resume-header-button-back {
+  justify-self: left;
+  margin-left: calc(15% + $border-size);
+
+  svg {
+    margin-right: 0.5rem;
+  }
+}
+
+.resume-header-button-download {
+  justify-self: right;
+  margin-right: calc(15% + $border-size);
+
+  svg {
+    margin-left: 0.5rem;
+  }
 }
 
 .resume-header button:hover {
@@ -169,6 +181,26 @@ $border-size: 7.5px;
 }
 
 @media (min-width: $max-width-phone) {
+  .resume-header {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .resume-header-button-back {
+    margin-left: calc(22.5% + $border-size);
+
+    svg {
+      margin-right: 0.5rem;
+    }
+  }
+
+  .resume-header-button-download {
+    margin-right: calc(22.5% + $border-size);
+
+    svg {
+      margin-left: 0.5rem;
+    }
+  }
+
   .resume-pdf:hover {
     scale: 1.02;
     animation: border 3s linear alternate-reverse infinite;

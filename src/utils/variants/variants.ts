@@ -124,3 +124,22 @@ export const ButtonVariants: Variants = {
     },
   },
 };
+
+export const ImageVariants: Variants = {
+  rest: {
+    transition: {
+      duration: 0.2,
+      type: 'tween',
+      ease: 'easeIn',
+    },
+  },
+  hover: {
+    scale: 1.2,
+    borderColor: CONSTANTS.primaryColor,
+    transition: {
+      duration: 0.2,
+      type: 'tween',
+      ease: 'easeOut',
+    },
+  },
+};

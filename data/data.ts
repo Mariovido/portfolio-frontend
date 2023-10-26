@@ -10,12 +10,15 @@ import { experience } from './portfolio/experience';
 import { footer } from './portfolio/footer';
 import { about } from './portfolio/about';
 import { skill } from './portfolio/skill';
+import { Projects } from '../src/models/interfaces/Portfolio/Projects';
+import { project } from './portfolio/project';
 
 export interface Data {
   header: Header;
   about: About;
   experience: Experiences;
   education: Educations;
+  project: Projects;
   skill: Skills;
   footer: Footer;
 }
@@ -25,6 +28,7 @@ export const data: Data = {
   about: about,
   experience: experience,
   education: education,
+  project: project,
   skill: skill,
   footer: footer,
 };

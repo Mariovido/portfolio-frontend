@@ -1,7 +1,9 @@
 @import '/src/utils/styles/variables.module';
 @import '/src/utils/styles/imports';
 
-*, :after, :before {
+*,
+:after,
+:before {
   box-sizing: border-box;
   border: 0 solid #e5e7eb;
 }

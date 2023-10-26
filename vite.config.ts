@@ -14,6 +14,19 @@ export default defineConfig(({ mode }) => {
       globals: true,
       environment: 'jsdom',
       setupFiles: ['./test/setupTests.ts'],
+      coverage: {
+        provider: 'v8',
+        all: true,
+        exclude: [
+          'data/**',
+          'src/models/',
+          'src/config/',
+          'src/main.tsx',
+          '*.cjs',
+          '**/variants/**',
+          '**/*.d.ts',
+        ],
+      },
     },
     base: env.VITE_REACT_APP_BASE_URL,
   };

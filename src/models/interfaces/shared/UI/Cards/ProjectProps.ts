@@ -1,17 +1,18 @@
 import { Link } from '../../Common/Link';
 import { Tag } from '../Tags/TagsProps';
 import { BulletPoint } from '../Text/BulletPointProps';
-export interface Experience {
+export interface Project {
   id: string;
-  role: string;
-  company: string;
-  companyLink: string;
-  description: BulletPoint[];
+  title: string;
+  subtitle: string;
+  projectLink?: string;
+  imageLink?: string;
+  description: BulletPoint;
   date: string;
   tags: Tag[];
   links?: Link[];
 }
 
-export interface ExperienceProps {
-  experienceProps: Experience;
+export interface ProjectProps {
+  projectProps: Project;
 }

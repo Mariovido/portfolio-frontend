@@ -20,6 +20,10 @@ export const header: Header = {
       href: '#education',
     },
     {
+      name: 'Project',
+      href: '#project',
+    },
+    {
       name: 'Skill',
       href: '#skill',
     },
