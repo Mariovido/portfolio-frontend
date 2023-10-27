@@ -10,6 +10,7 @@ import { CONFIG } from '../config/config';
 import { CONSTANTS } from '../config/constants';
 import useWindowDimensions from '../hooks/useWindowDimensions';
 import Pdf from '../components/shared/Common/Pdf';
+import RubberText from '../components/shared/UI/Text/RubberText';
 
 import './styles/Resume.scss';
 
@@ -19,9 +20,6 @@ function Resume() {
   const { width } = useWindowDimensions();
 
   const { state } = location;
-  const h1Array = 'CV'.split('').map((letter, index) => {
-    return { index: ++index, char: letter };
-  });
 
   const handleOnClickBack = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
@@ -59,9 +57,7 @@ function Resume() {
           </Button>
           {width >= CONSTANTS.maxWidthPhone ? (
             <h1>
-              {h1Array.map((h1Char) => (
-                <span key={h1Char.index}>{h1Char.char}</span>
-              ))}
+              <RubberText word={'CV'} />
             </h1>
           ) : null}
           <Button

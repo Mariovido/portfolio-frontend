@@ -67,16 +67,6 @@ $border-size: 7.5px;
   font-weight: 600;
   letter-spacing: -0.05rem;
   color: $lightest-color;
-
-  span {
-    display: inline-block;
-    transition: color ease-in 0.1s;
-  }
-
-  span:hover {
-    animation: rubberBand 0.3s alternate ease-out;
-    color: $primary-color;
-  }
 }
 
 .resume-pdf {
@@ -137,30 +127,6 @@ $border-size: 7.5px;
   100% {
     box-shadow: 0 0 ($border-size * 10) rgba($lightest-color, $alpha: 0.8);
     background: rgba($lightest-color, $alpha: 0.8);
-  }
-}
-
-@keyframes rubberBand {
-  0% {
-    transform: scaleX(1);
-  }
-  40% {
-    transform: scaleX(1.25) scaleY(0.86);
-  }
-  55% {
-    transform: scaleX(0.7) scaleY(1);
-  }
-  65% {
-    transform: scaleX(1.13) scaleY(0.95);
-  }
-  75% {
-    transform: scaleX(0.9) scaleY(1);
-  }
-  90% {
-    transform: scaleX(1.15) scaleY(1.15);
-  }
-  100% {
-    transform: scaleX(1) scaleY(1);
   }
 }
 

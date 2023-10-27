@@ -72,7 +72,7 @@ function Experiences() {
                     icon: faArrowRight,
                     variants: ResumeIconVariants,
                   }}
-                  beforeText="View full CV"
+                  beforeText="View Full CV"
                 />
               </div>
             </div>

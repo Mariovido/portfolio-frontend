@@ -1,0 +1,47 @@
+@import '../../../../../utils/styles/variables.module';
+
+.table {
+  width: 100%;
+  text-align: left;
+}
+
+.table-header {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  position: sticky;
+  top: 0;
+  background-color: rgba($darkest-color, 0.05);
+  border-color: rgba($light-color, 0.1);
+  border-bottom-width: 1px;
+  backdrop-filter: blur(8px);
+
+  th {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    color: $lightest-color;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+  }
+}
+
+.table-body {
+  tr {
+    border-color: rgba($light-color, 0.1);
+    border-bottom-width: 1px;
+  }
+
+  td {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    vertical-align: top;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgba($primary-color, 0.6);
+  }
+}

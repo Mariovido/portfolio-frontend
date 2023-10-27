@@ -1,0 +1,13 @@
+@import '../../../../../utils/styles/variables.module';
+
+@media (min-width: $max-width-phone) {
+  .rubber-text {
+    display: inline-block;
+    transition: color ease-in 0.1s;
+  }
+
+  .rubber-text:hover {
+    animation: rubberBand 0.3s alternate ease-out;
+    color: $primary-color;
+  }
+}

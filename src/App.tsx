@@ -7,8 +7,7 @@ import Spinner from './components/shared/Common/Spinner';
 import { queryClient } from './hooks/useHttp';
 const Portfolio = lazy(() => import('./pages/Portfolio'));
 const Resume = lazy(() => import('./pages/Resume'));
-// TODO - DO ARCHIVE VIEW
-// const Archive = lazy(() => import('./pages/Archive'));
+const Archive = lazy(() => import('./pages/Archive'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 import './App.scss';
@@ -19,8 +18,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Portfolio /> },
       { path: 'resume', element: <Resume /> },
-      // TODO - DO ARCHIVE VIEW
-      // { path: 'archive', element: <Archive /> },
+      { path: 'archive', element: <Archive /> },
     ],
   },
   { path: '*', element: <NotFound /> },

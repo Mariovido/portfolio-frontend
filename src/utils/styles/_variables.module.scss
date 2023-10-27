@@ -31,3 +31,27 @@ $responsive-measures: (
     #{$key}: $value;
   }
 }
+
+@keyframes rubberBand {
+  0% {
+    transform: scaleX(1);
+  }
+  40% {
+    transform: scaleX(1.25) scaleY(0.86);
+  }
+  55% {
+    transform: scaleX(0.7) scaleY(1);
+  }
+  65% {
+    transform: scaleX(1.13) scaleY(0.95);
+  }
+  75% {
+    transform: scaleX(0.9) scaleY(1);
+  }
+  90% {
+    transform: scaleX(1.15) scaleY(1.15);
+  }
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+}

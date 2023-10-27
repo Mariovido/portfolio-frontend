@@ -70,7 +70,7 @@ function Projects() {
                     icon: faArrowRight,
                     variants: ResumeIconVariants,
                   }}
-                  beforeText="View full Project Archive"
+                  beforeText="View Full Project Archive"
                 />
               </div>
             </div>

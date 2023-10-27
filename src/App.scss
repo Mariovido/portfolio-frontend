@@ -9,6 +9,7 @@ a {
   color: $primary-color;
 }
 
+h1,
 p {
   margin: 0;
 }
@@ -16,4 +17,9 @@ p {
 ul,
 ol {
   list-style: none;
+}
+
+table {
+  text-indent: 0;
+  border-collapse: collapse;
 }

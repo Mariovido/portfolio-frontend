@@ -134,8 +134,30 @@ export const ImageVariants: Variants = {
     },
   },
   hover: {
-    scale: 1.2,
+    scale: 1.1,
     borderColor: CONSTANTS.primaryColor,
+    transition: {
+      duration: 0.2,
+      type: 'tween',
+      ease: 'easeOut',
+    },
+  },
+};
+
+export const LinkTableVariants: Variants = {
+  rest: {
+    color: CONSTANTS.darkColor,
+    x: 0,
+    transition: {
+      duration: 0.2,
+      type: 'tween',
+      ease: 'easeIn',
+    },
+  },
+  hover: {
+    color: CONSTANTS.primaryColor,
+    x: 10,
+    opacity: 1,
     transition: {
       duration: 0.2,
       type: 'tween',

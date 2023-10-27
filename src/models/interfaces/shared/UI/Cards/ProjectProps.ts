@@ -9,7 +9,7 @@ export interface Project {
   imageLink?: string;
   description: BulletPoint;
   date: string;
-  tags: Tag[];
+  tags?: Tag[];
   links?: Link[];
 }
 
