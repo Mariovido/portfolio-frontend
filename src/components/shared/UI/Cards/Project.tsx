@@ -86,7 +86,9 @@ function Project(props: ProjectProps) {
             </li>
           ))}
         </ul>
-        <TagList tagListProps={projectProps.tags} />
+        {projectProps.tags ? (
+          <TagList tagListProps={projectProps.tags} />
+        ) : null}
       </div>
     </>
   );
