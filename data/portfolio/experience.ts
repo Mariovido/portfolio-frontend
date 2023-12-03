@@ -4,34 +4,39 @@ export const experience: Experiences = {
   experiences: [
     {
       id: '1',
-      role: 'Software engineer',
+      role: 'Software Engineer',
       company: 'eDreams ODIGEO',
       date: 'Oct 2023 - Ongoing',
       description: [
         {
           id: '1',
           bulletPoint:
-            'Working with Java 11, JAX-RX, Oracle and other technologies to develop a robust backend on a modern microservices platform',
+            'Developing and maintaining Java-based JAX-RS microservices for the backend of the application',
         },
         {
           id: '2',
           bulletPoint:
-            'Collaborating in a high-performing, customer-centric product development team of 7-10 members, focusing on innovative solutions',
+            'Designing and maintaining tables in Oracle DB NoSQL for Big Data information',
         },
         {
           id: '3',
           bulletPoint:
-            'Actively contributing to daily deployments, emphasizing clean code, SOLID principles, and TDD',
+            'Using monitoring tools such as Datadog to ensure platform performance',
         },
         {
           id: '4',
           bulletPoint:
-            'Utilizing powerful monitoring tools like Datadog, BigQuery, and Graphana to ensure platform performance',
+            'Using messaging platforms like Apache Kafka to share information between different sources and users',
         },
         {
           id: '5',
           bulletPoint:
-            'Engaging with top-tier development tools, such as Google Cloud, Jira, Git, and more, for efficient software development and monitoring',
+            'Testing applications by creating Unit Tests with JUnit and Mockito, and conducting A/B Testing',
+        },
+        {
+          id: '6',
+          bulletPoint:
+            'Being in charge of the full development cycle end-to-end with tools like Docker, GCP, Jenkins, Jira, and Git',
         },
       ],
       links: undefined,
@@ -47,7 +52,7 @@ export const experience: Experiences = {
         },
         {
           id: '3',
-          tag: 'CI/CD',
+          tag: 'Datadog',
         },
         {
           id: '4',
@@ -61,7 +66,7 @@ export const experience: Experiences = {
     },
     {
       id: '2',
-      role: 'Back-end developer',
+      role: 'Back-End Developer',
       company: 'Minsait',
       date: 'Jan 2023 - Oct 2023',
       description: [
@@ -183,7 +188,7 @@ export const experience: Experiences = {
     },
     {
       id: '4',
-      role: 'Software engineering intern',
+      role: 'Software Engineer Intern',
       company: 'AINIA',
       date: 'Feb 2021 - Jun 2021',
       description: [

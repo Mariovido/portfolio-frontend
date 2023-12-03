@@ -63,9 +63,11 @@ function Project(props: ProjectProps) {
             />
           ) : null}
         </h3>
-        <p className="project-content-description">
-          {projectProps.description.bulletPoint}
-        </p>
+        {projectProps.description.map((line) => (
+          <p key={line.id} className="project-content-description">
+            {line.bulletPoint}
+          </p>
+        ))}
         <ul className="project-content-links">
           {projectProps.links?.map((projectLink) => (
             <li key={projectLink.id} className="experience-content-links-item">

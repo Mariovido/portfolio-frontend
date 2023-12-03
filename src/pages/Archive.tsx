@@ -32,8 +32,8 @@ function Archive() {
     Projects | Project[]
   >({
     isQuery: true,
-    url: '/portfolio/:idUser/project',
-    queryKey: ['project'],
+    url: '/portfolio/:idUser/projects',
+    queryKey: ['projects'],
     queryfn: () => data.project,
     errorMessage: 'Error while fetching the project archive',
     staleTime: 60000,

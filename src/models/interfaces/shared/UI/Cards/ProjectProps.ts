@@ -7,8 +7,8 @@ export interface Project {
   subtitle: string;
   projectLink?: string;
   imageLink?: string;
-  description: BulletPoint;
-  date: string;
+  description: BulletPoint[];
+  date: number;
   tags?: Tag[];
   links?: Link[];
 }

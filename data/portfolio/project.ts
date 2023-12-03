@@ -7,13 +7,15 @@ export const project: Projects = {
       id: '1',
       title: 'Full web page of a portfolio',
       subtitle: 'Portfolio project',
-      date: '2023',
+      date: 2023,
       imageLink: PortfolioProject,
-      description: {
-        id: '1',
-        bulletPoint:
-          "Building a stylish personal portfolio website with React, showcasing your experience, education, projects... The project implements interactive features and ensures it's responsive. Deployment is done via GitHub Pages for free.",
-      },
+      description: [
+        {
+          id: '1',
+          bulletPoint:
+            "Building a stylish personal portfolio website with React, showcasing your experience, education, projects... The project implements interactive features and ensures it's responsive. Deployment is done via GitHub Pages for free.",
+        },
+      ],
       links: [
         {
           id: '1',
