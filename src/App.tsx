@@ -8,6 +8,8 @@ import { queryClient } from './hooks/useHttp';
 const Portfolio = lazy(() => import('./pages/Portfolio'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Archive = lazy(() => import('./pages/Archive'));
+const Problems = lazy(() => import('./pages/Problems'));
+const Problem = lazy(() => import('./components/Problems/Problem'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 import './App.scss';
@@ -19,6 +21,13 @@ const router = createBrowserRouter([
       { index: true, element: <Portfolio /> },
       { path: 'resume', element: <Resume /> },
       { path: 'archive', element: <Archive /> },
+      {
+        path: 'problems',
+        children: [
+          { index: true, element: <Problems /> },
+          { path: ':idProblem', element: <Problem /> },
+        ],
+      },
     ],
   },
   { path: '*', element: <NotFound /> },

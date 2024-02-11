@@ -1,0 +1,118 @@
+@import '../../utils/styles/variables.module';
+
+.problems {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 1280px;
+  min-height: 100vh;
+}
+
+.problems-header-button {
+  display: inline-flex;
+  margin-bottom: 0.5rem;
+  align-items: center;
+  font-weight: 600;
+  line-height: 1.25;
+  transition: color ease-in-out 0.1s;
+
+  svg {
+    margin-right: 0.5rem;
+  }
+}
+
+.problems-header-button:hover {
+  border: none;
+  color: $primary-color;
+}
+
+.problems-title {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  letter-spacing: -0.1rem;
+  color: $lightest-color;
+
+  span {
+    display: inline-block;
+  }
+}
+
+#problems-table {
+  margin-top: 3rem;
+}
+
+.problems-table-number {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.problems-table-difficulty {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.problems-table-title {
+  color: $lightest-color;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.375;
+
+  span {
+    margin-right: 0.5rem;
+  }
+}
+
+.problems-table-platform {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.problems-table-languages {
+  ul {
+    margin-top: 0;
+    transform: translate(0, -0.375rem);
+  }
+
+  li {
+    vertical-align: top;
+  }
+}
+
+.problems-table-status {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+@media (min-width: $min-width-phone) {
+  .problems-title {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: $max-width-phone) {
+  .problems {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: $min-width-pc) {
+  .problems {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .problems-content {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}

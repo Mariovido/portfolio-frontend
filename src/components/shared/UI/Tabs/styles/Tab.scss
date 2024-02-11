@@ -1,0 +1,26 @@
+@import '../../../../../utils/styles/variables.module';
+
+.tab-container {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+
+.tab-header {
+  display: flex;
+  overflow-x: auto;
+}
+
+.tab {
+  opacity: 0.6;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.tab.active {
+  color: $primary-color;
+  opacity: 1;
+  border-bottom: 2px solid $primary-color;
+  transition: all ease-out 0.1s;
+}

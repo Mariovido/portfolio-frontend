@@ -3,6 +3,12 @@ $dark-color: #425685;
 $primary-color: #69d2cd;
 $light-color: #b9f1d6;
 $lightest-color: #f1f6ce;
+$difficulty-easy-color: #46c6c2;
+$difficulty-medium-color: #fac31d;
+$difficulty-hard-color: #f8615c;
+$status-todo-color: #b3b3b3;
+$status-inprogress-color: #ffdb20;
+$status-done-color: #4bf17b;
 
 $min-width-pc: 1024px;
 $max-width-phone: 768px;
@@ -14,6 +20,12 @@ $palette-colors: (
   primaryColor: $primary-color,
   lightColor: $light-color,
   lightestColor: $lightest-color,
+  difficultyEasyColor: $difficulty-easy-color,
+  difficultyMediumColor: $difficulty-medium-color,
+  difficultyHardColor: $difficulty-hard-color,
+  statusToDoColor: $status-todo-color,
+  statusInProgressColor: $status-inprogress-color,
+  statusDoneColor: $status-done-color,
 );
 
 $responsive-measures: (

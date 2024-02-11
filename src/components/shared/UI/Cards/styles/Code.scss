@@ -1,0 +1,44 @@
+@import '../../../../../utils/styles/variables.module';
+
+#code-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  code {
+    background-color: transparent;
+  }
+}
+
+.code-button-copy {
+  font-size: 1rem;
+  background-color: $dark-color;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease-in-out 0.1s;
+
+  svg {
+    color: $lightest-color;
+  }
+}
+
+.code-button-copy:hover {
+  border: 0;
+  background-color: rgba($dark-color, 0.9);
+
+  svg {
+    color: $primary-color;
+  }
+}
+
+.code-button-copy:active {
+  transform: translate(10%, -10%);
+}
+
+@media (max-width: $min-width-phone) {
+  .code-button-copy {
+    display: none;
+  }
+}

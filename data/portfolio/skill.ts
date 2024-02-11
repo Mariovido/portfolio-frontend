@@ -109,7 +109,7 @@ export const skill: Skills = {
     },
     {
       id: '22',
-      name: 'Micrsoft Azure',
+      name: 'Microsoft Azure',
       progress: 55,
     },
     {

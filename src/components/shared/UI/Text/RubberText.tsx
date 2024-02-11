@@ -4,7 +4,7 @@ import { Fragment } from 'react';
 import './styles/RubberText.scss';
 
 function RubberText(props: RubberTextProps) {
-  const { word } = props;
+  const { word, style } = props;
 
   const words = word.split(' ');
 
@@ -19,7 +19,7 @@ function RubberText(props: RubberTextProps) {
       {h1Array.map((h1Word, wordIndex) => (
         <Fragment key={h1Word.length}>
           {h1Word.map((h1Char) => (
-            <span key={h1Char.index} className="rubber-text">
+            <span key={h1Char.index} className="rubber-text" style={style}>
               {h1Char.char}
             </span>
           ))}

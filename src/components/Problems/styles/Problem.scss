@@ -1,0 +1,170 @@
+@import '../../../utils/styles/variables.module';
+
+.problem {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 1280px;
+  min-height: 100vh;
+}
+
+.problem-header-button {
+  display: inline-flex;
+  margin-bottom: 0.5rem;
+  align-items: center;
+  font-weight: 600;
+  line-height: 1.25;
+  transition: color ease-in 0.1s;
+
+  svg {
+    margin-right: 0.5rem;
+  }
+}
+
+.problem-header-button:hover {
+  border: none;
+  color: $primary-color;
+}
+
+.problem-tab-button {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  letter-spacing: -0.05rem;
+  color: $lightest-color;
+}
+
+.problem-title {
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  letter-spacing: -0.1rem;
+  color: $lightest-color;
+
+  span {
+    display: inline-block;
+  }
+}
+
+.problem-content {
+  padding-top: 0.25rem;
+  padding-bottom: 3rem;
+
+  h1 {
+    color: $primary-color;
+    font-weight: 500;
+  }
+
+  h2 {
+    color: rgba($light-color, 0.7);
+    font-weight: 500;
+  }
+
+  p {
+    color: rgba($primary-color, 0.7);
+  }
+
+  code {
+    padding: 0.125rem;
+    line-height: 1rem;
+    color: rgba($light-color, 0.9);
+    background-color: rgba($dark-color, 0.5);
+    border-radius: 5px;
+    border-color: $dark-color;
+    white-space: pre-wrap;
+  }
+
+  pre {
+    background-color: rgba($dark-color, 0.5);
+    border-radius: 5px;
+    font-size: 0.875rem;
+    text-shadow: none;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    tab-size: 4;
+    hyphens: none;
+    padding: 0.75rem;
+    overflow: auto;
+  }
+
+  .language-bash {
+    color: rgba($lightest-color, 0.8);
+    background-color: initial;
+  }
+
+  .language-java {
+    color: rgba($lightest-color, 0.8);
+    background-color: initial;
+  }
+
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  ul > li::marker,
+  ol > li::marker {
+    color: rgba($light-color, 0.8);
+    font-weight: bold;
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  li {
+    color: rgba($primary-color, 0.7);
+    margin-top: 0.75rem;
+    margin-left: 0.875rem;
+  }
+}
+
+@media (min-width: $min-width-phone) {
+  .problem-tab-button {
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  .problem-title {
+    font-size: 2rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: $max-width-phone) {
+  .problem {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: $min-width-pc) {
+  .problem {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .problem-header {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+  }
+}

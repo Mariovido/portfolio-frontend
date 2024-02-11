@@ -12,6 +12,8 @@ import { about } from './portfolio/about';
 import { skill } from './portfolio/skill';
 import { Projects } from '../src/models/interfaces/Portfolio/Projects';
 import { project } from './portfolio/project';
+import { Problems } from '../src/models/interfaces/Problems/Problem';
+import { problems } from './problems/problems';
 
 export interface Data {
   header: Header;
@@ -21,6 +23,7 @@ export interface Data {
   project: Projects;
   skill: Skills;
   footer: Footer;
+  problems: Problems;
 }
 
 export const data: Data = {
@@ -31,4 +34,5 @@ export const data: Data = {
   project: project,
   skill: skill,
   footer: footer,
+  problems: problems,
 };

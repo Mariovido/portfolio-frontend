@@ -4,11 +4,12 @@ import { TextLinkProps } from '../../../../models/interfaces/shared/UI/Text/Text
 import './styles/TextLink.scss';
 
 function TextLink(props: TextLinkProps) {
-  const { children, href, target, whileHover, animate, variants } = props;
+  const { children, className, href, target, whileHover, animate, variants } =
+    props;
 
   return (
     <motion.a
-      className="text-link"
+      className={className ? `${className} text-link` : 'text-link'}
       href={href}
       target={target}
       whileHover={whileHover}

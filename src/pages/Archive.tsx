@@ -3,7 +3,7 @@ import Button from '../components/shared/UI/Buttons/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { ButtonVariants, LinkTableVariants } from '../utils/variants/variants';
-import { ResumeLocation } from '../models/interfaces/pages/ResumeLocation';
+import { StateLocation } from '../models/interfaces/pages/StateLocation';
 import Cursor from '../components/shared/Common/Cursor';
 import { CONFIG } from '../config/config';
 import { CONSTANTS } from '../config/constants';
@@ -25,7 +25,7 @@ import './styles/Archive.scss';
 
 function Archive() {
   const [projectsInfo, setProjectsInfo] = useState<Projects>();
-  const location = useLocation() as ResumeLocation;
+  const location = useLocation() as StateLocation;
   const navigate = useNavigate();
   const { width } = useWindowDimensions();
   const { response, isFetching, isError, error } = useHttp<

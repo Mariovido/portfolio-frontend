@@ -4,7 +4,7 @@ import Button from '../components/shared/UI/Buttons/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { ButtonVariants } from '../utils/variants/variants';
-import { ResumeLocation } from '../models/interfaces/pages/ResumeLocation';
+import { StateLocation } from '../models/interfaces/pages/StateLocation';
 import Cursor from '../components/shared/Common/Cursor';
 import { CONFIG } from '../config/config';
 import { CONSTANTS } from '../config/constants';
@@ -15,7 +15,7 @@ import RubberText from '../components/shared/UI/Text/RubberText';
 import './styles/Resume.scss';
 
 function Resume() {
-  const location = useLocation() as ResumeLocation;
+  const location = useLocation() as StateLocation;
   const navigate = useNavigate();
   const { width } = useWindowDimensions();
 
@@ -41,41 +41,39 @@ function Resume() {
   };
 
   return (
-    <>
-      <div className="resume">
-        <Cursor />
-        <header className="resume-header">
-          <Button
-            handleOnClick={handleOnClickBack}
-            whileHover="hover"
-            animate="rest"
-            variants={ButtonVariants}
-            className="resume-header-button resume-header-button-back"
-          >
-            <FontAwesomeIcon icon={faArrowLeft}></FontAwesomeIcon>
-            <span>Back</span>
-          </Button>
-          {width >= CONSTANTS.maxWidthPhone ? (
-            <h1>
-              <RubberText word={'CV'} />
-            </h1>
-          ) : null}
-          <Button
-            handleOnClick={handleOnClickDownload}
-            whileHover="hover"
-            animate="rest"
-            variants={ButtonVariants}
-            className="resume-header-button resume-header-button-download"
-          >
-            <span>Download</span>
-            <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
-          </Button>
-        </header>
-        <div className="resume-pdf">
-          <Pdf pdf={CV} />
-        </div>
+    <div className="resume">
+      <Cursor />
+      <header className="resume-header">
+        <Button
+          handleOnClick={handleOnClickBack}
+          whileHover="hover"
+          animate="rest"
+          variants={ButtonVariants}
+          className="resume-header-button resume-header-button-back"
+        >
+          <FontAwesomeIcon icon={faArrowLeft}></FontAwesomeIcon>
+          <span>Back</span>
+        </Button>
+        {width >= CONSTANTS.maxWidthPhone ? (
+          <h1>
+            <RubberText word={'CV'} />
+          </h1>
+        ) : null}
+        <Button
+          handleOnClick={handleOnClickDownload}
+          whileHover="hover"
+          animate="rest"
+          variants={ButtonVariants}
+          className="resume-header-button resume-header-button-download"
+        >
+          <span>Download</span>
+          <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
+        </Button>
+      </header>
+      <div className="resume-pdf">
+        <Pdf pdf={CV} />
       </div>
-    </>
+    </div>
   );
 }
 
