@@ -5,7 +5,7 @@ import useWindowDimensions from '../../../hooks/useWindowDimensions';
 
 import '@react-pdf-viewer/core/lib/styles/index.css';
 
-function Pdf(props: PdfProps) {
+function Pdf(props: Readonly<PdfProps>) {
   const { width } = useWindowDimensions();
 
   const { pdf } = props;

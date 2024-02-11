@@ -3,7 +3,7 @@ import { Fragment } from 'react';
 
 import './styles/RubberText.scss';
 
-function RubberText(props: RubberTextProps) {
+function RubberText(props: Readonly<RubberTextProps>) {
   const { word, style } = props;
 
   const words = word.split(' ');

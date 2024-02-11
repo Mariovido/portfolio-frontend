@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import Button from '../Buttons/Button';
 import { FilterProps } from '../../../../models/interfaces/shared/UI/Filters/FilterProps';
-
-import './styles/Filter.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRotateLeft } from '@fortawesome/free-solid-svg-icons';
 
-function Filter(props: FilterProps) {
+import './styles/Filter.scss';
+
+function Filter(props: Readonly<FilterProps>) {
   const [selectedFilters, setSelectedFilters] = useState<
     Record<string, string>
   >({});

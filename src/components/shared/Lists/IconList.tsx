@@ -3,7 +3,7 @@ import Icon from '../UI/Icons/Icon';
 
 import './styles/IconList.scss';
 
-function IconList(props: IconListProps) {
+function IconList(props: Readonly<IconListProps>) {
   const { iconListProps } = props;
 
   return (

@@ -5,7 +5,7 @@ import { CONFIG } from '../../../config/config';
 
 import './styles/NavBar.scss';
 
-function NavBar(props: NavBarProps) {
+function NavBar(props: Readonly<NavBarProps>) {
   const [activeBar, setActiveBar] = useState(0);
   const navigate = useNavigate();
 

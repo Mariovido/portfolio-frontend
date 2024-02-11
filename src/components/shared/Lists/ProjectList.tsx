@@ -3,7 +3,7 @@ import Project from '../UI/Cards/Project';
 
 import './styles/ProjectList.scss';
 
-function ProjectList(props: ProjectListProps) {
+function ProjectList(props: Readonly<ProjectListProps>) {
   const { projectListProps } = props;
 
   return (

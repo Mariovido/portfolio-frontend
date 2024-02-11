@@ -11,7 +11,7 @@ import { CONSTANTS } from '../../../../config/constants';
 
 import './styles/Education.scss';
 
-function Education(props: EducationProps) {
+function Education(props: Readonly<EducationProps>) {
   const { width } = useWindowDimensions();
 
   const { educationProps } = props;

@@ -3,7 +3,7 @@ import Tag from '../UI/Tags/Tag';
 
 import './styles/TagList.scss';
 
-function TagList(props: TagListProps) {
+function TagList(props: Readonly<TagListProps>) {
   const { tagListProps } = props;
 
   return (

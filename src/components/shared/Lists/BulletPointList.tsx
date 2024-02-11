@@ -3,7 +3,7 @@ import BulletPoint from '../UI/Text/BulletPoint';
 
 import './styles/BulletPointList.scss';
 
-function BulletPointList(props: BulletPointListProps) {
+function BulletPointList(props: Readonly<BulletPointListProps>) {
   const { bulletPointListProps, classNameParagraph } = props;
 
   return (

@@ -3,7 +3,7 @@ import { TabProps } from '../../../../models/interfaces/shared/UI/Tabs/TabProps'
 
 import './styles/Tab.scss';
 
-function Tab(props: TabProps) {
+function Tab(props: Readonly<TabProps>) {
   const [activeTab, setActiveTab] = useState<number>(0);
   const { className, tabs } = props;
 

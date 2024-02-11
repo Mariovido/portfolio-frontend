@@ -2,7 +2,7 @@ import { BulletPointProps } from '../../../../models/interfaces/shared/UI/Text/B
 
 import './styles/BulletPoint.scss';
 
-function BulletPoint(props: BulletPointProps) {
+function BulletPoint(props: Readonly<BulletPointProps>) {
   const { bulletPoint, classNameParagraph } = props;
 
   return (

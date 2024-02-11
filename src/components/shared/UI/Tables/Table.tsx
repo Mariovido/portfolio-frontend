@@ -2,7 +2,7 @@ import { TableProps } from '../../../../models/interfaces/shared/UI/Tables/Table
 
 import './styles/Table.scss';
 
-function Table(props: TableProps) {
+function Table(props: Readonly<TableProps>) {
   const { idTable, titles, values } = props;
   let index = 0;
 

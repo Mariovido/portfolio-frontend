@@ -8,7 +8,7 @@ import { IconEnum } from '../../../../models/enums/IconEnum';
 
 import './styles/Icon.scss';
 
-function Icon(props: IconProps) {
+function Icon(props: Readonly<IconProps>) {
   const { iconProps } = props;
 
   let fontAwesomeIcon;

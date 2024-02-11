@@ -15,9 +15,9 @@ The intuition behind solving this problem is to recognize that anagrams will hav
 
 ## Complexity
 
-- Time complexity: `O(N x M x log(M))`, where `N` is the number of strings and `M` is the maximum length of a string. The dominant factor is the sorting of characters in each string.
+- Time complexity: `O(N * M * log(M))`, where `N` is the number of strings and `M` is the maximum length of a string. The dominant factor is the sorting of characters in each string.
 
-- Space complexity: `O(N x M)`, where $N$ is the number of strings and `M` is the maximum length of a string. The space is used to store the hashmap and the resulting list of anagrams.
+- Space complexity: `O(N * M)`, where `N` is the number of strings and `M` is the maximum length of a string. The space is used to store the hashmap and the resulting list of anagrams.
 
 ## Code
 

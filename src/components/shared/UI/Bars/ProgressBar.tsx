@@ -2,7 +2,7 @@ import { ProgressBarProps } from '../../../../models/interfaces/shared/UI/Bars/P
 
 import './styles/ProgressBar.scss';
 
-function ProgressBar(props: ProgressBarProps) {
+function ProgressBar(props: Readonly<ProgressBarProps>) {
   const { name, progress } = props;
 
   return (

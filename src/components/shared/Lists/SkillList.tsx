@@ -3,7 +3,7 @@ import ProgressBar from '../UI/Bars/ProgressBar';
 
 import './styles/SkillList.scss';
 
-function SkillList(props: SkillListProps) {
+function SkillList(props: Readonly<SkillListProps>) {
   const { skillListProps } = props;
 
   return (

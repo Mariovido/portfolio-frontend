@@ -3,7 +3,7 @@ import { CardProps } from '../../../../models/interfaces/shared/UI/Cards/CardPro
 
 import './styles/Card.scss';
 
-function Card(props: CardProps) {
+function Card(props: Readonly<CardProps>) {
   const { children, isAnimated, handleOnClick, isHovering } = props;
 
   return (

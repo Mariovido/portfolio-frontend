@@ -9,7 +9,7 @@ import './styles/LinkIcon.scss';
 const MotionFontAwesomeIcon = motion(FontAwesomeIcon);
 const MotionLink = motion(Link);
 
-function LinkIcon(props: LinkIconProps) {
+function LinkIcon(props: Readonly<LinkIconProps>) {
   const { isAnchor, linkProps, iconProps, beforeText, afterText } = props;
 
   return (

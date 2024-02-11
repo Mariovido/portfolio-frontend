@@ -18,7 +18,7 @@ import { motion } from 'framer-motion';
 
 import './styles/Project.scss';
 
-function Project(props: ProjectProps) {
+function Project(props: Readonly<ProjectProps>) {
   const [isHovering, setIsHovering] = useState(true);
   const { width } = useWindowDimensions();
 

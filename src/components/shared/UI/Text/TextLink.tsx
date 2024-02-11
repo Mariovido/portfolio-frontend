@@ -3,7 +3,7 @@ import { TextLinkProps } from '../../../../models/interfaces/shared/UI/Text/Text
 
 import './styles/TextLink.scss';
 
-function TextLink(props: TextLinkProps) {
+function TextLink(props: Readonly<TextLinkProps>) {
   const { children, className, href, target, whileHover, animate, variants } =
     props;
 

@@ -30,13 +30,13 @@ export const header: Header = {
   ],
   iconList: [
     {
-      id: '1',
+      id: '8323de20-0c60-5f18-8164-d0fbdfcbc8ad',
       name: IconEnum.GITHUB,
       link: 'https://github.com/Mariovido',
       target: '_blank',
     },
     {
-      id: '2',
+      id: '5005fcea-d2c1-5daf-9b5e-76309af8fa50',
       name: IconEnum.LINKEDIN,
       link: 'https://www.linkedin.com/in/mariovidaldominguez/',
       target: '_blank',

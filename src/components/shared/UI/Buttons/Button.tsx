@@ -3,7 +3,7 @@ import { ButtonProps } from '../../../../models/interfaces/shared/UI/Buttons/But
 
 import './styles/Button.scss';
 
-function Button(props: ButtonProps) {
+function Button(props: Readonly<ButtonProps>) {
   const { children, handleOnClick, className, whileHover, animate, variants } =
     props;
 

@@ -5,7 +5,7 @@ import { SpinnerProps } from '../../../models/interfaces/shared/Common/SpinnerPr
 
 import './styles/Spinner.scss';
 
-function Spinner(props: SpinnerProps) {
+function Spinner(props: Readonly<SpinnerProps>) {
   const { size, loading, speed } = props;
 
   const styles: CSSProperties = {

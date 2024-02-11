@@ -3,7 +3,7 @@ import { ErrorBlockProps } from '../../../models/interfaces/shared/Common/ErrorB
 
 import './styles/ErrorBlock.scss';
 
-function ErrorBlock(props: ErrorBlockProps) {
+function ErrorBlock(props: Readonly<ErrorBlockProps>) {
   const error = props.error as ErrorFetch;
 
   return (

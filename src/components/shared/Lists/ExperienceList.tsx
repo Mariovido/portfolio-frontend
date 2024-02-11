@@ -3,7 +3,7 @@ import Experience from '../UI/Cards/Experience';
 
 import './styles/ExperienceList.scss';
 
-function ExperienceList(props: ExperienceListProps) {
+function ExperienceList(props: Readonly<ExperienceListProps>) {
   const { experienceListProps } = props;
 
   return (

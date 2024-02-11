@@ -17,7 +17,7 @@ import useWindowDimensions from '../../../../hooks/useWindowDimensions';
 
 import './styles/Experience.scss';
 
-function Experience(props: ExperienceProps) {
+function Experience(props: Readonly<ExperienceProps>) {
   const [isHovering, setIsHovering] = useState(true);
   const { width } = useWindowDimensions();
 

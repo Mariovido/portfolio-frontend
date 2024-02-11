@@ -19,5 +19,6 @@ export const addTags = (inputString: string): string => {
     .replace(/>=/g, '&ge;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
+    .replace(/\*/g, '&times;')
     .replace(/\^(\d+)/g, '<sup>$1</sup>');
 };

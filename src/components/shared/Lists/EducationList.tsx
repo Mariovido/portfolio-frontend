@@ -3,7 +3,7 @@ import Education from '../UI/Cards/Education';
 
 import './styles/EducationList.scss';
 
-function EducationList(props: EducationListProps) {
+function EducationList(props: Readonly<EducationListProps>) {
   const { educationListProps } = props;
 
   return (
