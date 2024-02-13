@@ -191,6 +191,15 @@ function Problems() {
             .filter(
               (difficulty, index, self) => index === self.indexOf(difficulty)
             )
+            .sort((a, b) => {
+              const difficultyOrder = {
+                [DifficultyEnum.EASY]: 0,
+                [DifficultyEnum.MEDIUM]: 1,
+                [DifficultyEnum.HARD]: 2,
+              };
+
+              return difficultyOrder[a] - difficultyOrder[b];
+            })
         : [],
     },
     {
