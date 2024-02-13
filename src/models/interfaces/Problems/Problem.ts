@@ -11,6 +11,7 @@ export interface Problem {
   difficulty: DifficultyEnum;
   languages?: Tag[];
   status: StatusEnum;
+  companies?: Tag[];
   description: string;
   solution?: string;
 }

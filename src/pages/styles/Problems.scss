@@ -74,7 +74,18 @@
 .problems-table-languages {
   ul {
     margin-top: 0;
-    transform: translate(0, -0.375rem);
+    transform: translate(0, -0.5rem);
+  }
+
+  li {
+    vertical-align: top;
+  }
+}
+
+.problems-table-companies {
+  ul {
+    margin-top: 0;
+    transform: translate(0, -0.5rem);
   }
 
   li {

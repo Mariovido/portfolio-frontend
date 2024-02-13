@@ -10,7 +10,14 @@
   }
 }
 
+#code-container:hover {
+  .code-button-copy {
+    opacity: 1;
+  }
+}
+
 .code-button-copy {
+  opacity: 0;
   font-size: 1rem;
   background-color: $dark-color;
   border: none;

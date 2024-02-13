@@ -14,6 +14,8 @@ export const CONSTANTS: Constants = {
   difficultyEasyColor: variables.difficultyEasyColor,
   difficultyMediumColor: variables.difficultyMediumColor,
   difficultyHardColor: variables.difficultyHardColor,
+  leetcodeColor: variables.leetcodeColor,
+  hackerrankColor: variables.hackerrankColor,
   statusToDoColor: variables.statusToDoColor,
   statusInProgressColor: variables.statusInProgressColor,
   statusDoneColor: variables.statusDoneColor,

@@ -7,6 +7,8 @@ export interface Constants {
   difficultyEasyColor: string;
   difficultyMediumColor: string;
   difficultyHardColor: string;
+  leetcodeColor: string;
+  hackerrankColor: string;
   statusToDoColor: string;
   statusInProgressColor: string;
   statusDoneColor: string;

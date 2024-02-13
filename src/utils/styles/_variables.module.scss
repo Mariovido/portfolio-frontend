@@ -6,6 +6,8 @@ $lightest-color: #f1f6ce;
 $difficulty-easy-color: #46c6c2;
 $difficulty-medium-color: #fac31d;
 $difficulty-hard-color: #f8615c;
+$leetcode-color: #aa8a53;
+$hackerrank-color: #66997C;
 $status-todo-color: #b3b3b3;
 $status-inprogress-color: #ffdb20;
 $status-done-color: #4bf17b;
@@ -23,6 +25,8 @@ $palette-colors: (
   difficultyEasyColor: $difficulty-easy-color,
   difficultyMediumColor: $difficulty-medium-color,
   difficultyHardColor: $difficulty-hard-color,
+  leetcodeColor: $leetcode-color,
+  hackerrankColor: $hackerrank-color,
   statusToDoColor: $status-todo-color,
   statusInProgressColor: $status-inprogress-color,
   statusDoneColor: $status-done-color,

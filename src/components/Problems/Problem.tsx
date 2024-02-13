@@ -13,7 +13,10 @@ import { convertMdToString } from '../../utils/convertMdToString';
 import Code from '../shared/UI/Cards/Code';
 import RubberText from '../shared/UI/Text/RubberText';
 import { Problem } from '../../models/interfaces/Problems/Problem';
-import { getColorFromDifficulty } from '../../utils/getColor';
+import {
+  getColorFromDifficulty,
+  getColorFromPlatform,
+} from '../../utils/getColor';
 import Tab from '../shared/UI/Tabs/Tab';
 import { StatusEnum } from '../../models/enums/StatusEnum';
 
@@ -98,7 +101,14 @@ function Problem() {
               word={`${problem.difficulty} `}
             />
             {problem?.platform && (
-              <RubberText word={`- ${problem.platform.toString()}`} />
+              <RubberText
+                word={`- ${problem.platform.toString()}`}
+                style={{
+                  color: problem.platform
+                    ? getColorFromPlatform(problem.platform)
+                    : 'inherit',
+                }}
+              />
             )}
           </h1>
         )}

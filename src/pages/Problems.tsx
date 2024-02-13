@@ -17,10 +17,15 @@ import ErrorBlock from '../components/shared/Common/ErrorBlock';
 import { Spinner } from '@react-pdf-viewer/core';
 import TagList from '../components/shared/Lists/TagList';
 import RubberText from '../components/shared/UI/Text/RubberText';
-import { getColorFromDifficulty, getColorFromStatus } from '../utils/getColor';
+import {
+  getColorFromDifficulty,
+  getColorFromPlatform,
+  getColorFromStatus,
+} from '../utils/getColor';
 import LinkIcon from '../components/shared/UI/Icons/LinkIcon';
 import Filter from '../components/shared/UI/Filters/Filter';
 import { DifficultyEnum } from '../models/enums/DifficultyEnum';
+import { Tag } from '../models/interfaces/shared/UI/Tags/TagsProps';
 
 import './styles/Problems.scss';
 
@@ -70,6 +75,7 @@ function Problems() {
   if (width >= CONSTANTS.minWidthPc) {
     titles.push('Platform');
     titles.push('Languages');
+    titles.push('Companies');
   }
 
   if (width >= CONSTANTS.minWidthPhone) titles.push('Status');
@@ -111,13 +117,30 @@ function Problems() {
         );
 
         const problemPlatform = (
-          <div className="problems-table-platform">{problem.platform}</div>
+          <div
+            className="problems-table-platform"
+            style={{
+              color: problem.platform
+                ? getColorFromPlatform(problem.platform)
+                : 'inherit',
+            }}
+          >
+            {problem.platform}
+          </div>
         );
 
         const problemLanguages = (
           <div className="problems-table-languages">
             {problem.languages ? (
               <TagList tagListProps={problem.languages} />
+            ) : null}
+          </div>
+        );
+
+        const problemCompanies = (
+          <div className="problems-table-companies">
+            {problem.companies ? (
+              <TagList tagListProps={problem.companies} />
             ) : null}
           </div>
         );
@@ -136,6 +159,7 @@ function Problems() {
         if (width >= CONSTANTS.minWidthPc) {
           valuesTable.push(problemPlatform);
           valuesTable.push(problemLanguages);
+          valuesTable.push(problemCompanies);
         }
 
         if (width >= CONSTANTS.minWidthPhone) valuesTable.push(problemStatus);
@@ -189,6 +213,24 @@ function Problems() {
             .filter((status, index, self) => index === self.indexOf(status))
         : [],
     },
+    {
+      label: 'Companies',
+      filter: 'Companies',
+      values: problemsInfo?.problems
+        ? problemsInfo.problems
+            .reduce((uniqueCompanies: Tag[], problemInfo) => {
+              if (problemInfo.companies)
+                problemInfo.companies.forEach((company) => {
+                  if (!uniqueCompanies.includes(company)) {
+                    uniqueCompanies.push(company);
+                  }
+                });
+              return uniqueCompanies;
+            }, [])
+            .map((company) => company.tag)
+            .filter((company, index, self) => index === self.indexOf(company))
+        : [],
+    },
   ];
 
   const handleFilterChange = (filters: Record<string, string>) => {
@@ -196,6 +238,7 @@ function Problems() {
     const difficulty = filters.Difficulty;
     const platform = filters.Platform;
     const status = filters.Status;
+    const companies = filters.Companies;
 
     if (problemsInfo) {
       const problemsFiltered = problemsInfo.problems.filter(
@@ -203,7 +246,10 @@ function Problems() {
           (!number || String(problem.number) === number) &&
           (!difficulty || problem.difficulty === difficulty) &&
           (!platform || problem.platform === platform) &&
-          (!status || problem.status === status)
+          (!status || problem.status === status) &&
+          (!companies ||
+            (problem.companies &&
+              problem.companies.some((company) => company.tag === companies)))
       );
       setProblemsFiltered({ problems: problemsFiltered });
     }
