@@ -18,7 +18,8 @@ export const hackerrank: Problem[] = [
     ],
     status: StatusEnum.DONE,
     description:
-      '/src/assets/doc/problems/hackerrank/descriptions/plus_minus.md',
-    solution: '/src/assets/doc/problems/hackerrank/solutions/plus_minus.md',
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/plus_minus.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/plus_minus.md',
   },
 ];

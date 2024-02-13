@@ -179,6 +179,7 @@ function Problems() {
               (number, index, self) =>
                 index === self.indexOf(number) && number != 'undefined'
             )
+            .sort((a, b) => (Number(a) > Number(b) ? 1 : -1))
         : [],
     },
     {
@@ -256,6 +257,16 @@ function Problems() {
   };
 
   problemsFiltered?.problems.sort((a, b) => {
+    if (!a.number && b.number) {
+      return 1;
+    }
+    if (a.number && !b.number) {
+      return -1;
+    }
+    if (a.number && b.number && a.number !== b.number) {
+      return a.number - b.number;
+    }
+
     const difficultyOrder = {
       [DifficultyEnum.EASY]: 0,
       [DifficultyEnum.MEDIUM]: 1,
@@ -266,16 +277,6 @@ function Problems() {
       difficultyOrder[a.difficulty] - difficultyOrder[b.difficulty];
     if (difficultyComparison !== 0) {
       return difficultyComparison;
-    }
-
-    if (!a.number && b.number) {
-      return 1;
-    }
-    if (a.number && !b.number) {
-      return -1;
-    }
-    if (a.number && b.number && a.number !== b.number) {
-      return a.number - b.number;
     }
 
     if (!a.platform && b.platform) {
