@@ -1,5 +1,6 @@
 import { Projects } from '../../src/models/interfaces/Portfolio/Projects';
 import PortfolioProject from '../../src/assets/images/Portfolio_Project.png';
+import ProblemsWebpage from '../../src/assets/images/Problems_Webpage.png';
 
 export const project: Projects = {
   projects: [
@@ -44,6 +45,50 @@ export const project: Projects = {
         {
           id: '4a02eb73-5222-5923-9412-96da9a986371',
           tag: 'PostgreSQL',
+        },
+      ],
+    },
+    {
+      id: 'c592466b-5897-5cf0-841a-b16c9ccda43b',
+      title: 'Webpage with problems solved',
+      subtitle: 'Problems webpage',
+      date: 2024,
+      imageLink: ProblemsWebpage,
+      description: [
+        {
+          id: '492feb6f-f83a-5040-bc00-0f9d19d7a589',
+          bulletPoint:
+            'Crafted a LeetCode-style problem repository with concise solutions to diverse algorithmic challenges.',
+        },
+      ],
+      links: [
+        {
+          id: '9c4e786c-b48b-5ff3-8895-42a5d9ba4deb',
+          name: 'GitHub',
+          link: 'https://github.com/Mariovido/portfolio-frontend',
+        },
+      ],
+      projectLink: 'https://mariovido.github.io/portfolio-frontend/problems',
+      tags: [
+        {
+          id: '338bb907-669f-57e8-9dcc-94337acd0900',
+          tag: 'Data Structures',
+        },
+        {
+          id: 'c8490284-556e-5d42-802c-182675b2ceec',
+          tag: 'Algorithms',
+        },
+        {
+          id: 'b601a0dc-6fb8-5cdd-a844-fdce6462a6c8',
+          tag: 'React',
+        },
+        {
+          id: '29b56ec4-1cf2-5b77-b055-24606873e60b',
+          tag: 'TypeScript',
+        },
+        {
+          id: '8b99d050-fb84-5cd5-8c2b-c3897c4f8925',
+          tag: 'Problem Solving',
         },
       ],
     },

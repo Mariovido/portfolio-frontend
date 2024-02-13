@@ -43,6 +43,8 @@ function Projects() {
     }
   }, [response]);
 
+  projectsInfo?.projects.sort((a, b) => (a.date > b.date ? -1 : 1));
+
   return (
     <section id="project">
       {isFetching ? (

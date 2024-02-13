@@ -17,20 +17,23 @@ We can iterate through the list of integers and keep track of the counts of posi
 ## Code
 
 ```java
-public static void plusMinus(List<Integer> arr) {
-    DecimalFormat df = new DecimalFormat("#.######");
+class Result {
+  public static void plusMinus(List<Integer> arr) {
+      DecimalFormat df = new DecimalFormat("#.######");
 
-    final Double[] results = new Double[3];
-    Arrays.fill(results, 0D);
+      final Double[] results = new Double[3];
+      Arrays.fill(results, 0D);
 
-    for (Integer number : arr) {
-        if (number > 0) results[0]++;
-        else if (number < 0) results[1]++;
-        else if (number == 0) results[2]++;
-    }
+      for (int number : arr) {
+          if (number > 0) results[0]++;
+          else if (number < 0) results[1]++;
+          else if (number == 0) results[2]++;
+      }
 
-    System.out.println(df.format(results[0] / arr.size()));
-    System.out.println(df.format(results[1] / arr.size()));
-    System.out.println(df.format(results[2] / arr.size()));
+      System.out.println(df.format(results[0] / arr.size()));
+      System.out.println(df.format(results[1] / arr.size()));
+      System.out.println(df.format(results[2] / arr.size()));
+  }
 }
+
 ```
