@@ -24,5 +24,8 @@ export const addTags = (inputString: string): string => {
     .replace(/\^(\d+)/g, '<sup>$1</sup>')
     .replace(/\^(\{.*?\})/g, (match) => {
       return '<sup>' + match.substring(1).replace(/[{,}]/g, '') + '</sup>';
+    })
+    .replace(/\\sqrt(\{.*?\})/g, (match) => {
+      return '<span>&#8730;</span>' + match.substring(5).replace(/[{,}]/g, '');
     });
 };

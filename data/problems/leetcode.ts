@@ -328,12 +328,264 @@ export const leetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/200_number_of_islands.md',
   },
+  {
+    id: '2f89d23b-a566-53fa-b5de-eec0d6f5cce7',
+    platform: PlatformEnum.LEETCODE,
+    number: 1239,
+    title: 'Maximum Length of a Concatenated String with Unique Characters',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '380594c8-eccc-5998-8cd9-877350ecd953',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1239_maximum_length_of_a_concatenated_string_with_unique_characters.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1239_maximum_length_of_a_concatenated_string_with_unique_characters.md',
+  },
+  {
+    id: 'ac0f3911-95dd-5627-81df-b5cd28fa4864',
+    platform: PlatformEnum.LEETCODE,
+    number: 1457,
+    title: 'Pseudo-Palindromic Paths in a Binary Tree',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '8ecd2a6a-c99b-50ce-84dc-e2d43f40900d',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1457_pseudo_palindromic_paths_in_a_binary_tree.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1457_pseudo_palindromic_paths_in_a_binary_tree.md',
+  },
+  {
+    id: '163d998e-4f0f-54cc-a417-3b9eb501e3f4',
+    platform: PlatformEnum.LEETCODE,
+    number: 1143,
+    title: 'Longest Common Subsequence',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '4b6a8325-7329-53f6-8cf1-0e1c49285881',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1143_longest_common_subsequence.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1143_longest_common_subsequence.md',
+  },
+  {
+    id: 'b549c1b0-8490-5495-881d-ab5fe4ddcf7d',
+    platform: PlatformEnum.LEETCODE,
+    number: 576,
+    title: 'Out of Boundary Paths',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '0fb1ac4c-a5a5-5022-ba5c-da460c616eb3',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/576_out_of_boundary_paths.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/576_out_of_boundary_paths.md',
+  },
+  {
+    id: '37ad4832-6bb1-508c-8ad3-24d43a371f42',
+    platform: PlatformEnum.LEETCODE,
+    number: 150,
+    title: 'Evaluate Reverse Polish Notation',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '4caa9f2e-8b05-553b-bd08-d3a00c391c1c',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/150_evaluate_reverse_polish_notation.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/150_evaluate_reverse_polish_notation.md',
+  },
+  {
+    id: '3afe3b32-b0fe-59ed-abf8-81eb7f531ce2',
+    platform: PlatformEnum.LEETCODE,
+    number: 739,
+    title: 'Daily Temperatures',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'b4005e8e-99eb-5628-8a3a-c8ff4012cb2e',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/739_daily_temperatures.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/739_daily_temperatures.md',
+  },
+  {
+    id: 'a3e1c268-35b7-5b4b-893d-138c99c8fd4c',
+    platform: PlatformEnum.LEETCODE,
+    number: 2966,
+    title: 'Divide Array Into Arrays With Max Difference',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '3b8fc712-bba9-51e9-b3c6-ce16cd39609e',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/2966_divide_array_into_arrays_with_max_difference.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/2966_divide_array_into_arrays_with_max_difference.md',
+  },
+  {
+    id: '874aef28-0342-5efc-98b2-cd44cc9fc35d',
+    platform: PlatformEnum.LEETCODE,
+    number: 1291,
+    title: 'Sequential Digits',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'a32abc0c-2fb3-5bea-9ffa-cc4974ac7caf',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1291_sequential_digits.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1291_sequential_digits.md',
+  },
+  {
+    id: '8ee2e830-4451-5f09-a40b-05fe75621942',
+    platform: PlatformEnum.LEETCODE,
+    number: 1043,
+    title: 'Partition Array for Maximum Sum',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '5777041a-4761-5639-93ce-1c6bd25183a4',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1043_partition_array_for_maximum_sum.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1043_partition_array_for_maximum_sum.md',
+  },
+  {
+    id: '9412b1e7-6e6c-52e4-8915-788051168061',
+    platform: PlatformEnum.LEETCODE,
+    number: 451,
+    title: 'Sort Characters By Frequency',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '574164dd-3719-5fe7-a273-c8aed33ed61f',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/451_sort_characters_by_frequency.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/451_sort_characters_by_frequency.md',
+  },
+  {
+    id: '52807047-7e1b-58cc-90d3-e4e35a93af2a',
+    platform: PlatformEnum.LEETCODE,
+    number: 1664,
+    title: 'Ways to Make a Fair Array',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '4ec105e0-efca-5ca6-9f96-b2d375055a74',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1664_ways_to_make_a_fair_array.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1664_ways_to_make_a_fair_array.md',
+  },
+  {
+    id: '9ca1aab0-a4b8-5b47-9739-ce6f0f07cc2d',
+    platform: PlatformEnum.LEETCODE,
+    number: 279,
+    title: 'Perfect Squares',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'f43ca3ea-1155-5144-9ba9-d510340c6cb5',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/279_perfect_squares.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/279_perfect_squares.md',
+  },
+  {
+    id: 'c700e164-33d2-56ff-9364-b8916b6dac09',
+    platform: PlatformEnum.LEETCODE,
+    number: 368,
+    title: 'Largest Divisible Subset',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'bf7c9547-e697-5c84-a71c-325c00fe652d',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/368_largest_divisible_subset.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/368_largest_divisible_subset.md',
+  },
+  {
+    id: '3add8de5-ae6d-573c-80b0-cb54164851d6',
+    platform: PlatformEnum.LEETCODE,
+    number: 647,
+    title: 'Palindromic Substrings',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '645ec2b8-97d4-5222-aa6d-797720f876c0',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/647_palindromic_substrings.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/647_palindromic_substrings.md',
+  },
   // {
   //   id: 'XXX',
   //   platform: PlatformEnum.LEETCODE,
   //   number: XXX,
   //   title: 'XXX',
-  //   difficulty: DifficultyEnum.MEDIUM,
+  //   difficulty: DifficultyEnum.HARD,
   //   languages: [
   //     {
   //       id: 'XXX',
@@ -342,8 +594,8 @@ export const leetcode: Problem[] = [
   //   ],
   //   status: StatusEnum.DONE,
   //   description:
-  //     '/src/assets/doc/problems/leetcode/descriptions/medium/XXX.md',
+  //     '/src/assets/doc/problems/leetcode/descriptions/hard/XXX.md',
   //   solution:
-  //     '/src/assets/doc/problems/leetcode/solutions/medium/XXX.md',
+  //     '/src/assets/doc/problems/leetcode/solutions/hard/XXX.md',
   // },
 ];
