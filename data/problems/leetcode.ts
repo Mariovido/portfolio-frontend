@@ -759,4 +759,22 @@ export const leetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/hard/1463_cherry_pickup_ii.md',
   },
+  {
+    id: 'a5fede58-b059-5470-bbc5-26cfe0ef44ff',
+    platform: PlatformEnum.LEETCODE,
+    number: 2149,
+    title: 'Rearrange Array Elements by Sign',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '761d1291-a503-57e9-89a3-647c2e00e8b2',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/2149_rearrange_array_elements_by_sign.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/2149_rearrange_array_elements_by_sign.md',
+  },
 ];
