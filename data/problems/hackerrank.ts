@@ -311,6 +311,175 @@ export const hackerrank: Problem[] = [
     solution:
       '/src/assets/doc/problems/hackerrank/solutions/hard/array_manipulation.md',
   },
+  {
+    id: '3a2bd970-7ef6-517b-bcbb-e7eb9e480bf0',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Flipping bits',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '4552c902-5183-5345-9b08-ede6c18b44c7',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/flipping_bits.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/flipping_bits.md',
+  },
+  {
+    id: 'b6964f05-6537-5dd6-ac3c-351978a74bed',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Pangrams',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'cafc8e68-db97-505a-85df-846e894e6d98',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/pangrams.md',
+    solution: '/src/assets/doc/problems/hackerrank/solutions/easy/pangrams.md',
+  },
+  {
+    id: 'f443f465-6471-5e09-a8b7-cd9a13beee36',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Permuting Two Arrays',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '84a52cd7-264f-53cd-a0bb-5a9673bbd8c2',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/permuting_two_arrays.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/permuting_two_arrays.md',
+  },
+  {
+    id: 'b7a3d8a1-0b9d-591d-8419-b6c0fd3ec8c6',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Subarray Division 1',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'e4046d1c-f4e8-556f-b1cb-073fad188552',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/subarray_division_1.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/subarray_division_1.md',
+  },
+  {
+    id: '0fa2a69c-91af-5322-bf36-7dcf76c8aecd',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'XOR Strings 2',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'eae9f9c8-dccf-5cc6-b1d8-da5091ede2bd',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/xor_strings_2.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/xor_strings_2.md',
+  },
+  {
+    id: '5d5ad25b-6f3f-54c4-8752-0dddb2e9721d',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Sales by Match',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '2be914a0-5c35-54c3-98e2-c0925bbccb72',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/sales_by_match.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/sales_by_match.md',
+  },
+  {
+    id: '5fa5a57c-7924-50c4-83d5-b1672feda442',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Drawing Book',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'ed8ed73e-4aed-5dd7-8898-13ea620a35ef',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/drawing_book.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/drawing_book.md',
+  },
+  {
+    id: '03305766-f3b9-5caf-83a5-e1e1d23e79d3',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Dynamic Array',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'b989aeb9-1187-54f1-9451-c28ba9c9e377',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/dynamic_array.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/dynamic_array.md',
+  },
+  {
+    id: '8f6189d8-cf96-51e9-b38f-a88d4b7c32a2',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Sherlock and Array',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '810e29a3-5048-5665-9870-fbe2cd57b3d6',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/sherlock_and_array.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/sherlock_and_array.md',
+  },
+  {
+    id: '45f44e79-a711-5291-9053-e268d1c46930',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Sum vs XOR',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'd49d3fea-42be-5086-af80-6001d36a00d8',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/sum_vs_xor.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/sum_vs_xor.md',
+  },
   // {
   //   id: 'XXX',
   //   platform: PlatformEnum.HACKERRANK,
