@@ -480,11 +480,179 @@ export const hackerrank: Problem[] = [
     solution:
       '/src/assets/doc/problems/hackerrank/solutions/easy/sum_vs_xor.md',
   },
+  {
+    id: 'bd55dcd9-efec-500d-bb94-51ae2cdc4a16',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Between Two Sets',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'ad3bb8f4-a1a5-578d-ab76-a450205715fa',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/between_two_sets.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/between_two_sets.md',
+  },
+  {
+    id: 'a749cb12-6a2a-54ef-acb0-1a08c9334c71',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Anagram',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '70ba43c3-d243-55ce-9fb1-3800f05ce06d',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/anagram.md',
+    solution: '/src/assets/doc/problems/hackerrank/solutions/easy/anagram.md',
+  },
+  {
+    id: 'db3497c9-848b-5ce6-a291-85c3c4b208aa',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Reverse a linked list',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '24663dc4-d650-5213-98e4-3eede796ea86',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/reverse_a_linked_list.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/reverse_a_linked_list.md',
+  },
+  {
+    id: '04efb7f5-2abd-5097-a6eb-17499238d877',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Reverse a doubly linked list',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '2e9e7e32-ee45-55e3-835d-f6648b25df27',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/reverse_a_doubly_linked_list.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/reverse_a_doubly_linked_list.md',
+  },
+  {
+    id: 'bbc303ef-e5a1-5d84-91bf-5e2c5bad97f3',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Insert a node at a specific position in a linked list',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '2e85fd09-96e8-5179-b758-4ac666c0fe2e',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/insert_a_node_at_a_specific_position_in_a_linked_list.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/insert_a_node_at_a_specific_position_in_a_linked_list.md',
+  },
+  {
+    id: '3fff358a-f71c-57ef-be4c-0e7bf7dec846',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Ice Cream Parlor',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '11046f54-7dc2-5634-93f2-92853fd394ac',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/ice_cream_parlor.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/ice_cream_parlor.md',
+  },
+  {
+    id: '236c1ccc-5f2e-5a62-9650-f8d0c0550376',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Big Sorting',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '135f9d51-46e2-5197-8b9e-3ca9af2c73d9',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/big_sorting.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/big_sorting.md',
+  },
+  {
+    id: '2517de96-2e04-562e-a911-347c79388839',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Equal Stacks',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '21bf9929-dded-511c-bb34-5272bd565aca',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/equal_stacks.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/equal_stacks.md',
+  },
+  {
+    id: '0d40c6da-02c2-5cf2-83ff-3556cf9f911e',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'QHEAP1',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'fb1782e9-34b3-5dfd-942b-d1b8c1d1ce81',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/qheap1.md',
+    solution: '/src/assets/doc/problems/hackerrank/solutions/easy/qheap1.md',
+  },
+  {
+    id: '7c953ccb-60d0-5a5f-9e09-8fcad9aa2211',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Binary Search Tree : Lowest Common Ancestor',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '20be1242-31b6-5436-8bb6-bed405ab0962',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/easy/binary_search_tree_lowest_common_ancestor.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/easy/binary_search_tree_lowest_common_ancestor.md',
+  },
   // {
   //   id: 'XXX',
   //   platform: PlatformEnum.HACKERRANK,
   //   title: 'XXX',
-  //   difficulty: DifficultyEnum.EASY,
+  //   difficulty: DifficultyEnum.MEDIUM,
   //   languages: [
   //     {
   //       id: 'XXX',
@@ -492,7 +660,7 @@ export const hackerrank: Problem[] = [
   //     },
   //   ],
   //   status: StatusEnum.DONE,
-  //   description: '/src/assets/doc/problems/hackerrank/descriptions/easy/XXX',
-  //   solution: '/src/assets/doc/problems/hackerrank/solutions/easy/XXX',
+  //   description: '/src/assets/doc/problems/hackerrank/descriptions/medium/XXX',
+  //   solution: '/src/assets/doc/problems/hackerrank/solutions/medium/XXX',
   // },
 ];

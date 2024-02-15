@@ -777,4 +777,22 @@ export const leetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/2149_rearrange_array_elements_by_sign.md',
   },
+  {
+    id: 'e70f8def-f5a8-5dc7-9c15-e2e3739e3b24',
+    platform: PlatformEnum.LEETCODE,
+    number: 2971,
+    title: 'Find Polygon With the Largest Perimeter',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'b137f4eb-105d-566d-817f-caca16899808',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/2971_find_polygon_with_the_largest_perimeter.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/2971_find_polygon_with_the_largest_perimeter.md',
+  },
 ];
