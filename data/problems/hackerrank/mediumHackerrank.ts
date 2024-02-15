@@ -3,7 +3,6 @@ import { PlatformEnum } from '../../../src/models/enums/PlatformEnum';
 import { StatusEnum } from '../../../src/models/enums/StatusEnum';
 import { Problem } from '../../../src/models/interfaces/Problems/Problem';
 
-// TODO - ADD MORE PROBLEMS
 export const mediumHackerrank: Problem[] = [
   {
     id: 'e7ade2be-954d-5020-8711-b2ce8c4778d4',
@@ -258,19 +257,207 @@ export const mediumHackerrank: Problem[] = [
     solution:
       '/src/assets/doc/problems/hackerrank/solutions/medium/counter_game.md',
   },
-  // {
-  //   id: 'XXX',
-  //   platform: PlatformEnum.HACKERRANK,
-  //   title: 'XXX',
-  //   difficulty: DifficultyEnum.MEDIUM,
-  //   languages: [
-  //     {
-  //       id: 'XXX',
-  //       tag: 'Java',
-  //     },
-  //   ],
-  //   status: StatusEnum.DONE,
-  //   description: '/src/assets/doc/problems/hackerrank/descriptions/medium/XXX',
-  //   solution: '/src/assets/doc/problems/hackerrank/solutions/medium/XXX',
-  // },
+  {
+    id: '52d79fad-468a-5508-9e9f-835bb3f7d657',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'The Bomberman Game',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '57e7af88-7973-5e78-8228-2db617498171',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/the_bomberman_game.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/the_bomberman_game.md',
+  },
+  {
+    id: 'd083fbe7-8cae-58d9-a6a9-e397ebb53066',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Sherlock and the Valid String',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '14b89dd6-7d11-53ad-b5b3-bec6bbe45c1c',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/sherlock_and_the_valid_string.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/sherlock_and_the_valid_string.md',
+  },
+  {
+    id: '8705921b-9e00-58b8-bbc7-e7d6e4210278',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Climbing the Leaderboard',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'f08946eb-0d3b-5948-bb47-98e14e3759c7',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/climbing_the_leaderboard.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/climbing_the_leaderboard.md',
+  },
+  {
+    id: 'c632cd94-db0b-594b-bc76-0ab88a11dbd3',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Waiter',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '11911e2f-9da3-5494-952d-f8b26b1ac4f5',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/waiter.md',
+    solution: '/src/assets/doc/problems/hackerrank/solutions/medium/waiter.md',
+  },
+  {
+    id: '5d0a495c-4443-5e1f-8390-4704f7c379a1',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'The Maximum Subarray',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '4eaacd84-ecdd-5a88-bbac-9458eb557ea6',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/the_maximum_subarray.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/the_maximum_subarray.md',
+  },
+  {
+    id: 'ceac2e39-f07d-50b2-9aac-c7a72db01c07',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Hackerland Radio Transmitters',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'a6b77d9f-8401-5ac6-8db4-70580ac0a09f',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/hackerland_radio_transmitters.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/hackerland_radio_transmitters.md',
+  },
+  {
+    id: 'd6977304-4ba4-5cdc-b3b9-3673fd46ecb1',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Highest Value Palindrome',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '15d6b81d-4187-59e7-9ff5-c1ea890930f1',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/highest_value_palindrome.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/highest_value_palindrome.md',
+  },
+  {
+    id: '58eedf68-1cf7-5d43-ba25-903630b7c833',
+    platform: PlatformEnum.HACKERRANK,
+    title: "Lily's Homework",
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'a54a87b6-9db1-56e0-b247-240ba6466cf8',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/lilys_homework.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/lilys_homework.md',
+  },
+  {
+    id: '77b5a462-9d31-5636-ad4b-7fc3a835ca79',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Castle on the Grid',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '6b4bed03-f91e-5456-a42c-deabeb8f2311',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/castle_on_the_grid.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/castle_on_the_grid.md',
+  },
+  {
+    id: 'd883ef87-95fb-5c4a-8310-e7ccb10582f8',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Roads and Libraries',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '2dcb0c6e-6f25-5079-90b4-f58e112c3069',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/roads_and_libraries.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/roads_and_libraries.md',
+  },
+  {
+    id: 'a6d880fc-041d-5b2b-9d32-07c842807494',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Components in a graph',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'c519a0b1-3517-583a-a469-d478196c20c5',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/components_in_a_graph.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/components_in_a_graph.md',
+  },
+  {
+    id: '0a78d8a3-eb6f-579a-8a52-40e99c0faf41',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Cut the Tree',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '784a6714-8fa3-5d57-9c6e-bcf24b2e0d48',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/cut_the_tree.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/cut_the_tree.md',
+  },
 ];
