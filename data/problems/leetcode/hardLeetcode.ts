@@ -184,4 +184,76 @@ export const hardLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/hard/1463_cherry_pickup_ii.md',
   },
+  {
+    id: '1a6c6086-1ef2-5b1e-bfb3-2ddb77da93d2',
+    platform: PlatformEnum.LEETCODE,
+    number: 23,
+    title: 'Merge k Sorted Lists',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: 'e58d20e6-ff3b-5f18-ab92-025abb556fc1',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/23_merge_k_sorted_lists.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/23_merge_k_sorted_lists.md',
+  },
+  {
+    id: 'b925da0a-af19-53b3-8280-144d5a571830',
+    platform: PlatformEnum.LEETCODE,
+    number: 1639,
+    title: 'Number of Ways to Form a Target String Given a Dictionary',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: '1148852b-e592-57fa-bc0c-180b021478ce',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/1639_number_of_ways_to_form_a_target_string_given_a_dictionary.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/1639_number_of_ways_to_form_a_target_string_given_a_dictionary.md',
+  },
+  {
+    id: '6facfe42-d279-5883-b9f6-4d09e84ea6cf',
+    platform: PlatformEnum.LEETCODE,
+    number: 2402,
+    title: 'Meeting Rooms III',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: 'c8e61e0c-ccca-56cb-8c93-1d75a7fdff3d',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/2402_meeting_rooms_iii.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/2402_meeting_rooms_iii.md',
+  },
+  {
+    id: '2694d5f5-50e8-5e7b-8e71-458778045e0a',
+    platform: PlatformEnum.LEETCODE,
+    number: 2262,
+    title: 'Total Appeal of A String',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: 'cec8bc8c-c2c7-55bc-8ed7-bda4206a5d53',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/2262_total_appeal_of_a_string.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/2262_total_appeal_of_a_string.md',
+  },
 ];

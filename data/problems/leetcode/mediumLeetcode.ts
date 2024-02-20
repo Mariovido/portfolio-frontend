@@ -490,4 +490,238 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/2971_find_polygon_with_the_largest_perimeter.md',
   },
+  {
+    id: '677fdad2-6431-5ba4-9ea3-71257db6e159',
+    platform: PlatformEnum.LEETCODE,
+    number: 1481,
+    title: 'Least Number of Unique Integers after K Removals',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '5591ed82-2bf8-5c9b-bb55-e7bdf92658c9',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1481_least_number_of_unique_integers_after_k_removals.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1481_least_number_of_unique_integers_after_k_removals.md',
+  },
+  {
+    id: '16c99ab4-fa1f-588f-b1ee-a95ed2eec1ec',
+    platform: PlatformEnum.LEETCODE,
+    number: 1642,
+    title: 'Furthest Building You Can Reach',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '1defceb5-22c0-5e0b-a71d-a2e423ec64fd',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1642_furthest_building_you_can_reach.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1642_furthest_building_you_can_reach.md',
+  },
+  {
+    id: '453c0f47-ef49-5acf-9ab1-f017d59fb5f4',
+    platform: PlatformEnum.LEETCODE,
+    number: 1268,
+    title: 'Search Suggestions System',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '5f932f18-d71a-5832-92cc-8e5f9d2dc76e',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1268_search_suggestions_systems.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1268_search_suggestions_systems.md',
+  },
+  {
+    id: '5c2badd1-e75b-5b52-95c6-d6fb5903c83c',
+    platform: PlatformEnum.LEETCODE,
+    number: 937,
+    title: 'Reorder Data in Log Files',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '6c491d59-d686-549c-8336-e91d5f3ba1a3',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/937_reorder_data_in_log_files.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/937_reorder_data_in_log_files.md',
+  },
+  {
+    id: 'c187a0f6-6dea-50c6-beac-1d7b74eaa89c',
+    platform: PlatformEnum.LEETCODE,
+    number: 973,
+    title: 'K Closest Points to Origin',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '693c10ee-fc85-55be-a7bd-c96954db4c17',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/973_k_closest_points_to_origin.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/973_k_closest_points_to_origin.md',
+  },
+  {
+    id: 'e40ac6a1-a225-54b8-8621-0da78bada4dd',
+    platform: PlatformEnum.LEETCODE,
+    number: 2221,
+    title: 'Find Triangular Sum of an Array',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '733dee69-4919-5d0e-a97c-b79796024cb3',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/2221_find_triangular_sum_of_an_array.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/2221_find_triangular_sum_of_an_array.md',
+  },
+  {
+    id: 'a1669c26-8b05-5bc1-aa61-2d165f5c5f44',
+    platform: PlatformEnum.LEETCODE,
+    number: 958,
+    title: 'Check Completeness of a Binary Tree',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'f6d4cdb2-a68d-564e-8f8b-7ca4653212c7',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/958_check_completeness_of_a_binary_tree.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/958_check_completeness_of_a_binary_tree.md',
+  },
+  {
+    id: '5a6b1b3e-f923-58e6-942e-141670554ebf',
+    platform: PlatformEnum.LEETCODE,
+    number: 53,
+    title: 'Maximum Subarray',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'f2fb90b4-fde9-57d6-a66c-4e44af0d0056',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/53_maximum_subarray.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/53_maximum_subarray.md',
+  },
+  {
+    id: 'abf516dd-c231-5fe4-ae52-6ef2a230f527',
+    platform: PlatformEnum.LEETCODE,
+    number: 133,
+    title: 'Clone Graph',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '366487af-8953-5960-9b0c-d89e400d7596',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/133_clone_graph.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/133_clone_graph.md',
+  },
+  {
+    id: 'afad1948-30c7-5c0e-b25f-2ab2a69f8eb7',
+    platform: PlatformEnum.LEETCODE,
+    number: 5,
+    title: 'Longest Palindromic Substring',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'a3f504ca-28c3-5046-9358-1ff3ea7ec339',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/5_longest_palindromic_substring.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/5_longest_palindromic_substring.md',
+  },
+  {
+    id: 'db260170-2cfe-51be-8799-0eddaca99582',
+    platform: PlatformEnum.LEETCODE,
+    number: 238,
+    title: 'Product of Array Except Self',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'c6e0fde8-3d8a-579e-adb7-54a61d73395b',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/238_product_of_array_except_self.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/238_product_of_array_except_self.md',
+  },
+  {
+    id: '0b878e0f-6aaa-50d0-8eaf-f43502f33ef5',
+    platform: PlatformEnum.LEETCODE,
+    number: 560,
+    title: 'Subarray Sum Equals K',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '7c7c7d26-11ce-5804-b521-0bf5b0ef9162',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/560_subarray_sum_equals_k.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/560_subarray_sum_equals_k.md',
+  },
+  {
+    id: 'ca8c6ba2-c37d-5163-ab8a-d50f9355c032',
+    platform: PlatformEnum.LEETCODE,
+    number: 79,
+    title: 'Word Search',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '6ad106bb-7950-58f7-8fd0-40f1b7d3e995',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/79_word_search.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/79_word_search.md',
+  },
 ];
