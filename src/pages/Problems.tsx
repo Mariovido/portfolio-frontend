@@ -171,6 +171,7 @@ function Problems() {
   const optionsFilter = [
     {
       label: 'Number',
+      type: 'text',
       filter: 'Number',
       values: problemsInfo?.problems
         ? problemsInfo.problems
@@ -203,6 +204,16 @@ function Problems() {
         : [],
     },
     {
+      label: 'Title',
+      type: 'text',
+      filter: 'Title',
+      values: problemsInfo?.problems
+        ? problemsInfo.problems
+            .map((problemInfo) => problemInfo.title)
+            .filter((title, index, self) => index === self.indexOf(title))
+        : [],
+    },
+    {
       label: 'Platform',
       filter: 'Platform',
       values: problemsInfo?.problems
@@ -212,15 +223,6 @@ function Problems() {
               (platform, index, self) =>
                 index === self.indexOf(platform) && platform != 'undefined'
             )
-        : [],
-    },
-    {
-      label: 'Status',
-      filter: 'Status',
-      values: problemsInfo?.problems
-        ? problemsInfo.problems
-            .map((problemInfo) => String(problemInfo.status))
-            .filter((status, index, self) => index === self.indexOf(status))
         : [],
     },
     {
@@ -247,16 +249,17 @@ function Problems() {
     const number = filters.Number;
     const difficulty = filters.Difficulty;
     const platform = filters.Platform;
-    const status = filters.Status;
+    const title = filters.Title;
     const companies = filters.Companies;
 
     if (problemsInfo) {
       const problemsFiltered = problemsInfo.problems.filter(
         (problem) =>
-          (!number || String(problem.number) === number) &&
+          (!number || String(problem.number).includes(number)) &&
           (!difficulty || problem.difficulty === difficulty) &&
           (!platform || problem.platform === platform) &&
-          (!status || problem.status === status) &&
+          (!title ||
+            problem.title.toLowerCase().includes(title.toLowerCase())) &&
           (!companies ||
             (problem.companies &&
               problem.companies.some((company) => company.tag === companies)))

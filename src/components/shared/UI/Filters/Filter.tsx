@@ -28,17 +28,31 @@ function Filter(props: Readonly<FilterProps>) {
       {options.map((option) => (
         <div className="filter" key={option.label}>
           <label>{option.label}</label>
-          <select
-            value={selectedFilters[option.filter] || ''}
-            onChange={(e) => handleFilterChange(option.filter, e.target.value)}
-          >
-            <option value="">All</option>
-            {option.values.map((value) => (
-              <option key={value} value={value}>
-                {value}
-              </option>
-            ))}
-          </select>
+          {option.type === 'text' && (
+            <input
+              type="text"
+              placeholder={option.label}
+              value={selectedFilters[option.filter] || ''}
+              onChange={(e) =>
+                handleFilterChange(option.filter, e.target.value)
+              }
+            />
+          )}
+          {!option.type && (
+            <select
+              value={selectedFilters[option.filter] || ''}
+              onChange={(e) =>
+                handleFilterChange(option.filter, e.target.value)
+              }
+            >
+              <option value="">All</option>
+              {option.values.map((value) => (
+                <option key={value} value={value}>
+                  {value}
+                </option>
+              ))}
+            </select>
+          )}
         </div>
       ))}
       <Button className="reset-button" handleOnClick={handleResetFilters}>
