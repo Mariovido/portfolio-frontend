@@ -327,4 +327,22 @@ export const easyLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/easy/268_missing_number.md',
   },
+  {
+    id: 'bdbd8251-22f6-5499-9331-948eac67d0d2',
+    platform: PlatformEnum.LEETCODE,
+    number: 997,
+    title: 'Find the Town Judge',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '65139d1c-45e6-592d-96aa-23de2080deb3',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/997_find_the_town_judge.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/997_find_the_town_judge.md',
+  },
 ];

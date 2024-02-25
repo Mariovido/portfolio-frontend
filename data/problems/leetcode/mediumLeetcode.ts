@@ -724,4 +724,40 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/79_word_search.md',
   },
+  {
+    id: '383f9164-84af-5db9-a57d-c432337deec2',
+    platform: PlatformEnum.LEETCODE,
+    number: 201,
+    title: 'Bitwise AND of Numbers Range',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '20f72dd8-2692-5e01-bbaf-6317e477f6d1',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/201_bitwise_and_of_numbers_range.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/201_bitwise_and_of_numbers_range.md',
+  },
+  {
+    id: 'c8ee74c0-4532-52f9-ba2c-49ef4bf6da75',
+    platform: PlatformEnum.LEETCODE,
+    number: 787,
+    title: 'Cheapest Flights Within K Stops',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '740c08b4-91ec-5627-aefb-ca36201e1a5d',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/787_cheapest_flights_within_k_stops.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/787_cheapest_flights_within_k_stops.md',
+  },
 ];

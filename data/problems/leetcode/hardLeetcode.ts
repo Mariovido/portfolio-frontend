@@ -256,4 +256,40 @@ export const hardLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/hard/2262_total_appeal_of_a_string.md',
   },
+  {
+    id: '3165719e-73c0-59c0-93aa-b1a62e18af9a',
+    platform: PlatformEnum.LEETCODE,
+    number: 2092,
+    title: 'Find All People With Secret',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: '1c80924f-6cb0-53ff-b8e8-e0d8ae4137db',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/2092_find_all_people_with_secret.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/2092_find_all_people_with_secret.md',
+  },
+  {
+    id: 'c380ee67-0e20-51a5-ba4a-74fac89c6d3d',
+    platform: PlatformEnum.LEETCODE,
+    number: 2709,
+    title: 'Greatest Common Divisor Traversal',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: '9424931e-39c5-52f8-8da0-c174834a232a',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/2709_greatest_common_divisor_traversal.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/2709_greatest_common_divisor_traversal.md',
+  },
 ];
