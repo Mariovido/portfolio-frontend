@@ -760,4 +760,58 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/787_cheapest_flights_within_k_stops.md',
   },
+  {
+    id: 'db0f432a-bbe7-5cd2-87f3-1d52f518f024',
+    platform: PlatformEnum.LEETCODE,
+    number: 513,
+    title: 'Find Bottom Left Tree Value',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '90ecfa3b-070f-5c29-97a8-e658c2319446',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/513_find_bottom_left_tree_value.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/513_find_bottom_left_tree_value.md',
+  },
+  {
+    id: 'a99d775f-7d98-57bc-836b-e0287a2548a0',
+    platform: PlatformEnum.LEETCODE,
+    number: 1609,
+    title: 'Even Odd Tree',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'a016e71d-4e3e-5a27-b0e9-1290f7666900',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1609_even_odd_tree.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1609_even_odd_tree.md',
+  },
+  {
+    id: '7f9448c0-7671-50f9-a0a5-d68b2b9efac4',
+    platform: PlatformEnum.LEETCODE,
+    number: 19,
+    title: 'Remove Nth Node From End of List',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'f1536450-b4c1-558c-9e2e-abd7c3736442',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/19_remove_nth_node_from_end_of_list.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/19_remove_nth_node_from_end_of_list.md',
+  },
 ];

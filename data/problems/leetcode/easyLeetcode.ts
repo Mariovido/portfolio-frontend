@@ -345,4 +345,76 @@ export const easyLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/easy/997_find_the_town_judge.md',
   },
+  {
+    id: '4fd3dc6a-0b80-52ab-9dc8-5d6c2c73d492',
+    platform: PlatformEnum.LEETCODE,
+    number: 100,
+    title: 'Same Tree',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '9682fea3-c83d-5c88-837b-ba67f23cf7b1',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/100_same_tree.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/100_same_tree.md',
+  },
+  {
+    id: 'e64b18de-6d25-5c76-ae66-c743e87a7a82',
+    platform: PlatformEnum.LEETCODE,
+    number: 543,
+    title: 'Diameter of Binary Tree',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '23960b19-72ae-5ef3-b32a-0c5668e5f9e0',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/543_diameter_of_binary_tree.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/543_diameter_of_binary_tree.md',
+  },
+  {
+    id: 'f6417c35-389b-5e02-a35e-09baaa6af351',
+    platform: PlatformEnum.LEETCODE,
+    number: 2864,
+    title: 'Maximum Odd Binary Number',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '3de1704b-e5bb-504b-8865-28a79b3452cd',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/2864_maximum_odd_binary_number.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/2864_maximum_odd_binary_number.md',
+  },
+  {
+    id: 'b1202a2b-e1eb-50f2-b30c-27f91e5967cb',
+    platform: PlatformEnum.LEETCODE,
+    number: 977,
+    title: 'Squares of a Sorted Array',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '0998926f-b53f-535e-a500-0431712032da',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/977_squares_of_a_sorted_array.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/977_squares_of_a_sorted_array.md',
+  },
 ];
