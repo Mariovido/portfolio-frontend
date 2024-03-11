@@ -417,4 +417,94 @@ export const easyLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/easy/977_squares_of_a_sorted_array.md',
   },
+  {
+    id: '86ce4ddd-9e32-57b3-b00d-52270e7cc015',
+    platform: PlatformEnum.LEETCODE,
+    number: 141,
+    title: 'Linked List Cycle',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '8d91cd2c-b88b-5413-af27-420d8e2dac78',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/141_linked_list_cycle.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/141_linked_list_cycle.md',
+  },
+  {
+    id: '2c640c6b-acec-5d0b-8e30-a0884aec2148',
+    platform: PlatformEnum.LEETCODE,
+    number: 876,
+    title: 'Middle of the Linked List',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '24ea00a5-c94c-5c5c-8f3d-18815f258d14',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/876_middle_of_the_linked_list.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/876_middle_of_the_linked_list.md',
+  },
+  {
+    id: '273ce2ad-e370-5b73-b831-118d1ae9cc1f',
+    platform: PlatformEnum.LEETCODE,
+    number: 3005,
+    title: 'Count Elements With Maximum Frequency',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'c1696fe2-3e09-51c0-9505-1a08cd66d4b5',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/3005_count_elements_with_maximum_frequency.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/3005_count_elements_with_maximum_frequency.md',
+  },
+  {
+    id: '5843a0c9-a95f-5219-8e41-15f180f597e9',
+    platform: PlatformEnum.LEETCODE,
+    number: 2540,
+    title: 'Minimum Common Value',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '02eba89a-258b-56df-b334-46b4fde28326',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/2540_minimum_common_value.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/2540_minimum_common_value.md',
+  },
+  {
+    id: 'd71240a3-732f-52d2-b7d8-e0bb8ca079b6',
+    platform: PlatformEnum.LEETCODE,
+    number: 349,
+    title: 'Intersection of Two Arrays',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '553286fe-6fec-5a27-9725-490128c3472d',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/349_intersection_of_two_arrays.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/349_intersection_of_two_arrays.md',
+  },
 ];

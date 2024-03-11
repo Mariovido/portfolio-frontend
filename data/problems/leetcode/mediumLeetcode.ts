@@ -814,4 +814,58 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/19_remove_nth_node_from_end_of_list.md',
   },
+  {
+    id: '0691176a-9fa0-5ba9-949e-a49b12468d90',
+    platform: PlatformEnum.LEETCODE,
+    number: 948,
+    title: 'Bag of Tokens',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '132c1c03-f65b-5994-b186-21fff122601f',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/948_bag_of_tokens.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/948_bag_of_tokens.md',
+  },
+  {
+    id: 'b2f4aa74-30d8-58e7-a317-cab3e6287cba',
+    platform: PlatformEnum.LEETCODE,
+    number: 1750,
+    title: 'Minimum Length of String After Deleting Similar Ends',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '6a680114-7085-586e-8b14-b68a0d45cbe0',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1750_minimum_length_of_string_after_deleting_similar_ends.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1750_minimum_length_of_string_after_deleting_similar_ends.md',
+  },
+  {
+    id: '380d0921-703f-5f1c-89d6-b95915ac24ee',
+    platform: PlatformEnum.LEETCODE,
+    number: 391,
+    title: 'Custom Sort String',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'c3b764e2-1162-51c7-8a6d-af492d1bef43',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/791_custom_sort_string.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/791_custom_sort_string.md',
+  },
 ];
