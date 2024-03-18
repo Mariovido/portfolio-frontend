@@ -868,4 +868,94 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/791_custom_sort_string.md',
   },
+  {
+    id: '30a0bc4b-d74f-55f7-9906-a21fdbb171c5',
+    platform: PlatformEnum.LEETCODE,
+    number: 1171,
+    title: 'Remove Zero Sum Consecutive Nodes from Linked List',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'bfa2a42c-9529-5a4e-ad8d-c36013b03fff',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1171_remove_zero_sum_consecutive_nodes_from_linked_list.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1171_remove_zero_sum_consecutive_nodes_from_linked_list.md',
+  },
+  {
+    id: '4a585b90-1ff3-5e9e-b63c-7842a5f1f823',
+    platform: PlatformEnum.LEETCODE,
+    number: 930,
+    title: 'Binary Subarrays With Sum',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'ac2d3696-d17b-538c-9b79-554ae6cca9ed',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/930_binary_subarrays_with_sum.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/930_binary_subarrays_with_sum.md',
+  },
+  {
+    id: '72cfa577-7bbf-5672-9326-69c45e359ce4',
+    platform: PlatformEnum.LEETCODE,
+    number: 525,
+    title: 'Contiguous Array',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '9900d69d-3a7c-5aa2-9b30-870b8333a951',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/525_contiguos_array.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/525_contiguos_array.md',
+  },
+  {
+    id: '5654ea3a-272f-5544-8eae-ffce033fe55e',
+    platform: PlatformEnum.LEETCODE,
+    number: 57,
+    title: 'Insert Interval',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'b4ad6943-c27f-512e-b25d-7f9691442e49',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/57_insert_interval.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/57_insert_interval.md',
+  },
+  {
+    id: '48287a0a-54ce-5dce-8e0e-5d4305eae6c3',
+    platform: PlatformEnum.LEETCODE,
+    number: 452,
+    title: 'Minimum Number of Arrows to Burst Balloons',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'e1193af1-fc2b-5d76-8f1e-17cb0761da15',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/452_minimum_number_of_arrows_to_burst_ballons.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/452_minimum_number_of_arrows_to_burst_ballons.md',
+  },
 ];

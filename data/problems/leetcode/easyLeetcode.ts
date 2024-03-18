@@ -507,4 +507,22 @@ export const easyLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/easy/349_intersection_of_two_arrays.md',
   },
+  {
+    id: '25714f6c-3e13-5a20-8bf0-759c5033251b',
+    platform: PlatformEnum.LEETCODE,
+    number: 2485,
+    title: 'Find the Pivot Integer',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '12a0006e-9b49-576f-ab40-c4666ed9a1c1',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/2485_find_the_pivot_integer.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/2485_find_the_pivot_integer.md',
+  },
 ];
