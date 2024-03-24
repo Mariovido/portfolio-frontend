@@ -525,4 +525,22 @@ export const easyLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/easy/2485_find_the_pivot_integer.md',
   },
+  {
+    id: 'fae086d4-fa46-5166-89bd-35403524cafb',
+    platform: PlatformEnum.LEETCODE,
+    number: 234,
+    title: 'Palindrome Linked List',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'a435faec-f228-5e0b-85b9-40f59507aeec',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/234_palindrome_linked_list.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/234_palindrome_linked_list.md',
+  },
 ];

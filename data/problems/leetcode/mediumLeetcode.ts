@@ -958,4 +958,76 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/452_minimum_number_of_arrows_to_burst_ballons.md',
   },
+  {
+    id: '734d326f-c15c-5f36-bab0-98414c0dadf2',
+    platform: PlatformEnum.LEETCODE,
+    number: 621,
+    title: 'Task Scheduler',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '4d5c209f-289d-5f24-9744-6739ecedeb9f',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/621_task_scheduler.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/621_task_scheduler.md',
+  },
+  {
+    id: '0ef46067-bb9a-5e0f-a1bb-16b4489bd506',
+    platform: PlatformEnum.LEETCODE,
+    number: 1669,
+    title: 'Merge In Between Linked Lists',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '17493953-3fa8-5fe0-b209-e741151da6b5',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1669_merge_in_between_linked_lists.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1669_merge_in_between_linked_lists.md',
+  },
+  {
+    id: '626e462d-975b-5859-bdf0-276aa6095926',
+    platform: PlatformEnum.LEETCODE,
+    number: 143,
+    title: 'Reorder List',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'e5b01b2f-dfef-54cc-97b9-d681cfd5e53b',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/143_reorder_list.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/143_reorder_list.md',
+  },
+  {
+    id: '1a1ff13d-64cb-5057-a517-e5e5286af3c5',
+    platform: PlatformEnum.LEETCODE,
+    number: 287,
+    title: 'Find the Duplicate Number',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'ecbab80e-1333-542a-bf37-5136b19a91a9',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/287_find_the_duplicate_number.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/287_find_the_duplicate_number.md',
+  },
 ];
