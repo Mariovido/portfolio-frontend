@@ -8,6 +8,11 @@ export const skill: Skills = {
       progress: 100,
     },
     {
+      id: '19811d11-1a2e-5e93-a446-263bcb00a26c',
+      name: 'Python',
+      progress: 95,
+    },
+    {
       id: '2180fd37-8564-5783-9631-c6102cf23d67',
       name: 'Typescript',
       progress: 95,
@@ -16,6 +21,11 @@ export const skill: Skills = {
       id: '929518e0-3e17-557c-b46e-f03e4ed94f29',
       name: 'Git',
       progress: 95,
+    },
+    {
+      id: 'd5adc553-dd33-537f-96c5-f940520972da',
+      name: 'SQL',
+      progress: 90,
     },
     {
       id: 'd4bdf76c-c493-5ce5-a9eb-47fd992d0265',
@@ -53,8 +63,18 @@ export const skill: Skills = {
       progress: 80,
     },
     {
+      id: '176b5c11-9ca3-547a-9cad-82b1d0d592b4',
+      name: 'AWS',
+      progress: 80,
+    },
+    {
       id: '86dd6760-2734-519c-9a28-840b55d5d200',
       name: 'Oracle DB',
+      progress: 75,
+    },
+    {
+      id: 'f36f31dd-55fc-522d-9aee-ef496f461302',
+      name: 'MySQL',
       progress: 75,
     },
     {
@@ -64,7 +84,22 @@ export const skill: Skills = {
     },
     {
       id: 'ee5a9c27-d858-534a-ae1f-98441ccdae2a',
-      name: 'GitHub Actions',
+      name: 'Jenkins',
+      progress: 75,
+    },
+    {
+      id: 'fe29bf1c-be42-5b38-a4ab-cedb98035c2e',
+      name: 'Kafka',
+      progress: 75,
+    },
+    {
+      id: 'aa5bf9a7-d0e3-5d85-af5d-0b1a73dc7ed2',
+      name: 'Airflow',
+      progress: 75,
+    },
+    {
+      id: '4ed8970f-4fe2-5812-9aaf-029927bf162c',
+      name: 'Spark',
       progress: 75,
     },
     {
@@ -84,13 +119,18 @@ export const skill: Skills = {
     },
     {
       id: '52776a51-eb8a-5d9a-824a-fedea6e93023',
-      name: 'Jenkins',
+      name: 'GitHub Actions',
       progress: 70,
     },
     {
-      id: '176b5c11-9ca3-547a-9cad-82b1d0d592b4',
-      name: 'AWS',
-      progress: 65,
+      id: 'd68e8721-160f-5475-b5af-efe203019e71',
+      name: 'Docker',
+      progress: 70,
+    },
+    {
+      id: 'fa49af7d-6c3a-5e84-af4c-03240b52237c',
+      name: 'FastAPI',
+      progress: 70,
     },
     {
       id: '17d43a19-7612-5600-9467-c1f8c09c3644',
@@ -98,34 +138,24 @@ export const skill: Skills = {
       progress: 65,
     },
     {
-      id: 'd68e8721-160f-5475-b5af-efe203019e71',
-      name: 'Docker',
-      progress: 65,
-    },
-    {
-      id: '19811d11-1a2e-5e93-a446-263bcb00a26c',
-      name: 'Python',
+      id: '8aca99ed-c547-5509-b944-72581861ccb4',
+      name: 'Microsoft Azure',
       progress: 60,
     },
     {
-      id: '8aca99ed-c547-5509-b944-72581861ccb4',
-      name: 'Microsoft Azure',
-      progress: 55,
+      id: 'bb432654-f969-567d-8b70-c222561fef78',
+      name: 'Snowflake',
+      progress: 60,
     },
     {
       id: '6316ac5a-cc5a-585a-8ba6-bb4dd40a393f',
       name: 'K8s',
-      progress: 55,
+      progress: 60,
     },
     {
       id: '896992fb-74bc-5e56-bd55-a2c9781f3195',
       name: 'Go',
       progress: 45,
-    },
-    {
-      id: 'fa49af7d-6c3a-5e84-af4c-03240b52237c',
-      name: 'Django',
-      progress: 40,
     },
     {
       id: 'fec667c9-766f-5467-9011-47e1edb078dc',

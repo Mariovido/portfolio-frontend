@@ -5,7 +5,7 @@ export const about: About = {
     {
       id: '3d53f354-9e1f-53e2-b83e-b75be4930dc6',
       paragraph:
-        "👋 Hi, I'm a web developer with an education that includes a Degree in Telecommunications Engineering and a Master's in Software Engineering. My skills encompass $$$java$$$, $$$python$$$, $$$typescript$$$, $$$javascript$$$, $$$html5$$$, $$$css3$$$, and $$$go$$$.",
+        "👋 Hi, I'm a web developer with an education that includes a Degree in Telecommunications Engineering and a Master's in Software Engineering. My skills encompass $$$java$$$, $$$python$$$, $$$sql$$$, $$$typescript$$$, $$$javascript$$$, $$$html5$$$, and $$$css3$$$.",
       links: [
         {
           id: '0cdf7c82-9d40-57a2-8182-e448622f2229',
@@ -22,6 +22,13 @@ export const about: About = {
           target: '_blank',
         },
         {
+          id: '6d26a06e-4634-580b-bd52-ed27aaf70efe',
+          tag: 'sql',
+          name: 'SQL',
+          link: 'https://en.wikipedia.org/wiki/SQL',
+          target: '_blank',
+        },
+        {
           id: '9d08d180-e7e6-5695-b7bf-44886011bbb6',
           tag: 'typescript',
           name: 'TypeScript',
@@ -33,13 +40,6 @@ export const about: About = {
           tag: 'javascript',
           name: 'JavaScript',
           link: 'https://developer.mozilla.org/en-us/docs/Web/JavaScript',
-          target: '_blank',
-        },
-        {
-          id: '251ac498-535c-59c5-a80a-ec24d37286ad',
-          tag: 'go',
-          name: 'Go',
-          link: 'https://go.dev',
           target: '_blank',
         },
         {
@@ -61,7 +61,7 @@ export const about: About = {
     {
       id: '43313661-867c-5e8c-931f-4ee28755cc35',
       paragraph:
-        "🛠️ I'm proficient in $$$springboot$$$, $$$nodejs$$$, $$$nestjs$$$, $$$react$$$, $$$angular$$$, and $$$django$$$. I handle both SQL ($$$postgresql$$$, $$$mysql$$$) and NoSQL ($$$mongodb$$$) databases, and I'm well-versed in $$$aws$$$, $$$azure$$$, $$$docker$$$, $$$kubernetes$$$, $$$git$$$, and $$$githubactions$$$.",
+        "🛠️ I'm proficient in $$$springboot$$$, $$$nodejs$$$, $$$nestjs$$$, $$$react$$$, $$$fastapi$$$, $$$spark$$$, and $$$kafka$$$. I handle both SQL ($$$postgresql$$$, $$$mysql$$$) and NoSQL ($$$mongodb$$$) databases, data warehouses ($$$snowflake$$$), and I'm well-versed in $$$aws$$$, $$$gcp$$$, $$$azure$$$, $$$docker$$$, $$$kubernetes$$$, $$$airflow$$$, $$$datadog$$$, $$$git$$$, $$$jenkins$$$, and $$$githubactions$$$.",
       links: [
         {
           id: '5211733b-30fa-5cb7-93c3-58d31221bdbf',
@@ -93,16 +93,23 @@ export const about: About = {
         },
         {
           id: '7a8264d8-95ee-581b-9c1f-25988e558b27',
-          tag: 'angular',
-          name: 'Angular',
-          link: 'https://angular.io',
+          tag: 'fastapi',
+          name: 'FastAPI',
+          link: 'https://fastapi.tiangolo.com',
+          target: '_blank',
+        },
+        {
+          id: '80ed9350-cfa4-5b3f-9ecf-32162e3d3c60',
+          tag: 'spark',
+          name: 'Spark',
+          link: 'https://spark.apache.org',
           target: '_blank',
         },
         {
           id: '348ed41a-b9b8-575f-9fbb-399bd0400438',
-          tag: 'django',
-          name: 'Django',
-          link: 'https://www.djangoproject.com',
+          tag: 'kafka',
+          name: 'Kafka',
+          link: 'https://kafka.apache.org',
           target: '_blank',
         },
         {
@@ -127,10 +134,24 @@ export const about: About = {
           target: '_blank',
         },
         {
+          id: 'c92274f6-7448-5e0e-b1d3-309a49e45d86',
+          tag: 'snowflake',
+          name: 'Snowflake',
+          link: 'https://www.snowflake.com/en/',
+          target: '_blank',
+        },
+        {
           id: 'e710430b-45ea-59b8-9e4d-1f6dc741b0ef',
           tag: 'aws',
           name: 'AWS',
           link: 'https://aws.amazon.com',
+          target: '_blank',
+        },
+        {
+          id: '23ea7c5c-67cc-5c90-8556-abdaf7593145',
+          tag: 'gcp',
+          name: 'GCP',
+          link: 'https://cloud.google.com',
           target: '_blank',
         },
         {
@@ -155,10 +176,31 @@ export const about: About = {
           target: '_blank',
         },
         {
+          id: '1b36f42c-3312-5d5e-be08-3c02b213412b',
+          tag: 'airflow',
+          name: 'Airflow',
+          link: 'https://airflow.apache.org',
+          target: '_blank',
+        },
+        {
+          id: 'd7ae957e-7669-57d6-b5ba-5039c19505a3',
+          tag: 'datadog',
+          name: 'Datadog',
+          link: 'https://www.datadoghq.com',
+          target: '_blank',
+        },
+        {
           id: 'd42bd8af-d667-5c0b-85ff-0d139f71870a',
           tag: 'git',
           name: 'Git',
           link: 'https://git-scm.com',
+          target: '_blank',
+        },
+        {
+          id: '7008cac9-65ad-5993-b712-1854c57c2b2a',
+          tag: 'jenkins',
+          name: 'Jenkins',
+          link: 'https://www.jenkins.io',
           target: '_blank',
         },
         {
