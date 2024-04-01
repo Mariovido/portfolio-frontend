@@ -292,4 +292,58 @@ export const hardLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/hard/2709_greatest_common_divisor_traversal.md',
   },
+  {
+    id: 'd63fe142-763b-5c79-a18f-2eccbdccc3e4',
+    platform: PlatformEnum.LEETCODE,
+    number: 41,
+    title: 'First Missing Positive',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: '61823036-4f1c-5a79-b4cb-124b9a55478c',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/41_first_meeting_positive.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/41_first_meeting_positive.md',
+  },
+  {
+    id: '38c3c30d-e353-5967-abe4-821ebc8ef735',
+    platform: PlatformEnum.LEETCODE,
+    number: 992,
+    title: 'Subarrays with K Different Integers',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: '2bf10a09-b0f5-59a3-987d-46f06aeda40c',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/992_subarrays_with_k_different_integers.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/992_subarrays_with_k_different_integers.md',
+  },
+  {
+    id: 'c953b135-c929-5b65-8e91-1d3d6b7e47c4',
+    platform: PlatformEnum.LEETCODE,
+    number: 2444,
+    title: 'Count Subarrays With Fixed Bounds',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: '742a465c-f26a-5a8e-813f-a630c06611d6',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/2444_count_subarrays_with_fixed_bounds.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/2444_count_subarrays_with_fixed_bounds.md',
+  },
 ];

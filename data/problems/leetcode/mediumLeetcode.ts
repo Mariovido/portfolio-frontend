@@ -1030,4 +1030,58 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/287_find_the_duplicate_number.md',
   },
+  {
+    id: '32eb4441-65f2-56c0-8428-3425d6fe660a',
+    platform: PlatformEnum.LEETCODE,
+    number: 442,
+    title: 'Find All Duplicates in an Array',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '94ab9198-57d8-56a0-9d2d-cf81c54a73ea',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/442_find_all_duplicates_in_an_array.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/442_find_all_duplicates_in_an_array.md',
+  },
+  {
+    id: 'f7ed760c-ce50-5bbc-aec4-5c6142caa989',
+    platform: PlatformEnum.LEETCODE,
+    number: 2958,
+    title: 'Length of Longest Subarray With at Most K Frequency',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '107de2f5-cb7e-575f-8e32-39f9b4981151',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/2958_lenght_of_longest_subarray_with_at_most_k_frequency.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/2958_lenght_of_longest_subarray_with_at_most_k_frequency.md',
+  },
+  {
+    id: 'cfb28531-39ca-51ac-b274-139aefa97a98',
+    platform: PlatformEnum.LEETCODE,
+    number: 2962,
+    title: 'Count Subarrays Where Max Element Appears at Least K Times',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '71ff13d8-a7dd-5726-9d01-a57852b0306f',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/2962_count_subarrays_where_max_element_appears_at_least_k_times.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/2962_count_subarrays_where_max_element_appears_at_least_k_times.md',
+  },
 ];

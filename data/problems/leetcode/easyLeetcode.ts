@@ -543,4 +543,22 @@ export const easyLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/easy/234_palindrome_linked_list.md',
   },
+  {
+    id: 'cddfc144-e84c-5bf1-aec9-e13307e24ba4',
+    platform: PlatformEnum.LEETCODE,
+    number: 58,
+    title: 'Length of Last Word',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'f74e324a-8257-5557-86f4-304a11cc918c',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/58_length_of_last_word.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/58_length_of_last_word.md',
+  },
 ];
