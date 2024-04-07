@@ -1084,4 +1084,40 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/2962_count_subarrays_where_max_element_appears_at_least_k_times.md',
   },
+  {
+    id: 'a54dbd8e-8053-50dc-abc5-a7553d71168a',
+    platform: PlatformEnum.LEETCODE,
+    number: 1249,
+    title: 'Minimum Remove to Make Valid Parentheses',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '34343d0f-431d-5dfd-8eeb-59e6cf9e22a1',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1249_minimum_remove_to_make_valid_parentheses.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1249_minimum_remove_to_make_valid_parentheses.md',
+  },
+  {
+    id: '10592626-d402-5a61-9e0d-af224a2e5c4b',
+    platform: PlatformEnum.LEETCODE,
+    number: 678,
+    title: 'Valid Parenthesis String',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '7e57af8c-dff1-51e4-9d6f-eb860332b1a6',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/678_valid_parenthesis_string.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/678_valid_parenthesis_string.md',
+  },
 ];

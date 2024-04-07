@@ -561,4 +561,58 @@ export const easyLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/easy/58_length_of_last_word.md',
   },
+  {
+    id: '25438422-1d40-5f72-8543-b6c7a75dcdaa',
+    platform: PlatformEnum.LEETCODE,
+    number: 205,
+    title: 'Isomorphic Strings',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '65d14fa0-e59a-5711-a308-925adf4d81b6',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/205_isomorphic_strings.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/205_isomorphic_strings.md',
+  },
+  {
+    id: '91693769-d065-5c19-8328-5bdbb92528ec',
+    platform: PlatformEnum.LEETCODE,
+    number: 1614,
+    title: 'Maximum Nesting Depth of the Parentheses',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '9097cace-54b6-5c22-871d-327a9c45084b',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/1614_maximum_nesting_depth_of_the_parentheses.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/1614_maximum_nesting_depth_of_the_parentheses.md',
+  },
+  {
+    id: '07aa1947-4c38-5cef-a637-7d2b6ea0ecd4',
+    platform: PlatformEnum.LEETCODE,
+    number: 1544,
+    title: 'Make The String Great',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '4a2c31c4-24e0-567e-9080-1a55ec2806ff',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/1544_make_the_string_great.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/1544_make_the_string_great.md',
+  },
 ];
