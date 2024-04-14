@@ -1120,4 +1120,40 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/678_valid_parenthesis_string.md',
   },
+  {
+    id: 'd51dd1e5-19ea-5c6f-aced-e00967bd325b',
+    platform: PlatformEnum.LEETCODE,
+    number: 950,
+    title: 'Reveal Cards In Increasing Order',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '5c71bb11-99e0-59a1-b1c9-fed843f391f8',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/950_reveal_cards_in_increasing_order.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/950_reveal_cards_in_increasing_order.md',
+  },
+  {
+    id: '13c48351-b6c0-5c95-91ac-763ab013f3c2',
+    platform: PlatformEnum.LEETCODE,
+    number: 402,
+    title: 'Remove K Digits',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '1b7a7ad9-3596-536f-ab50-5dc03cf3b363',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/402_remove_k_digits.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/402_remove_k_digits.md',
+  },
 ];

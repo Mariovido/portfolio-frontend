@@ -346,4 +346,22 @@ export const hardLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/hard/2444_count_subarrays_with_fixed_bounds.md',
   },
+  {
+    id: 'd93f1099-4e18-5b9a-b094-0bc99a52762f',
+    platform: PlatformEnum.LEETCODE,
+    number: 85,
+    title: 'Maximal Rectangle',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: '1b086ae3-169a-5252-9b7e-22fb0a5ba551',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/85_maximal_rectangle.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/85_maximal_rectangle.md',
+  },
 ];

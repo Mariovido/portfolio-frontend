@@ -615,4 +615,58 @@ export const easyLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/easy/1544_make_the_string_great.md',
   },
+  {
+    id: '2e0d4a15-0f22-5ecb-b27a-95b94bf2172c',
+    platform: PlatformEnum.LEETCODE,
+    number: 1700,
+    title: 'Number of Students Unable to Eat Lunch',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '7dce93f3-00a3-5770-a42d-b8f1e32f7eaa',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/1700_number_of_students_unable_to_eat_lunch.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/1700_number_of_students_unable_to_eat_lunch.md',
+  },
+  {
+    id: '0c156c22-6114-5040-8150-036e1ef36380',
+    platform: PlatformEnum.LEETCODE,
+    number: 2073,
+    title: 'Time Needed to Buy Tickets',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '11fd3782-978f-596d-8fb2-2a76b440ff59',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/2073_time_needed_to_buy_tickets.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/2073_time_needed_to_buy_tickets.md',
+  },
+  {
+    id: '15400125-087c-5dc8-a4a0-936c655dce71',
+    platform: PlatformEnum.LEETCODE,
+    number: 404,
+    title: 'Sum of Left Leaves',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '2eb7f71d-0a7c-53ba-b6df-c8aa8fdd900b',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/404_sum_of_left_leaves.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/404_sum_of_left_leaves.md',
+  },
 ];
