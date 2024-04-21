@@ -1156,4 +1156,76 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/402_remove_k_digits.md',
   },
+  {
+    id: 'f7588903-8df7-54a0-8199-eeebc5af9e58',
+    platform: PlatformEnum.LEETCODE,
+    number: 129,
+    title: 'Sum Root to Leaf Numbers',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'e8544aa1-c577-5032-abc8-2ab2e7fb5b4f',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/129_sum_root_to_leaf_numbers.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/129_sum_root_to_leaf_numbers.md',
+  },
+  {
+    id: '2f3a686c-b031-588c-a1e3-e4762aadd03f',
+    platform: PlatformEnum.LEETCODE,
+    number: 623,
+    title: 'Add One Row to Tree',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'd8543b72-f533-5ab1-aeaa-d9783cc92e85',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/623_add_one_row_to_tree.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/623_add_one_row_to_tree.md',
+  },
+  {
+    id: '97cb1373-194c-5072-b381-25da99705437',
+    platform: PlatformEnum.LEETCODE,
+    number: 988,
+    title: 'Smallest String Starting From Leaf',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '50a9f1ed-04bc-5f45-be4e-e9fdb9d3e3ae',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/988_smallest_string_starting_from_leaf.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/988_smallest_string_starting_from_leaf.md',
+  },
+  {
+    id: 'b7eb5b9a-22fa-588e-a93c-9d733fefa4df',
+    platform: PlatformEnum.LEETCODE,
+    number: 1992,
+    title: 'Find All Groups of Farmland',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '7922a8be-994d-57e6-a93c-0a4945e28aa1',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1992_find_all_groups_of_farmland.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1992_find_all_groups_of_farmland.md',
+  },
 ];

@@ -669,4 +669,40 @@ export const easyLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/easy/404_sum_of_left_leaves.md',
   },
+  {
+    id: 'e932697b-ba3f-5d78-be33-214c03dd4df7',
+    platform: PlatformEnum.LEETCODE,
+    number: 463,
+    title: 'Island Perimeter',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'c6d2cb95-1c80-5bc8-84ce-119e89e41d13',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/463_island_perimeter.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/463_island_perimeter.md',
+  },
+  {
+    id: '63bca879-e154-520f-abbc-6405a3ea9f73',
+    platform: PlatformEnum.LEETCODE,
+    number: 1971,
+    title: 'Find if Path Exists in Graph',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '3d56b41d-8f4e-5145-8d0e-edd3dd899341',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/1971_find_if_path_exists_in_graph.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/1971_find_if_path_exists_in_graph.md',
+  },
 ];
