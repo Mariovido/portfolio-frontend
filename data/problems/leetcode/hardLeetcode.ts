@@ -364,4 +364,58 @@ export const hardLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/hard/85_maximal_rectangle.md',
   },
+  {
+    id: 'e231c49d-f059-5134-a276-5ab1b8efe96e',
+    platform: PlatformEnum.LEETCODE,
+    number: 1289,
+    title: 'Minimum Falling Path Sum II',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: 'fbf4bbab-3b09-5e2c-b6e2-812bfdee6981',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/1289_minimum_falling_path_sum_ii.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/1289_minimum_falling_path_sum_ii.md',
+  },
+  {
+    id: '7cef81ee-ebb6-5d40-9a5b-65fed419a42e',
+    platform: PlatformEnum.LEETCODE,
+    number: 514,
+    title: 'Freedom Trail',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: 'bcd4aaf6-bd2b-5d44-b4c2-2c27447ccd1d',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/514_freedom_trail.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/514_freedom_trail.md',
+  },
+  {
+    id: 'fad8b1c6-b6fb-5974-8e08-638ffc7b30c0',
+    platform: PlatformEnum.LEETCODE,
+    number: 834,
+    title: 'Sum of Distances in Tree',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: '179d8fd6-f93a-5e1e-a49a-ccbcb99d5ba9',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/834_sum_of_distances_in_tree.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/834_sum_of_distances_in_tree.md',
+  },
 ];

@@ -1228,4 +1228,76 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/1992_find_all_groups_of_farmland.md',
   },
+  {
+    id: '52d078b5-1689-5b36-9953-5e07c4f76099',
+    platform: PlatformEnum.LEETCODE,
+    number: 752,
+    title: 'Open the Lock',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '6f475dec-bec9-5a4d-beac-9342d24e76bd',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/752_open_the_lock.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/752_open_the_lock.md',
+  },
+  {
+    id: 'fa2846bf-f71c-5510-a0ca-a55d604e108a',
+    platform: PlatformEnum.LEETCODE,
+    number: 310,
+    title: 'Minimum Height Trees',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'd0850db9-c0ab-5aba-b262-2927d2a7e1e0',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/310_minimum_height_trees.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/310_minimum_height_trees.md',
+  },
+  {
+    id: '333731b6-8467-58f3-8390-4d43ac5c818f',
+    platform: PlatformEnum.LEETCODE,
+    number: 2370,
+    title: 'Longest Ideal Subsequence',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '3cd09275-d511-5c9d-8deb-ea648ea0c83e',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/2370_longest_ideal_subsequence.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/2370_longest_ideal_subsequence.md',
+  },
+  {
+    id: '0e5c2e93-9fd5-5bba-a707-e1234987920a',
+    platform: PlatformEnum.LEETCODE,
+    number: 2997,
+    title: 'Minimum Number of Operations to Make Array XOR Equal to K',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '279be103-0897-58b3-b1e2-c771e8bd2632',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/2997_minimum_number_of_operations_to_make_array_xor_equal_to_k.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/2997_minimum_number_of_operations_to_make_array_xor_equal_to_k.md',
+  },
 ];

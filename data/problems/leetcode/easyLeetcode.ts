@@ -705,4 +705,40 @@ export const easyLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/easy/1971_find_if_path_exists_in_graph.md',
   },
+  {
+    id: '6a4aeade-34f3-5aba-b508-47821738aaa9',
+    platform: PlatformEnum.LEETCODE,
+    number: 1137,
+    title: 'N-th Tribonacci Number',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'b30907f4-ee3e-555c-96db-32043564e895',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/1137_n-th_tribonacci_number.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/1137_n-th_tribonacci_number.md',
+  },
+  {
+    id: '160609f9-84c5-546b-953e-8b086db81821',
+    platform: PlatformEnum.LEETCODE,
+    number: 112,
+    title: 'Path Sum',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '7a8afa10-2240-53e4-8b74-1b8b142a177e',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/112_path_sum.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/112_path_sum.md',
+  },
 ];
