@@ -27,59 +27,54 @@ The problem seems to require finding the highest value palindrome by changing at
 class Result {
     public static String highestValuePalindrome(String s, int n, int k) {
         if (n == 1 && k >= 1) return "9";
-
-        int needUpdate = k;
+        
+        int updates = k;
+        int l = s.length();
         char[] sChars = s.toCharArray();
-        boolean[] needsUpdate = new boolean[s.length()];
+        boolean[] needsUpdate = new boolean[l];
         Arrays.fill(needsUpdate, false);
-
-        for (int i = 0; i < s.length() / 2; i++) {
-            if (sChars[i] - sChars[s.length() - i - 1] != 0) {
-                if (sChars[i] - sChars[s.length() - i - 1] > 0) {
-                    sChars[s.length() - i - 1] = sChars[i];
-                    needsUpdate[i] = true;
-                    needUpdate--;
-                } else {
-                    sChars[i] = sChars[s.length() - i - 1];
-                    needsUpdate[i] = true;
-                    needUpdate--;
-                }
+        
+        for (int i = 0; i < l / 2; i++) {
+            if (sChars[i] - sChars[l - i - 1] != 0) {
+                if (sChars[i] - sChars[l - i - 1] > 0) sChars[l - i - 1] = sChars[i];
+                else sChars[i] = sChars[l - i - 1];
+                
+                needsUpdate[i] = true;
+                updates--;
             }
-
-            if (needUpdate < 0) return "-1";
+            
+            if (updates < 0) return "-1";
         }
-
-        System.out.println(needUpdate);
-
-        int index = 0;
-        int index2 = s.length() - 1;
-        while (needUpdate > 0 && index <= index2) {
-            if (sChars[index] != '9') {
-                if (needsUpdate[index]) {
-                    sChars[index] = '9';
-                    sChars[s.length() - index - 1] = '9';
-                    needUpdate--;
-                } else if (!needsUpdate[index] && needUpdate >= 2) {
-                    sChars[index] = '9';
-                    sChars[s.length() - index - 1] = '9';
-                    needUpdate -= 2;
+        
+        int left = 0;
+        int right = l - 1;
+        while (updates > 0 && left <= right) {
+            if (sChars[left] != '9') {
+                if (needsUpdate[left]) {
+                    sChars[left] = '9';
+                    sChars[l - left - 1] = '9';
+                    updates--;
+                } else if (!needsUpdate[left] && updates >= 2) {
+                    sChars[left] = '9';
+                    sChars[l - left - 1] = '9';
+                    updates -= 2;
                 }
             }
-
-            index++;
-            index2--;
-
-            if (index == index2 && needUpdate >= 1) {
-                sChars[index] = '9';
+            
+            left++;
+            right--;
+            
+            if (left == right && updates >= 1) {
+                sChars[left] = '9';
                 break;
             }
         }
-
+        
         StringBuilder result = new StringBuilder();
         for (char element : sChars) {
             result.append(element);
         }
-
+        
         return result.toString();
     }
 }

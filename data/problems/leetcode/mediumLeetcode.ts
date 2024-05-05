@@ -1300,4 +1300,76 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/2997_minimum_number_of_operations_to_make_array_xor_equal_to_k.md',
   },
+  {
+    id: 'cd9e383f-752f-513c-a159-f68d21dc2b7b',
+    platform: PlatformEnum.LEETCODE,
+    number: 1915,
+    title: 'Number of Wonderful Substrings',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '07ab5e29-65ff-553a-af9a-e7d6f5b7be8d',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1915_number_of_wonderful_substrings.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1915_number_of_wonderful_substrings.md',
+  },
+  {
+    id: 'aa811e2d-f56a-5289-87c7-92f9b2b8ac2f',
+    platform: PlatformEnum.LEETCODE,
+    number: 165,
+    title: 'Compare Version Numbers',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '2c0ab87b-144d-5f39-87a4-ee505a2b54b7',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/165_compare_version_numbers.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/165_compare_version_numbers.md',
+  },
+  {
+    id: 'f9fad99e-b5c1-504b-a6aa-8894060e5500',
+    platform: PlatformEnum.LEETCODE,
+    number: 881,
+    title: 'Boats to Save People',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '2db28829-6011-52c9-bb32-b0ea9d3b154a',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/881_boats_to_save_people.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/881_boats_to_save_people.md',
+  },
+  {
+    id: '55cd8af9-1718-55a3-9f80-7283e3b34c7d',
+    platform: PlatformEnum.LEETCODE,
+    number: 237,
+    title: 'Delete Node in a Linked List',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '0414fc65-2c4a-568d-b058-ac5a03227046',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/237_delete_node_in_a_linked_list.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/237_delete_node_in_a_linked_list.md',
+  },
 ];

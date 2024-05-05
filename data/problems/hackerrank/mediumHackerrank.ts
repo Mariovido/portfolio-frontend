@@ -460,4 +460,72 @@ export const mediumHackerrank: Problem[] = [
     solution:
       '/src/assets/doc/problems/hackerrank/solutions/medium/cut_the_tree.md',
   },
+  {
+    id: '8c81296b-0fac-58fd-85c4-ecf09bc0efa3',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'The Full Counting Sort',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '2e3bdfac-06d8-57e5-87d5-3be80a79ab9e',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/the_full_counting_sort.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/the_full_counting_sort.md',
+  },
+  {
+    id: '89115a57-71fc-5a53-9416-38a82ee2ebd0',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Fraudulent Activity Notifications',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '64a9b673-9089-52e9-9d72-52e0d8a8710a',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/fraudulent_acitivity_notifications.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/fraudulent_acitivity_notifications.md',
+  },
+  {
+    id: 'f281ebc7-6a98-5a04-abbc-1700862fe9e2',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Sherlock and Anagrams',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '73ee7300-0414-5316-b9e2-a518edf59052',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/sherlock_and_anagrams.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/sherlock_and_anagrams.md',
+  },
+  {
+    id: 'd80b77bf-9127-560d-bae3-d164582d04e8',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'KnightL on a Chessboard',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '4e05f35e-f6b7-5c11-aaae-9abf4b16a103',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/knightl_on_a_chessboard.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/knightl_on_a_chessboard.md',
+  },
 ];

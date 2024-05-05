@@ -741,4 +741,40 @@ export const easyLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/easy/112_path_sum.md',
   },
+  {
+    id: 'a5b81561-468b-50a1-95e3-22338bc8670f',
+    platform: PlatformEnum.LEETCODE,
+    number: 2000,
+    title: 'Reverse Prefix of Word',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '61b63952-2713-5353-8b9f-d2bef019124a',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/2000_reverse_prefix_of_word.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/2000_reverse_prefix_of_word.md',
+  },
+  {
+    id: 'a32285ea-605a-569d-98e4-a1362ea5215f',
+    platform: PlatformEnum.LEETCODE,
+    number: 2441,
+    title: 'Largest Positive Integer That Exists With Its Negative',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: '5decd3b2-0f66-543e-9e8a-c712aebeb0f7',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/2441_largest_positive_integer_that_exists_with_its_negative.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/2441_largest_positive_integer_that_exists_with_its_negative.md',
+  },
 ];
