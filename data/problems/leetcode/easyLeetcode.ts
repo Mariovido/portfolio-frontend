@@ -777,4 +777,40 @@ export const easyLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/easy/2441_largest_positive_integer_that_exists_with_its_negative.md',
   },
+  {
+    id: 'ee08fbe1-3d4b-5870-8a6a-3bf3a6d8476f',
+    platform: PlatformEnum.LEETCODE,
+    number: 506,
+    title: 'Relative Ranks',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'dabd8f36-611d-5701-9a29-d0870a5371bf',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/506_relative_ranks.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/506_relative_ranks.md',
+  },
+  {
+    id: '981c7818-8f5d-5078-abe5-f7bb51dc495a',
+    platform: PlatformEnum.LEETCODE,
+    number: 2373,
+    title: 'Largest Local Values in a Matrix',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'f6111f51-7075-5232-a6bd-bfe60835e024',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/2373_largest_local_values_in_a_matrix.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/2373_largest_local_values_in_a_matrix.md',
+  },
 ];

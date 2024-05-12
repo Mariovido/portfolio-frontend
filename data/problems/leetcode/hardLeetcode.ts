@@ -418,4 +418,22 @@ export const hardLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/hard/834_sum_of_distances_in_tree.md',
   },
+  {
+    id: 'b81e6827-1856-571d-bf4c-f5ecb95a8fab',
+    platform: PlatformEnum.LEETCODE,
+    number: 857,
+    title: 'Minimum Cost to Hire K Workers',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: '44af57d3-c70d-5500-9213-4b07d7730af0',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/857_minimum_cost_to_hire_k_workers.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/857_minimum_cost_to_hire_k_workers.md',
+  },
 ];

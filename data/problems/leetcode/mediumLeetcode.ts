@@ -1372,4 +1372,76 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/237_delete_node_in_a_linked_list.md',
   },
+  {
+    id: '0bfcbf08-a431-5821-a87e-2000ac57d2e8',
+    platform: PlatformEnum.LEETCODE,
+    number: 2487,
+    title: 'Remove Nodes From Linked List',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '4a363443-5c2c-51cc-8b95-e8f4202b4b5e',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/2487_remove_nodes_from_linked_list.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/2487_remove_nodes_from_linked_list.md',
+  },
+  {
+    id: '785ab634-0da8-5cb2-836e-1faec743d890',
+    platform: PlatformEnum.LEETCODE,
+    number: 2816,
+    title: 'Double a Number Represented as a Linked List',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '6f1f1d2c-6075-5d78-95d7-8e5edb700a6a',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/2816_double_a_number_represented_as_a_linked_list.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/2816_double_a_number_represented_as_a_linked_list.md',
+  },
+  {
+    id: 'e08ea93c-878f-5abf-a7cc-3c27cc11c3be',
+    platform: PlatformEnum.LEETCODE,
+    number: 3075,
+    title: 'Maximize Happiness of Selected Children',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '95a5767c-c8ef-56fd-89f7-6313b5669d9d',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/3075_maximize_happiness_of_selected_children.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/3075_maximize_happiness_of_selected_children.md',
+  },
+  {
+    id: '0da5640c-bfe7-517d-b4ad-0a3c455d464f',
+    platform: PlatformEnum.LEETCODE,
+    number: 786,
+    title: 'K-th Smallest Prime Fraction',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '54404bbe-3e0e-5166-87a9-ac749ee41388',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/786_kth_smallest_prime_fraction.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/786_kth_smallest_prime_fraction.md',
+  },
 ];

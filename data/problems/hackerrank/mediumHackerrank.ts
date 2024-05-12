@@ -528,4 +528,72 @@ export const mediumHackerrank: Problem[] = [
     solution:
       '/src/assets/doc/problems/hackerrank/solutions/medium/knightl_on_a_chessboard.md',
   },
+  {
+    id: '85ee269c-5c7d-548d-ab47-5a5142033aec',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Connected Cells in a Grid',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '5ea7844f-d69a-5051-97e7-7cc5adbfe43e',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/connected_cells_in_a_grid.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/connected_cells_in_a_grid.md',
+  },
+  {
+    id: 'fc3bfee1-41d4-58fe-b483-c8e5f1f85a02',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'Count Luck',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '848eef61-3fb3-5b14-8bda-68348bfbec50',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/count_luck.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/count_luck.md',
+  },
+  {
+    id: 'ecc78d59-19c5-5ad0-b803-39196561b20f',
+    platform: PlatformEnum.HACKERRANK,
+    title: "Red Knight's Shortest Path",
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '00bb40c0-9719-59ad-b5ae-989d2fee657c',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/red_knights_shortest_path.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/red_knights_shortest_path.md',
+  },
+  {
+    id: 'a6d0f1b1-24ba-55af-ab0e-6eacb3cfbb30',
+    platform: PlatformEnum.HACKERRANK,
+    title: 'The Power Sum',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '9639ada7-8c4c-5cdd-b44c-f2b7fbcedc84',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/hackerrank/descriptions/medium/the_power_sum.md',
+    solution:
+      '/src/assets/doc/problems/hackerrank/solutions/medium/the_power_sum.md',
+  },
 ];
