@@ -436,4 +436,22 @@ export const hardLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/hard/857_minimum_cost_to_hire_k_workers.md',
   },
+  {
+    id: 'c7c80a5e-6348-51b3-9d1b-b3ab04a52b32',
+    platform: PlatformEnum.LEETCODE,
+    number: 3068,
+    title: 'Find the Maximum Sum of Node Values',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: '9112e5be-8552-5f39-8847-b657bcc8eac1',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/3068_find_the_maximum_sum_of_node_values.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/3068_find_the_maximum_sum_of_node_values.md',
+  },
 ];

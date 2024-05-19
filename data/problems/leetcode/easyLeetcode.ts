@@ -813,4 +813,22 @@ export const easyLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/easy/2373_largest_local_values_in_a_matrix.md',
   },
+  {
+    id: 'f358128f-9efb-53c9-80c3-ba67d7db5010',
+    platform: PlatformEnum.LEETCODE,
+    number: 2331,
+    title: 'Evaluate Boolean Binary Tree',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'd2b0b7d2-ac4a-5487-b53e-b874f1f25b04',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/2331_evaluate_boolean_binary_tree.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/2331_evaluate_boolean_binary_tree.md',
+  },
 ];

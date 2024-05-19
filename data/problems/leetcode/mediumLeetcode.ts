@@ -1444,4 +1444,94 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/786_kth_smallest_prime_fraction.md',
   },
+  {
+    id: '83a94945-bde2-59d5-b3ad-31634a16f168',
+    platform: PlatformEnum.LEETCODE,
+    number: 861,
+    title: 'Score After Flipping Matrix',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '13389781-e7f7-5101-89f8-31761f5ad840',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/861_score_after_flipping_matrix.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/861_score_after_flipping_matrix.md',
+  },
+  {
+    id: '8eea7212-0b4d-5fc6-afe9-b5236cbfce4c',
+    platform: PlatformEnum.LEETCODE,
+    number: 1219,
+    title: 'Path with Maximum Gold',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'c94fe358-b458-5f42-8c7e-b6b9f9d6a923',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1219_path_with_maximum_gold.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1219_path_with_maximum_gold.md',
+  },
+  {
+    id: 'c753c0b0-1f7a-5473-8178-c30459802ffe',
+    platform: PlatformEnum.LEETCODE,
+    number: 2812,
+    title: 'Find the Safest Path in a Grid',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '645b5552-983d-5118-ad5b-f0cf713e8a8c',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/2812_find_the_safest_path_in_a_grid.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/2812_find_the_safest_path_in_a_grid.md',
+  },
+  {
+    id: 'b7e0fd77-9eda-5b83-9bae-18b4888e9171',
+    platform: PlatformEnum.LEETCODE,
+    number: 1325,
+    title: 'Delete Leaves With a Given Value',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'e9ae1ee8-2229-5514-b715-f20054d542b3',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1325_delete_leaves_with_a_given_value.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1325_delete_leaves_with_a_given_value.md',
+  },
+  {
+    id: 'be2195e4-5bc6-5915-8f13-2f2792bcf040',
+    platform: PlatformEnum.LEETCODE,
+    number: 979,
+    title: 'Distribute Coins in Binary Tree',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '0b5b9353-29fd-5e79-b76f-1eb51b4be9ab',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/979_distribute_coins_in_binary_tree.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/979_distribute_coins_in_binary_tree.md',
+  },
 ];
