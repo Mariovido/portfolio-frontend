@@ -831,4 +831,22 @@ export const easyLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/easy/2331_evaluate_boolean_binary_tree.md',
   },
+  {
+    id: '4e1cb226-974a-5f1b-88fc-8f94251b490e',
+    platform: PlatformEnum.LEETCODE,
+    number: 1863,
+    title: 'Sum of All Subset XOR Totals',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'ad06ba5d-be86-57f6-a390-4c244d2a2d6b',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/1863_sum_of_all_subset_xor_totals.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/1863_sum_of_all_subset_xor_totals.md',
+  },
 ];

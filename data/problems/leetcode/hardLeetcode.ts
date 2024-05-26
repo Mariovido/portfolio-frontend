@@ -454,4 +454,40 @@ export const hardLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/hard/3068_find_the_maximum_sum_of_node_values.md',
   },
+  {
+    id: '2ccd2265-0edc-5a1d-a594-59e7042d5beb',
+    platform: PlatformEnum.LEETCODE,
+    number: 1255,
+    title: 'Maximum Score Words Formed by Letters',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: '8df72e63-db6c-56b8-9c47-17d9a04e2764',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/1255_maximum_score_words_formed_by_letters.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/1255_maximum_score_words_formed_by_letters.md',
+  },
+  {
+    id: 'cd7dccc5-66fe-510d-9710-c3d1d6d98790',
+    platform: PlatformEnum.LEETCODE,
+    number: 552,
+    title: 'Student Attendance Record II',
+    difficulty: DifficultyEnum.HARD,
+    languages: [
+      {
+        id: 'cb301417-6ec1-5c87-ac70-1b85c33b3288',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/hard/552_student_attendance_record_ii.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/hard/552_student_attendance_record_ii.md',
+  },
 ];

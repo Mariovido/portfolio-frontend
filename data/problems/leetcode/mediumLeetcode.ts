@@ -1534,4 +1534,58 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/979_distribute_coins_in_binary_tree.md',
   },
+  {
+    id: 'd7e8cc0b-9792-59de-ae1a-698aa860bed2',
+    platform: PlatformEnum.LEETCODE,
+    number: 78,
+    title: 'Subsets',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '1846c90f-93df-5cc4-b96d-63e1b8c766b6',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/78_subsets.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/78_subsets.md',
+  },
+  {
+    id: 'a5fe5000-7589-56be-8fa1-02777f121db1',
+    platform: PlatformEnum.LEETCODE,
+    number: 131,
+    title: 'Palindrome Partitioning',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '8f31d115-f77f-54a7-81c3-9df3ccad2e36',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/131_palindrome_partitioning.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/131_palindrome_partitioning.md',
+  },
+  {
+    id: 'd72e8d60-365e-55d6-b2cf-bb7afde6609b',
+    platform: PlatformEnum.LEETCODE,
+    number: 2597,
+    title: 'The Number of Beautiful Subsets',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'abf396ce-eaf0-5ae6-beaf-d7206ed91ad9',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/2597_the_number_of_beautiful_subsets.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/2597_the_number_of_beautiful_subsets.md',
+  },
 ];
