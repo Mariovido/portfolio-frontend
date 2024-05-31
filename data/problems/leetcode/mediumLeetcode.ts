@@ -1588,4 +1588,76 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/2597_the_number_of_beautiful_subsets.md',
   },
+  {
+    id: 'b4c94eca-5b5a-5373-a35f-4353fe686004',
+    platform: PlatformEnum.LEETCODE,
+    number: 1208,
+    title: 'Get Equal Substrings Within Budget',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '5c0db8b8-687b-5437-9611-fa4871444420',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1208_get_equal_substrings_within_budget.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1208_get_equal_substrings_within_budget.md',
+  },
+  {
+    id: 'bde718e3-8e86-5854-9e11-ee3bd61d64f2',
+    platform: PlatformEnum.LEETCODE,
+    number: 1404,
+    title: 'Number of Steps to Reduce a Number in Binary Representation to One',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'a8e76ee7-6318-5365-86d8-d5d41caae065',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1404_number_of_steps_to_reduce_a_number_in_binary_representation_to_one.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1404_number_of_steps_to_reduce_a_number_in_binary_representation_to_one.md',
+  },
+  {
+    id: 'd929166b-dc1d-54d2-94db-efd6bddd084e',
+    platform: PlatformEnum.LEETCODE,
+    number: 1442,
+    title: 'Count Triplets That Can Form Two Arrays of Equal XOR',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'f783b547-6570-5c29-8e63-defed3903a49',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/1442_count_triplests_that_can_form_two_arrays_of_equal_xor.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/1442_count_triplests_that_can_form_two_arrays_of_equal_xor.md',
+  },
+  {
+    id: '7d4a12a4-efa5-59aa-a0f6-ae494e50eb93',
+    platform: PlatformEnum.LEETCODE,
+    number: 260,
+    title: 'Single Number III',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '3e986cb7-683a-5ddb-9c1a-e209b63d3950',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/260_single_number_iii.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/260_single_number_iii.md',
+  },
 ];

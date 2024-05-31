@@ -849,4 +849,22 @@ export const easyLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/easy/1863_sum_of_all_subset_xor_totals.md',
   },
+  {
+    id: '2c9c2286-4e95-535c-b6fe-adf173e8e99e',
+    platform: PlatformEnum.LEETCODE,
+    number: 1608,
+    title: 'Special Array With X Elements Greater Than or Equal X',
+    difficulty: DifficultyEnum.EASY,
+    languages: [
+      {
+        id: 'd642b5f7-b0b6-5310-8d73-b5d8ed584d78',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/easy/1608_special_array_with_x_elements_greater_than_or_equal_x.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/easy/1608_special_array_with_x_elements_greater_than_or_equal_x.md',
+  },
 ];
