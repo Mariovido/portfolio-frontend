@@ -3,10 +3,78 @@ import { Experiences } from '../../src/models/interfaces/Portfolio/Experiences';
 export const experience: Experiences = {
   experiences: [
     {
+      id: 'cdc5ab34-ac55-5101-bb27-c2a18656dd13',
+      role: 'Software Engineer',
+      company: 'Datadog',
+      date: 'Jul 2024 - Ongoing',
+      description: [
+        {
+          id: '923701f4-f1c3-5ca9-b229-dbd8cc7849f1',
+          bulletPoint:
+            'Developed and maintained IAST and RASP instrumentation in the dd-trace-java repository to enhance application security',
+        },
+        {
+          id: 'd9017875-27fe-58ae-9d19-d46b35f90609',
+          bulletPoint:
+            'Authored and contributed to RFCs to define and align on instrumentation standards and cross-language test strategies',
+        },
+        {
+          id: 'f401cb2e-b719-5f92-bd53-c3ca408b6a6e',
+          bulletPoint:
+            'Designed and executed comprehensive test suites in Python in the system-tests repository, ensuring consistent functionality across multiple libraries and programming languages',
+        },
+        {
+          id: '1a1e213e-359a-5915-9954-38934d35848a',
+          bulletPoint:
+            'Implemented Java-based instrumentation to provide seamless integration with modern applications and frameworks',
+        },
+        {
+          id: 'd89e798b-2be0-5322-9b43-8b284645ade3',
+          bulletPoint:
+            'Collaborated with cross-functional teams to validate instrumentation performance and compatibility in distributed environments',
+        },
+      ],
+      links: [
+        {
+          id: '54b77d4b-4cd8-54f6-a830-ced8fc33c431',
+          name: 'dd-trace-java',
+          link: 'https://github.com/DataDog/dd-trace-java',
+        },
+        {
+          id: '1d1cd127-acf7-51b4-a599-a50499c90912',
+          name: 'system-tests',
+          link: 'https://github.com/DataDog/system-tests',
+        },
+      ],
+      companyLink: 'https://www.datadoghq.com/',
+      tags: [
+        {
+          id: '6e58af15-063e-552f-9d9e-2b6cf744efff',
+          tag: 'Java',
+        },
+        {
+          id: '075bba23-be6c-5002-a01c-6ec2cbf9c413',
+          tag: 'Python',
+        },
+        {
+          id: '16f71e99-debc-59bb-9fe2-827a639f40c1',
+          tag: 'IAST',
+        },
+        {
+          id: '6ce50d23-b813-5ea5-a051-2e9cfaa4fe36',
+          tag: 'RASP',
+        },
+        {
+          id: '4de516c7-8cd8-5f70-a362-ea6bf5162d49',
+          tag: 'Security',
+        },
+      ],
+    },
+    {
       id: 'f70bc224-29ff-599d-b660-b4bcd25228a2',
       role: 'Software Engineer',
       company: 'eDreams ODIGEO',
-      date: 'Oct 2023 - Ongoing',
+      date: 'Oct 2023 - Jun 2024',
       description: [
         {
           id: '647ec83b-e77e-5605-913b-8991005aad9f',
