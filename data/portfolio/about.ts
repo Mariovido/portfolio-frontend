@@ -5,7 +5,13 @@ export const about: About = {
     {
       id: '3d53f354-9e1f-53e2-b83e-b75be4930dc6',
       paragraph:
-        "👋 Hi, I'm a web developer with an education that includes a Degree in Telecommunications Engineering and a Master's in Software Engineering. My skills encompass $$$java$$$, $$$python$$$, $$$sql$$$, $$$typescript$$$, $$$javascript$$$, $$$html5$$$, and $$$css3$$$.",
+        "👋 Hi, I'm a software engineer with a BEng in Telecommunication Technologies and Services Engineering and a European Master's in Software Engineering.",
+      links: undefined,
+    },
+    {
+      id: '43313661-867c-5e8c-931f-4ee28755cc35',
+      paragraph:
+        "I specialize in $$$java$$$, $$$python$$$, $$$typescript$$$, $$$javascript$$$, $$$sql$$$, $$$go$$$, and $$$rust$$$. My technical toolkit includes frameworks like $$$springboot$$$, $$$nodejs$$$, $$$react$$$, $$$kafka$$$, $$$fastapi$$$, and expertise in DevOps with $$$docker$$$, $$$kubernetes$$$, and $$$jenkins$$$. I'm experienced in working with databases ($$$mysql$$$, $$$postgresql$$$, $$$oracledb$$$, $$$mongodb$$$) and data warehouses ($$$snowflake$$$) across cloud platforms like $$$aws$$$, $$$gcp$$$, and $$$azure$$$.",
       links: [
         {
           id: '0cdf7c82-9d40-57a2-8182-e448622f2229',
@@ -19,13 +25,6 @@ export const about: About = {
           tag: 'python',
           name: 'Python',
           link: 'https://www.python.org',
-          target: '_blank',
-        },
-        {
-          id: '6d26a06e-4634-580b-bd52-ed27aaf70efe',
-          tag: 'sql',
-          name: 'SQL',
-          link: 'https://en.wikipedia.org/wiki/SQL',
           target: '_blank',
         },
         {
@@ -43,26 +42,26 @@ export const about: About = {
           target: '_blank',
         },
         {
-          id: '84d7b04c-4427-56ce-bed8-5daf7dea0934',
-          tag: 'html5',
-          name: 'HTML5',
-          link: 'https://es.wikipedia.org/wiki/HTML',
+          id: '6d26a06e-4634-580b-bd52-ed27aaf70efe',
+          tag: 'sql',
+          name: 'SQL',
+          link: 'https://en.wikipedia.org/wiki/SQL',
           target: '_blank',
         },
         {
-          id: 'f24bd546-c799-57e1-9c7e-6781af5e845e',
-          tag: 'css3',
-          name: 'CSS3',
-          link: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
+          id: '3741fa5b-8a45-51dc-9481-2dd73caf1760',
+          tag: 'go',
+          name: 'Go',
+          link: 'https://go.dev/',
           target: '_blank',
         },
-      ],
-    },
-    {
-      id: '43313661-867c-5e8c-931f-4ee28755cc35',
-      paragraph:
-        "🛠️ I'm proficient in $$$springboot$$$, $$$nodejs$$$, $$$nestjs$$$, $$$react$$$, $$$fastapi$$$, $$$spark$$$, and $$$kafka$$$. I handle both SQL ($$$postgresql$$$, $$$mysql$$$) and NoSQL ($$$mongodb$$$) databases, data warehouses ($$$snowflake$$$), and I'm well-versed in $$$aws$$$, $$$gcp$$$, $$$azure$$$, $$$docker$$$, $$$kubernetes$$$, $$$airflow$$$, $$$datadog$$$, $$$git$$$, $$$jenkins$$$, and $$$githubactions$$$.",
-      links: [
+        {
+          id: 'b4ef3760-7788-5dba-96d0-df4556f111ec',
+          tag: 'rust',
+          name: 'Rust',
+          link: 'https://www.rust-lang.org/',
+          target: '_blank',
+        },
         {
           id: '5211733b-30fa-5cb7-93c3-58d31221bdbf',
           tag: 'springboot',
@@ -78,31 +77,10 @@ export const about: About = {
           target: '_blank',
         },
         {
-          id: '74e24af6-1f63-55b7-9ae2-c3884a80c6e0',
-          tag: 'nestjs',
-          name: 'NestJS',
-          link: 'https://nestjs.com',
-          target: '_blank',
-        },
-        {
           id: '72edf9dd-613f-53c9-bdaf-781399b5287a',
           tag: 'react',
           name: 'React',
           link: 'https://react.dev',
-          target: '_blank',
-        },
-        {
-          id: '7a8264d8-95ee-581b-9c1f-25988e558b27',
-          tag: 'fastapi',
-          name: 'FastAPI',
-          link: 'https://fastapi.tiangolo.com',
-          target: '_blank',
-        },
-        {
-          id: '80ed9350-cfa4-5b3f-9ecf-32162e3d3c60',
-          tag: 'spark',
-          name: 'Spark',
-          link: 'https://spark.apache.org',
           target: '_blank',
         },
         {
@@ -113,10 +91,31 @@ export const about: About = {
           target: '_blank',
         },
         {
-          id: '631b1b14-1c91-58c4-9672-9ef9fb5fc047',
-          tag: 'postgresql',
-          name: 'PostgreSQL',
-          link: 'https://www.postgresql.org',
+          id: '7a8264d8-95ee-581b-9c1f-25988e558b27',
+          tag: 'fastapi',
+          name: 'FastAPI',
+          link: 'https://fastapi.tiangolo.com',
+          target: '_blank',
+        },
+        {
+          id: 'dd121acd-4455-510c-ae19-455e8f401877',
+          tag: 'docker',
+          name: 'Docker',
+          link: 'https://www.docker.com',
+          target: '_blank',
+        },
+        {
+          id: '47f8c1ae-872f-5490-8281-35d328ab6223',
+          tag: 'kubernetes',
+          name: 'Kubernetes',
+          link: 'https://kubernetes.io',
+          target: '_blank',
+        },
+        {
+          id: '7008cac9-65ad-5993-b712-1854c57c2b2a',
+          tag: 'jenkins',
+          name: 'Jenkins',
+          link: 'https://www.jenkins.io',
           target: '_blank',
         },
         {
@@ -124,6 +123,20 @@ export const about: About = {
           tag: 'mysql',
           name: 'MySQL',
           link: 'https://www.mysql.com',
+          target: '_blank',
+        },
+        {
+          id: '631b1b14-1c91-58c4-9672-9ef9fb5fc047',
+          tag: 'postgresql',
+          name: 'PostgreSQL',
+          link: 'https://www.postgresql.org',
+          target: '_blank',
+        },
+        {
+          id: '6414d130-ec71-557f-b3fb-df70664cf5e4',
+          tag: 'oracledb',
+          name: 'Oracle DB',
+          link: 'https://www.oracle.com/database/',
           target: '_blank',
         },
         {
@@ -161,61 +174,12 @@ export const about: About = {
           link: 'https://azure.microsoft.com',
           target: '_blank',
         },
-        {
-          id: 'dd121acd-4455-510c-ae19-455e8f401877',
-          tag: 'docker',
-          name: 'Docker',
-          link: 'https://www.docker.com',
-          target: '_blank',
-        },
-        {
-          id: '47f8c1ae-872f-5490-8281-35d328ab6223',
-          tag: 'kubernetes',
-          name: 'Kubernetes',
-          link: 'https://kubernetes.io',
-          target: '_blank',
-        },
-        {
-          id: '1b36f42c-3312-5d5e-be08-3c02b213412b',
-          tag: 'airflow',
-          name: 'Airflow',
-          link: 'https://airflow.apache.org',
-          target: '_blank',
-        },
-        {
-          id: 'd7ae957e-7669-57d6-b5ba-5039c19505a3',
-          tag: 'datadog',
-          name: 'Datadog',
-          link: 'https://www.datadoghq.com',
-          target: '_blank',
-        },
-        {
-          id: 'd42bd8af-d667-5c0b-85ff-0d139f71870a',
-          tag: 'git',
-          name: 'Git',
-          link: 'https://git-scm.com',
-          target: '_blank',
-        },
-        {
-          id: '7008cac9-65ad-5993-b712-1854c57c2b2a',
-          tag: 'jenkins',
-          name: 'Jenkins',
-          link: 'https://www.jenkins.io',
-          target: '_blank',
-        },
-        {
-          id: 'de9864a0-5f68-561d-8d0c-060e5d8238b5',
-          tag: 'githubactions',
-          name: 'GitHub Actions',
-          link: 'https://github.com/features/actions',
-          target: '_blank',
-        },
       ],
     },
     {
       id: 'ea0de275-7d02-58c9-b250-350233a056c8',
       paragraph:
-        '🚀 My passion lies in crafting clean, efficient code and collaborating in dynamic environments.',
+        '🚀 My passion lies in building robust, scalable systems and collaborating to achieve excellence.',
       links: undefined,
     },
   ],

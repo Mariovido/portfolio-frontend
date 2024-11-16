@@ -14,12 +14,7 @@ export const skill: Skills = {
     },
     {
       id: '2180fd37-8564-5783-9631-c6102cf23d67',
-      name: 'Typescript',
-      progress: 95,
-    },
-    {
-      id: '929518e0-3e17-557c-b46e-f03e4ed94f29',
-      name: 'Git',
+      name: 'Typescript/JavaScript',
       progress: 95,
     },
     {
@@ -38,23 +33,8 @@ export const skill: Skills = {
       progress: 90,
     },
     {
-      id: 'f2d90d0c-33da-5310-9130-e38192086ca8',
-      name: 'NestJS',
-      progress: 85,
-    },
-    {
       id: 'ca5bfd10-8e83-58a5-9328-3dbb2ed16f99',
       name: 'React',
-      progress: 80,
-    },
-    {
-      id: '8100a8c7-d544-5275-8aa5-f703c5355e7b',
-      name: 'JavaScript',
-      progress: 80,
-    },
-    {
-      id: 'd378c9a0-39c7-5b94-9729-7cf90851f4f6',
-      name: 'HTML',
       progress: 80,
     },
     {
@@ -93,24 +73,9 @@ export const skill: Skills = {
       progress: 75,
     },
     {
-      id: 'aa5bf9a7-d0e3-5d85-af5d-0b1a73dc7ed2',
-      name: 'Airflow',
-      progress: 75,
-    },
-    {
-      id: '4ed8970f-4fe2-5812-9aaf-029927bf162c',
-      name: 'Spark',
-      progress: 75,
-    },
-    {
-      id: '748b0d42-69b8-577d-b260-6c690fe7f4c1',
-      name: 'CSS3',
-      progress: 70,
-    },
-    {
       id: '1c72c94a-9b6b-56e3-b2fe-984d95c30104',
       name: 'Datadog',
-      progress: 70,
+      progress: 85,
     },
     {
       id: 'e15ccda6-86ed-56c8-bca9-291d1a9706a3',
@@ -155,10 +120,15 @@ export const skill: Skills = {
     {
       id: '896992fb-74bc-5e56-bd55-a2c9781f3195',
       name: 'Go',
-      progress: 45,
+      progress: 55,
     },
     {
       id: 'fec667c9-766f-5467-9011-47e1edb078dc',
+      name: 'Rust',
+      progress: 55,
+    },
+    {
+      id: '433c0eff-cbc4-59a2-8d7b-71fcb54324c2',
       name: 'Terraform',
       progress: 35,
     },
