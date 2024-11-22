@@ -11,27 +11,27 @@ export const experience: Experiences = {
         {
           id: '923701f4-f1c3-5ca9-b229-dbd8cc7849f1',
           bulletPoint:
-            'Developed and maintained IAST and RASP instrumentation in the dd-trace-java repository to enhance application security',
+            'Developing and maintaining IAST and RASP instrumentation in the dd-trace-java repository to enhance application security',
         },
         {
           id: 'd9017875-27fe-58ae-9d19-d46b35f90609',
           bulletPoint:
-            'Authored and contributed to RFCs to define and align on instrumentation standards and cross-language test strategies',
+            'Authoring and contributing to RFCs to define and align on instrumentation standards and cross-language test strategies',
         },
         {
           id: 'f401cb2e-b719-5f92-bd53-c3ca408b6a6e',
           bulletPoint:
-            'Designed and executed comprehensive test suites in Python in the system-tests repository, ensuring consistent functionality across multiple libraries and programming languages',
+            'Designing and executing comprehensive test suites in Python in the system-tests repository, ensuring consistent functionality across multiple libraries and programming languages',
         },
         {
           id: '1a1e213e-359a-5915-9954-38934d35848a',
           bulletPoint:
-            'Implemented Java-based instrumentation to provide seamless integration with modern applications and frameworks',
+            'Implementing Java-based instrumentation to provide seamless integration with modern applications and frameworks',
         },
         {
           id: 'd89e798b-2be0-5322-9b43-8b284645ade3',
           bulletPoint:
-            'Collaborated with cross-functional teams to validate instrumentation performance and compatibility in distributed environments',
+            'Collaborating with cross-functional teams to validate instrumentation performance and compatibility in distributed environments',
         },
       ],
       links: [
