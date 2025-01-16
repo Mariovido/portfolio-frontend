@@ -73,7 +73,7 @@ export const experience: Experiences = {
     {
       id: 'fcb9e677-3ba0-51c8-b84d-38b6140a1eab',
       role: 'Associate Professor',
-      company: 'ICAI',
+      company: 'Comillas ICAI',
       date: 'Jan 2025 - Ongoing',
       description: [
         {
