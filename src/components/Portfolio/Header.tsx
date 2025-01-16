@@ -49,6 +49,11 @@ function Header() {
                   <h1 className="name">{headerInfo.name}</h1>
                 </Link>
                 <h2 className="role">{headerInfo.role}</h2>
+                {headerInfo.secondary_role && (
+                  <h2 className="secondary-role">
+                    {headerInfo.secondary_role}
+                  </h2>
+                )}
                 <p className="description">{headerInfo.description}</p>
                 {width >= CONSTANTS.minWidthPc ? (
                   <NavBar navBarProps={headerInfo.navBar} />
