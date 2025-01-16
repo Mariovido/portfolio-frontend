@@ -71,6 +71,63 @@ export const experience: Experiences = {
       ],
     },
     {
+      id: 'fcb9e677-3ba0-51c8-b84d-38b6140a1eab',
+      role: 'Associate Professor',
+      company: 'ICAI',
+      date: 'Jan 2025 - Ongoing',
+      description: [
+        {
+          id: 'c93a3bd2-aebf-5412-a2cb-ae6b413622fa',
+          bulletPoint:
+            'Delivered theoretical and practical Web Development classes to 20+ students, covering Git, HTML, CSS, JavaScript, and Java with Spring Boot',
+        },
+        {
+          id: '8dde293b-9b29-5e24-b834-663c504d43c3',
+          bulletPoint:
+            'Provided personalized tutoring to address questions and guide practical projects',
+        },
+        {
+          id: '34ee0558-adf9-5779-91bd-17bd360f4dab',
+          bulletPoint:
+            'Reviewed assignments and exams to assess student learning',
+        },
+        {
+          id: 'eb928ab1-033b-5dfb-aa1a-3d21476e3e65',
+          bulletPoint:
+            'Designed projects integrating programming paradigms, testing, persistence, and security concepts',
+        },
+        {
+          id: 'cdc42688-30e0-5c09-ad59-d5b6884d7c39',
+          bulletPoint:
+            'Mentored students in applying industry-standard development practices',
+        },
+      ],
+      links: undefined,
+      companyLink: 'https://www.comillas.edu/icai/',
+      tags: [
+        {
+          id: 'a0a5f5a6-3c1d-5124-9b55-82150667ecc4',
+          tag: 'University',
+        },
+        {
+          id: 'ca99dac3-3caa-56cb-a539-d2cddab88054',
+          tag: 'Web Development',
+        },
+        {
+          id: '6112d0d5-88f1-55ac-981b-b42c1c7ff9fe',
+          tag: 'Full Stack',
+        },
+        {
+          id: 'c88751f5-2720-5d95-a480-1c1c06ef1bb7',
+          tag: 'Mentorship',
+        },
+        {
+          id: '92926eae-a8c1-53d4-962c-5c4b6a19b273',
+          tag: 'Security',
+        },
+      ],
+    },
+    {
       id: 'f70bc224-29ff-599d-b660-b4bcd25228a2',
       role: 'Software Engineer',
       company: 'eDreams ODIGEO',
