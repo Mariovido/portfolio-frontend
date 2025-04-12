@@ -9,6 +9,11 @@ export const experience: Experiences = {
       date: 'Jul 2024 - Ongoing',
       description: [
         {
+          id: '1a1e213e-359a-5915-9954-38934d35848a',
+          bulletPoint:
+            'Contributing to the Test Optimization product in the dd-trace-js repository, improving performance and developer experience',
+        },
+        {
           id: '923701f4-f1c3-5ca9-b229-dbd8cc7849f1',
           bulletPoint:
             'Developing and maintaining IAST and RASP instrumentation in the dd-trace-java repository to enhance application security',
@@ -24,17 +29,17 @@ export const experience: Experiences = {
             'Designing and executing comprehensive test suites in Python in the system-tests repository, ensuring consistent functionality across multiple libraries and programming languages',
         },
         {
-          id: '1a1e213e-359a-5915-9954-38934d35848a',
-          bulletPoint:
-            'Implementing Java-based instrumentation to provide seamless integration with modern applications and frameworks',
-        },
-        {
           id: 'd89e798b-2be0-5322-9b43-8b284645ade3',
           bulletPoint:
             'Collaborating with cross-functional teams to validate instrumentation performance and compatibility in distributed environments',
         },
       ],
       links: [
+        {
+          id: 'a0b5f2c1-4e3b-5c8f-9a6d-7e0f3b2c4e1d',
+          name: 'dd-trace-js',
+          link: 'https://github.com/DataDog/dd-trace-js',
+        },
         {
           id: '54b77d4b-4cd8-54f6-a830-ced8fc33c431',
           name: 'dd-trace-java',
@@ -49,24 +54,24 @@ export const experience: Experiences = {
       companyLink: 'https://www.datadoghq.com/',
       tags: [
         {
+          id: '075bba23-be6c-5002-a01c-6ec2cbf9c413',
+          tag: 'JavaScript',
+        },
+        {
           id: '6e58af15-063e-552f-9d9e-2b6cf744efff',
           tag: 'Java',
         },
         {
-          id: '075bba23-be6c-5002-a01c-6ec2cbf9c413',
-          tag: 'Python',
-        },
-        {
-          id: '16f71e99-debc-59bb-9fe2-827a639f40c1',
-          tag: 'IAST',
-        },
-        {
           id: '6ce50d23-b813-5ea5-a051-2e9cfaa4fe36',
-          tag: 'RASP',
+          tag: 'Test Optimization',
         },
         {
           id: '4de516c7-8cd8-5f70-a362-ea6bf5162d49',
-          tag: 'Security',
+          tag: 'Testing',
+        },
+        {
+          id: '16f71e99-debc-59bb-9fe2-827a639f40c1',
+          tag: 'IAST/RASP',
         },
       ],
     },

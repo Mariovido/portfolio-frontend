@@ -8,13 +8,13 @@ export const skill: Skills = {
       progress: 100,
     },
     {
-      id: '19811d11-1a2e-5e93-a446-263bcb00a26c',
-      name: 'Python',
-      progress: 95,
-    },
-    {
       id: '2180fd37-8564-5783-9631-c6102cf23d67',
       name: 'Typescript/JavaScript',
+      progress: 100,
+    },
+    {
+      id: '19811d11-1a2e-5e93-a446-263bcb00a26c',
+      name: 'Python',
       progress: 95,
     },
     {
