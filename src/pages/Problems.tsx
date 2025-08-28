@@ -29,7 +29,7 @@ import { Tag } from '../models/interfaces/shared/UI/Tags/TagsProps';
 
 import './styles/Problems.scss';
 
-function Problems() {
+function ProblemsPage() {
   const [problemsInfo, setProblemsInfo] = useState<Problems>();
   const [problemsFiltered, setProblemsFiltered] = useState<Problems>();
   const location = useLocation() as StateLocation;
@@ -342,4 +342,4 @@ function Problems() {
   );
 }
 
-export default Problems;
+export default ProblemsPage;

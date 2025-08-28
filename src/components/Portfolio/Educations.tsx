@@ -11,7 +11,7 @@ import { Education } from '../../models/interfaces/shared/UI/Cards/EducationProp
 
 import './styles/Educations.scss';
 
-function Educations() {
+function EducationsPage() {
   const [educationsInfo, setEducationsInfo] = useState<Educations>();
   const { width } = useWindowDimensions();
   const { response, isFetching, isError, error } = useHttp<
@@ -60,4 +60,4 @@ function Educations() {
   );
 }
 
-export default Educations;
+export default EducationsPage;

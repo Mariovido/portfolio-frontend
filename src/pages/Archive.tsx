@@ -10,7 +10,7 @@ import { CONSTANTS } from '../config/constants';
 import useWindowDimensions from '../hooks/useWindowDimensions';
 import Table from '../components/shared/UI/Tables/Table';
 import { useEffect, useState } from 'react';
-import Projects from '../components/Portfolio/Projects';
+import { Projects } from '../models/interfaces/Portfolio/Projects';
 import { data } from '../../data/data';
 import { Project } from '../models/interfaces/shared/UI/Cards/ProjectProps';
 import useHttp from '../hooks/useHttp';

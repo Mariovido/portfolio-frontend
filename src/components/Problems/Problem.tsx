@@ -22,7 +22,7 @@ import { StatusEnum } from '../../models/enums/StatusEnum';
 
 import './styles/Problem.scss';
 
-function Problem() {
+function ProblemPage() {
   const [problem, setProblem] = useState<Problem>();
   const [description, setDescription] = useState<string>();
   const [solution, setSolution] = useState<string>();
@@ -119,4 +119,4 @@ function Problem() {
   );
 }
 
-export default Problem;
+export default ProblemPage;

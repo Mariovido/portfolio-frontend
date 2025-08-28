@@ -17,7 +17,7 @@ import ProjectList from '../shared/Lists/ProjectList';
 
 import './styles/Projects.scss';
 
-function Projects() {
+function ProjectsPage() {
   const [projectsInfo, setProjectsInfo] = useState<Projects>();
   const { width } = useWindowDimensions();
   const { response, isFetching, isError, error } = useHttp<
@@ -84,4 +84,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProjectsPage;
