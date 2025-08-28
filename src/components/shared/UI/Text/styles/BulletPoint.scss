@@ -1,4 +1,4 @@
-@import '../../../../../utils/styles/variables.module';
+@use '../../../../../utils/styles/variables.module' as *;
 
 .bullet-point {
   line-height: 1.5;

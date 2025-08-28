@@ -34,7 +34,7 @@ const router = createBrowserRouter([
 ]);
 
 const workerUrl =
-  'https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js';
+  'https://unpkg.com/pdfjs-dist@5.4.54/build/pdf.worker.min.mjs';
 
 function App() {
   return (
