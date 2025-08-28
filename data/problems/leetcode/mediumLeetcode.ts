@@ -1660,4 +1660,58 @@ export const mediumLeetcode: Problem[] = [
     solution:
       '/src/assets/doc/problems/leetcode/solutions/medium/260_single_number_iii.md',
   },
+  {
+    id: '865fc1ae-05f1-5519-9e0c-75589e543498',
+    platform: PlatformEnum.LEETCODE,
+    number: 2294,
+    title: 'Partition Array Such That Maximum Difference Is K',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: 'c02a1f2e-085b-5ec7-8a6b-8f4e3120da86',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/2294_partition_array_such_that_maximum_difference_is_k.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/2294_partition_array_such_that_maximum_difference_is_k.md',
+  },
+  {
+    id: '1693e0a1-7e29-5d8a-b4d1-208f0b1aae28',
+    platform: PlatformEnum.LEETCODE,
+    number: 3343,
+    title: 'Maximum Manhattan Distance After K Changes',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '2a89c3d6-9969-551d-bfc7-c67ce4e88389',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/3443_maximum_manhattan_distance_after_k_changes.md.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/3443_maximum_manhattan_distance_after_k_changes.md.md',
+  },
+  {
+    id: '3acce933-78cd-5e6d-9e89-737be5a7664e',
+    platform: PlatformEnum.LEETCODE,
+    number: 3085,
+    title: 'Minimum Deletions to Make String K-Special',
+    difficulty: DifficultyEnum.MEDIUM,
+    languages: [
+      {
+        id: '0c7c19b7-a4de-5f1a-9957-3e0e5e3b34f8',
+        tag: 'Java',
+      },
+    ],
+    status: StatusEnum.DONE,
+    description:
+      '/src/assets/doc/problems/leetcode/descriptions/medium/3085_minimum_deletions_to_make_string_k_special.md.md',
+    solution:
+      '/src/assets/doc/problems/leetcode/solutions/medium/3085_minimum_deletions_to_make_string_k_special.md.md',
+  },
 ];
