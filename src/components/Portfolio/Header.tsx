@@ -13,7 +13,7 @@ import ErrorBlock from '../shared/Common/ErrorBlock';
 
 import './styles/Header.scss';
 
-function Header() {
+function HeaderPage() {
   const [headerInfo, setHeaderInfo] = useState<Header>();
   const { width } = useWindowDimensions();
   const { response, isFetching, isError, error } = useHttp<Header>({
@@ -49,6 +49,9 @@ function Header() {
                   <h1 className="name">{headerInfo.name}</h1>
                 </Link>
                 <h2 className="role">{headerInfo.role}</h2>
+                {headerInfo.secondaryRole && (
+                  <h2 className="secondary-role">{headerInfo.secondaryRole}</h2>
+                )}
                 <p className="description">{headerInfo.description}</p>
                 {width >= CONSTANTS.minWidthPc ? (
                   <NavBar navBarProps={headerInfo.navBar} />
@@ -64,4 +67,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderPage;

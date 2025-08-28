@@ -1,4 +1,4 @@
-@import '../../../../utils/styles/variables.module';
+@use '../../../../utils/styles/variables.module' as *;
 
 .error-block {
   background-color: rgba($light-color, 0.3);

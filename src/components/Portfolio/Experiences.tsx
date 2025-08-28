@@ -17,7 +17,7 @@ import ErrorBlock from '../shared/Common/ErrorBlock';
 
 import './styles/Experiences.scss';
 
-function Experiences() {
+function ExperiencesPage() {
   const [experiencesInfo, setExperiencesInfo] = useState<Experiences>();
   const { width } = useWindowDimensions();
   const { response, isFetching, isError, error } = useHttp<
@@ -84,4 +84,4 @@ function Experiences() {
   );
 }
 
-export default Experiences;
+export default ExperiencesPage;

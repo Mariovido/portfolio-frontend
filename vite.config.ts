@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => {
     test: {
       globals: true,
       environment: 'jsdom',
-      setupFiles: ['./test/setupTests.ts'],
+      setupFiles: ['./test/setupTests.ts', './test/setupMocks.tsx'],
       coverage: {
         provider: 'v8',
         all: true,

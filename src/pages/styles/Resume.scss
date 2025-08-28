@@ -1,4 +1,4 @@
-@import '../../utils/styles/variables.module';
+@use '../../utils/styles/variables.module' as *;
 
 $border-size: 7.5px;
 
@@ -36,6 +36,11 @@ $border-size: 7.5px;
   transition: color ease-in 0.1s;
 }
 
+.resume-header-buttons {
+  justify-self: right;
+  margin-right: calc(25% + $border-size);
+}
+
 .resume-header-button-back {
   justify-self: left;
   margin-left: calc(15% + $border-size);
@@ -45,12 +50,9 @@ $border-size: 7.5px;
   }
 }
 
-.resume-header-button-download {
-  justify-self: right;
-  margin-right: calc(15% + $border-size);
-
+.resume-header-button-right {
   svg {
-    margin-left: 0.5rem;
+    margin-left: 1rem;
   }
 }
 
@@ -151,6 +153,10 @@ $border-size: 7.5px;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .resume-header-buttons {
+    margin-right: calc(25% + $border-size);
+  }
+
   .resume-header-button-back {
     margin-left: calc(22.5% + $border-size);
 
@@ -159,11 +165,9 @@ $border-size: 7.5px;
     }
   }
 
-  .resume-header-button-download {
-    margin-right: calc(22.5% + $border-size);
-
+  .resume-header-button-right {
     svg {
-      margin-left: 0.5rem;
+      margin-left: 1rem;
     }
   }
 

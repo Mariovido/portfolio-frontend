@@ -3,7 +3,8 @@ import { Header } from '../../src/models/interfaces/Portfolio/Header';
 
 export const header: Header = {
   name: 'Mario Vidal Domínguez',
-  role: 'Software Engineer at eDreams ODIGEO',
+  role: 'Software Engineer @ Datadog',
+  secondaryRole: 'Associate Professor @ Comillas ICAI',
   description:
     'Experienced Software Engineer with a passion for Clean Code and teamwork',
   navBar: [

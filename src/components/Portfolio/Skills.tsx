@@ -11,7 +11,7 @@ import ErrorBlock from '../shared/Common/ErrorBlock';
 
 import './styles/Skills.scss';
 
-function Skills() {
+function SkillsPage() {
   const [skillInfo, setSkillInfo] = useState<Skills>();
   const { width } = useWindowDimensions();
   const { response, isFetching, isError, error } = useHttp<Skills | Skill[]>({
@@ -54,4 +54,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default SkillsPage;
