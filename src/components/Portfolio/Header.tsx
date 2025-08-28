@@ -13,7 +13,7 @@ import ErrorBlock from '../shared/Common/ErrorBlock';
 
 import './styles/Header.scss';
 
-function Header() {
+function HeaderPage() {
   const [headerInfo, setHeaderInfo] = useState<Header>();
   const { width } = useWindowDimensions();
   const { response, isFetching, isError, error } = useHttp<Header>({
@@ -67,4 +67,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderPage;

@@ -22,7 +22,7 @@ import { StatusEnum } from '../../models/enums/StatusEnum';
 
 import './styles/Problem.scss';
 
-function Problem() {
+function ProblemPage() {
   const [problem, setProblem] = useState<Problem>();
   const [description, setDescription] = useState<string>();
   const [solution, setSolution] = useState<string>();
@@ -69,7 +69,7 @@ function Problem() {
     },
   ];
 
-  problem?.status == StatusEnum.DONE &&
+  if (problem?.status === StatusEnum.DONE) {
     tabs.push({
       order: 1,
       title: 'Solution',
@@ -79,6 +79,7 @@ function Problem() {
         </div>
       ),
     });
+  }
 
   return (
     <div className="problem">
@@ -118,4 +119,4 @@ function Problem() {
   );
 }
 
-export default Problem;
+export default ProblemPage;

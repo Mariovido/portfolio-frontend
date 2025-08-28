@@ -9,7 +9,7 @@ import ErrorBlock from '../shared/Common/ErrorBlock';
 
 import './styles/Footer.scss';
 
-function Footer() {
+function FooterPage() {
   const [footerInfo, setFooterInfo] = useState<Footer>();
   const { response, isFetching, isError, error } = useHttp<Footer>({
     isQuery: true,
@@ -59,4 +59,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default FooterPage;

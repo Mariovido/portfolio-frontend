@@ -11,7 +11,7 @@ import ErrorBlock from '../shared/Common/ErrorBlock';
 
 import './styles/About.scss';
 
-function About() {
+function AboutPage() {
   const [aboutInfo, setAboutInfo] = useState<About>();
   const { width } = useWindowDimensions();
   const { response, isFetching, isError, error } = useHttp<About>({
@@ -67,4 +67,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutPage;

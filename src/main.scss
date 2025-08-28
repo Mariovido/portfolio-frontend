@@ -1,5 +1,5 @@
-@import '/src/utils/styles/variables.module';
-@import '/src/utils/styles/imports';
+@use '/src/utils/styles/variables.module' as *;
+@use '/src/utils/styles/imports' as *;
 
 *,
 :after,

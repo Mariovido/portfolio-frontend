@@ -48,7 +48,7 @@ function useHttp<T>(props: UseHttpProps<T>) {
     url,
     method,
     headers,
-    queryKey,
+    queryKey = [],
     queryfn,
     errorMessage,
     staleTime,
@@ -110,7 +110,7 @@ function useHttp<T>(props: UseHttpProps<T>) {
 
   if (isQuery)
     return {
-      response: query.data,
+      response: query.data as T,
       isFetching: query.isFetching,
       isError: query.isError,
       error: query.error,
@@ -118,7 +118,7 @@ function useHttp<T>(props: UseHttpProps<T>) {
   else
     return {
       mutate: mutation.mutate,
-      isLoading: mutation.isLoading,
+      isLoading: mutation.isPending,
       isError: mutation.isError,
       error: mutation.error,
     };
