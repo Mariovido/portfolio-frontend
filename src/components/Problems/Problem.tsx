@@ -69,7 +69,7 @@ function Problem() {
     },
   ];
 
-  problem?.status == StatusEnum.DONE &&
+  if (problem?.status === StatusEnum.DONE) {
     tabs.push({
       order: 1,
       title: 'Solution',
@@ -79,6 +79,7 @@ function Problem() {
         </div>
       ),
     });
+  }
 
   return (
     <div className="problem">
